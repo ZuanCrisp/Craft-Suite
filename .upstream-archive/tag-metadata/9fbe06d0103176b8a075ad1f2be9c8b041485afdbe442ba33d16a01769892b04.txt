@@ -1,0 +1,7 @@
+Original tag name: v0.2.0
+Destination tag name: photocraft--v0.2.0
+Original tag object: ad863217386440ca968fccc9bfff65ba24e61142
+Original target commit: ad863217386440ca968fccc9bfff65ba24e61142
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
