@@ -1,0 +1,7 @@
+Original tag name: v0.3.0
+Destination tag name: cadcraft--v0.3.0
+Original tag object: 59631c8d4f9ffe6c08c5c2065ea17504e53bf821
+Original target commit: 59631c8d4f9ffe6c08c5c2065ea17504e53bf821
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
