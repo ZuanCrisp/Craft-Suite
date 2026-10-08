@@ -1,0 +1,7 @@
+Original tag name: v0.3.0
+Destination tag name: soundcraft--v0.3.0
+Original tag object: c51e5d5ec52f11c6264b72e26661fa712feb5345
+Original target commit: c51e5d5ec52f11c6264b72e26661fa712feb5345
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
