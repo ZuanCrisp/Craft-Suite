@@ -1,0 +1,13 @@
+Original tag name: v0.1.0
+Destination tag name: solidcraft--v0.1.0
+Original tag object: 2279a8e255e470ecd58f1750fbd149cfbeda64ca
+Original target commit: 3b9a975299ed6fc6813593e10036f8a00f6a4d8c
+Original object type: tag
+
+--- Original annotated tag object body ---
+object 3b9a975299ed6fc6813593e10036f8a00f6a4d8c
+type commit
+tag v0.1.0
+tagger bherbruck <brennen.herbruck@gmail.com> 1791557508 +0000
+
+SolveCraft v0.1.0 (pre-release)
