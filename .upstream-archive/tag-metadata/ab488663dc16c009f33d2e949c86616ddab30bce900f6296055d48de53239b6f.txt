@@ -1,0 +1,7 @@
+Original tag name: v0.1.3
+Destination tag name: solidcraft--v0.1.3
+Original tag object: c90070c4972b76fdd39437bb1041e4afe703e60d
+Original target commit: c90070c4972b76fdd39437bb1041e4afe703e60d
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
