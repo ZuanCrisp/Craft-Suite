@@ -1,0 +1,7 @@
+Original tag name: v0.7.0
+Destination tag name: effectcraft--v0.7.0
+Original tag object: 813c7c4650f0d4c805da620c8d5837c9600ad2e3
+Original target commit: 813c7c4650f0d4c805da620c8d5837c9600ad2e3
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
