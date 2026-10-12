@@ -1,0 +1,7 @@
+Original tag name: v0.4.0
+Destination tag name: figcraft--v0.4.0
+Original tag object: ab94cff913aaed2119174b72f43a79c4eed5b619
+Original target commit: ab94cff913aaed2119174b72f43a79c4eed5b619
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
