@@ -1,0 +1,7 @@
+Original tag name: v0.7.1
+Destination tag name: lightcraft--v0.7.1
+Original tag object: 701f78ea2e586d4748705f10fdf5c4181dc1fd49
+Original target commit: 701f78ea2e586d4748705f10fdf5c4181dc1fd49
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
