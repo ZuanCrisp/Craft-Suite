@@ -1,0 +1,7 @@
+Original tag name: v0.7.0-nightly.20261013.33.1
+Destination tag name: solidcraft--v0.7.0-nightly.20261013.33.1
+Original tag object: 29258767ce9dd38122a62e180a83e156ceb6da63
+Original target commit: 29258767ce9dd38122a62e180a83e156ceb6da63
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
