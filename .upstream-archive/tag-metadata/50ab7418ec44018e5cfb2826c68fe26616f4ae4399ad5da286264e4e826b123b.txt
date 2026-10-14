@@ -1,0 +1,7 @@
+Original tag name: v0.7.0
+Destination tag name: deckcraft--v0.7.0
+Original tag object: d78e657e4cb1e490ceb5445785c052d9cf5ad963
+Original target commit: d78e657e4cb1e490ceb5445785c052d9cf5ad963
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
