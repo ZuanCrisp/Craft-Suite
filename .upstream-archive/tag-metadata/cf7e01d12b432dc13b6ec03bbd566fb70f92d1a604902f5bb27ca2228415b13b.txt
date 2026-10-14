@@ -1,0 +1,7 @@
+Original tag name: v0.8.0
+Destination tag name: designcraft--v0.8.0
+Original tag object: 11a51d5b665aec8d6e675bd107a8a01514f10d00
+Original target commit: 11a51d5b665aec8d6e675bd107a8a01514f10d00
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
