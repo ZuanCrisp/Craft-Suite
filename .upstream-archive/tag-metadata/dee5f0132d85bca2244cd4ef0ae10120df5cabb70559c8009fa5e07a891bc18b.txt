@@ -1,0 +1,7 @@
+Original tag name: v0.14.0
+Destination tag name: vectorcraft--v0.14.0
+Original tag object: ad0566943ab9741e6356bbc9b53c3cc09895068d
+Original target commit: ad0566943ab9741e6356bbc9b53c3cc09895068d
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
