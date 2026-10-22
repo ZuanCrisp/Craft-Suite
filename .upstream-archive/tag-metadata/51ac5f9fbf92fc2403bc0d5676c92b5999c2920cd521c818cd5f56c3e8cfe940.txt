@@ -1,0 +1,7 @@
+Original tag name: v0.11.0
+Destination tag name: filmcraft--v0.11.0
+Original tag object: 74242b51d675514da12d9bbf6b331ef2e6399211
+Original target commit: 74242b51d675514da12d9bbf6b331ef2e6399211
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
