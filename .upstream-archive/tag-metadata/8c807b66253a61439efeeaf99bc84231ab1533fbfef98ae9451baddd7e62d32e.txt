@@ -1,0 +1,7 @@
+Original tag name: v0.1.0
+Destination tag name: texturecraft--v0.1.0
+Original tag object: b6cdeb85a1dea0c10e34e3dc8f3679cf3e0f8095
+Original target commit: b6cdeb85a1dea0c10e34e3dc8f3679cf3e0f8095
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
