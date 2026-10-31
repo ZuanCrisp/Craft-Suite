@@ -1,0 +1,7 @@
+Original tag name: v0.14.2
+Destination tag name: gridcraft--v0.14.2
+Original tag object: 55850841d39f030fb42f0a07e54903decea7b067
+Original target commit: 55850841d39f030fb42f0a07e54903decea7b067
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
