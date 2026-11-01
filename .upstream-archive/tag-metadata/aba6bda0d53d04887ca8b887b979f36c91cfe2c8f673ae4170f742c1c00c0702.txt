@@ -1,0 +1,7 @@
+Original tag name: v0.17.0
+Destination tag name: pdfcraft--v0.17.0
+Original tag object: 7d78f3e14474b978be014715e0cc64895d77025a
+Original target commit: 7d78f3e14474b978be014715e0cc64895d77025a
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
