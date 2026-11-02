@@ -1,0 +1,11 @@
+Original tag name: archive/merge-main-develop
+Destination tag name: solidcraft--archive/merge-main-develop
+Original tag object: b00d1f09d3010615e5e565694ce98a58738d3068
+Original target commit: 0846954169210d756e21df8da61b0c0ec13df88f
+Original object type: tag
+
+--- Original annotated tag object body ---
+object 0846954169210d756e21df8da61b0c0ec13df88f
+type commit
+tag archive/merge-main-develop
+tagger jyviko <2501648+jyviko@users.noreply.github.com> 1793661828 -0500
