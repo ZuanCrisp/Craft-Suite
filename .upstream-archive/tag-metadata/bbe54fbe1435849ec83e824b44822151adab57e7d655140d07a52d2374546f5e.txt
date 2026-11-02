@@ -1,0 +1,7 @@
+Original tag name: develop-pre-reset-2026-11-04
+Destination tag name: solidcraft--develop-pre-reset-2026-11-04
+Original tag object: f3b507c0564e3731b282fa6eb13d9aeced14ebe8
+Original target commit: f3b507c0564e3731b282fa6eb13d9aeced14ebe8
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
