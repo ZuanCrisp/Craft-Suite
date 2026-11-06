@@ -1,0 +1,7 @@
+Original tag name: v0.4.0
+Destination tag name: craft--v0.4.0
+Original tag object: 3d4b0a18b73bd90719c202161356730e68a193fe
+Original target commit: 3d4b0a18b73bd90719c202161356730e68a193fe
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
