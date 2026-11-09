@@ -3,95 +3,10 @@
     "craft": {
       "auto_sync": true,
       "destination_branch": "craft",
-      "destination_head_sha": "9813a11fdafd6584b12f3aea4c67e43e45ea8d14",
+      "destination_head_sha": "b100868330130185397471b8fe973ffaa3ad4c94",
       "enabled": true,
-      "errors": [
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.1.0: craft-anything-0.1.0-linux-aarch64.AppImage"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.1.0: craft-anything-0.1.0-linux-aarch64.tar.gz"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.1.0: craft-anything-0.1.0-linux-x86_64.AppImage.zsync"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.1.0: craft-anything-0.1.0-linux-x86_64.deb"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.1.0: craft-anything-0.1.0-linux-x86_64.flatpak"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.1.0: craft-anything-0.1.0-windows-arm64.msi"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.1.0: craft-anything-0.1.0-windows-x64.msi"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.2.0: craft-anything-0.2.0-linux-aarch64.flatpak"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.2.0: craft-anything-0.2.0-linux-x86_64.AppImage.zsync"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.2.0: craft-anything-0.2.0-linux-x86_64.deb"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.2.0: craft-anything-0.2.0-linux-x86_64.flatpak"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.2.0: craft-anything-0.2.0-linux-x86_64.rpm"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.2.0: craft-anything-0.2.0-macos-universal.dmg"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.2.0: craft-anything-0.2.0-windows-arm64.msi"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.2.0: craft-anything-0.2.0-windows-x64.msi"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.3.0: craft-anything-0.3.0-linux-aarch64.pkg.tar.zst"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.3.0: craft-anything-0.3.0-linux-aarch64.rpm"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.3.0: craft-anything-0.3.0-linux-x86_64.rpm"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.3.0: craft-anything-0.3.0-macos-universal.dmg"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.3.0: craft-anything-0.3.0-windows-x64.msi"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.3.0: craft-anything-0.3.0-windows-x86-portable.zip"
-        }
-      ],
-      "last_success_at": null,
+      "errors": [],
+      "last_success_at": "2026-11-09T08:50:16Z",
       "latest_prerelease": null,
       "latest_stable": {
         "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/craft--v0.5.0",
@@ -1073,7 +988,7 @@
           "upstream_release_url": "https://github.com/storytold/craft-anything/releases/tag/v0.4.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 726693794,
@@ -1130,24 +1045,22 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726809277,
               "name": "craft-anything-0.3.0-linux-aarch64.pkg.tar.zst",
               "sha256": "5560f9dbe96403d6d7a90404134ca613dbada4caaa5bda9789f5330919310ab4",
               "size": 50132801,
               "source_asset_id": 702372821,
               "source_updated_at": "2026-11-02T16:20:17Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726809508,
               "name": "craft-anything-0.3.0-linux-aarch64.rpm",
               "sha256": "fa1e40f447140fb980a322748fcf431c410aa7e74b7f96ea36d79fa14b30ed27",
               "size": 65076444,
               "source_asset_id": 702372860,
               "source_updated_at": "2026-11-02T16:20:18Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726699755,
@@ -1231,14 +1144,13 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726809821,
               "name": "craft-anything-0.3.0-linux-x86_64.rpm",
               "sha256": "5038b2f8cd2ed909101ba1ec0c70e14ef78c7021d51a0053bc76075efb8d44f9",
               "size": 67226876,
               "source_asset_id": 702373155,
               "source_updated_at": "2026-11-02T16:20:25Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726707948,
@@ -1250,14 +1162,13 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726810065,
               "name": "craft-anything-0.3.0-macos-universal.dmg",
               "sha256": "0c0fd0ebc601e5d1272654f027e9a8ae148b4a0c62a36f5c51e036e149fceade",
               "size": 127868329,
               "source_asset_id": 702373203,
               "source_updated_at": "2026-11-02T16:20:29Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726710251,
@@ -1287,24 +1198,22 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726810416,
               "name": "craft-anything-0.3.0-windows-x64.msi",
               "sha256": "9d44510c081c539a0d742a31842b7ac9d9545a7c458c020613492b322647f8e8",
               "size": 55230464,
               "source_asset_id": 702373366,
               "source_updated_at": "2026-11-02T16:20:27Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726810584,
               "name": "craft-anything-0.3.0-windows-x86-portable.zip",
               "sha256": "f3fad6220fc9cac3e59b74d65cb648b607ed551e2b94128eefb62e160d092052",
               "size": 62363800,
               "source_asset_id": 702373375,
               "source_updated_at": "2026-11-02T16:20:28Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726714454,
@@ -1344,9 +1253,9 @@
             }
           ],
           "dest_release_id": 438866449,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-fdff906bb58eb85630f0",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/craft--v0.3.0",
           "dest_tag": "craft--v0.3.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-11-02T17:58:25Z",
           "source_tag": "v0.3.0",
@@ -1356,7 +1265,7 @@
           "upstream_release_url": "https://github.com/storytold/craft-anything/releases/tag/v0.3.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 726671402,
@@ -1404,14 +1313,13 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726807244,
               "name": "craft-anything-0.2.0-linux-aarch64.flatpak",
               "sha256": "f925192b8bf97ee3dea04e8eca156f29278235c6b300054e3c37f94c22386892",
               "size": 45864520,
               "source_asset_id": 697965157,
               "source_updated_at": "2026-11-01T10:09:40Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726675487,
@@ -1477,34 +1385,31 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726807408,
               "name": "craft-anything-0.2.0-linux-x86_64.AppImage.zsync",
               "sha256": "478120b6c9d934045b0eed212717798992edcf09950e0ce94f259cd8d18dfa1f",
               "size": 215757,
               "source_asset_id": 697965614,
               "source_updated_at": "2026-11-01T10:09:46Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726807520,
               "name": "craft-anything-0.2.0-linux-x86_64.deb",
               "sha256": "76b8060a73be63f0e78f16761f0f01f168e41628dbec8e80666d153ec73fd323",
               "size": 67340548,
               "source_asset_id": 697965641,
               "source_updated_at": "2026-11-01T10:09:52Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726807827,
               "name": "craft-anything-0.2.0-linux-x86_64.flatpak",
               "sha256": "4ae96f3947ef33e50ea594dc923dcabd3fbae7c97ea0800ae6cdaca6c140b050",
               "size": 48997632,
               "source_asset_id": 697965638,
               "source_updated_at": "2026-11-01T10:09:50Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726683948,
@@ -1516,14 +1421,13 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726808081,
               "name": "craft-anything-0.2.0-linux-x86_64.rpm",
               "sha256": "0e5bd2478b6757ccd137cf3b18a7dc585899c0fc048bf779efdec701e4c0aa29",
               "size": 66932042,
               "source_asset_id": 697965702,
               "source_updated_at": "2026-11-01T10:09:55Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726686196,
@@ -1535,14 +1439,13 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726808399,
               "name": "craft-anything-0.2.0-macos-universal.dmg",
               "sha256": "9ce18a0d078b723a4b8af7447183b12317e761baa37f5cfc73bcd08010419fc9",
               "size": 102340253,
               "source_asset_id": 697965764,
               "source_updated_at": "2026-11-01T10:09:59Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726687541,
@@ -1554,14 +1457,13 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726808689,
               "name": "craft-anything-0.2.0-windows-arm64.msi",
               "sha256": "1c44bd3adb7c8e15464e9a49c0c6ad6cb407ed93a3bdcb7e5069798c5da09932",
               "size": 51949568,
               "source_asset_id": 697965875,
               "source_updated_at": "2026-11-01T10:09:58Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726689198,
@@ -1573,14 +1475,13 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726808913,
               "name": "craft-anything-0.2.0-windows-x64.msi",
               "sha256": "0670bb47c2970f67f5351ad2e683516a07464f9eeae3f5babf1d6de8a9a868d7",
               "size": 54890496,
               "source_asset_id": 697965929,
               "source_updated_at": "2026-11-01T10:10:00Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726690521,
@@ -1629,9 +1530,9 @@
             }
           ],
           "dest_release_id": 438860367,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-916f6744435148586180",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/craft--v0.2.0",
           "dest_tag": "craft--v0.2.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-11-01T10:11:55Z",
           "source_tag": "v0.2.0",
@@ -1641,7 +1542,7 @@
           "upstream_release_url": "https://github.com/storytold/craft-anything/releases/tag/v0.2.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 726659180,
@@ -1653,14 +1554,13 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726805976,
               "name": "craft-anything-0.1.0-linux-aarch64.AppImage",
               "sha256": "92832dccf2f9471f04130f01debcceb70aff2d7d81a8772bde0eeb7331923afb",
               "size": 30997000,
               "source_asset_id": 695842233,
               "source_updated_at": "2026-10-31T16:14:08Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726660256,
@@ -1699,14 +1599,13 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726806223,
               "name": "craft-anything-0.1.0-linux-aarch64.tar.gz",
               "sha256": "4609f142c671de0718d7f59adeea108b276987a6433a96e96599bc7633f140ca",
               "size": 32897558,
               "source_asset_id": 695842394,
               "source_updated_at": "2026-10-31T16:14:09Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726662480,
@@ -1727,34 +1626,31 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726806464,
               "name": "craft-anything-0.1.0-linux-x86_64.AppImage.zsync",
               "sha256": "0232f3409b7f83adb4960c92601d34743b1520077e8572d30b6249948f0272e2",
               "size": 114607,
               "source_asset_id": 695842428,
               "source_updated_at": "2026-10-31T16:14:09Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726806608,
               "name": "craft-anything-0.1.0-linux-x86_64.deb",
               "sha256": "5a906f74801cf64381b1513666b9e3fc225d9c658a3d4cdbcb2727e0e9e204b0",
               "size": 36445750,
               "source_asset_id": 695842436,
               "source_updated_at": "2026-10-31T16:14:12Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726806773,
               "name": "craft-anything-0.1.0-linux-x86_64.flatpak",
               "sha256": "e8e51f93f0227ed37e39da2fdb93413f61de056fda11360400fefe1825ccd226",
               "size": 25022240,
               "source_asset_id": 695842446,
               "source_updated_at": "2026-10-31T16:14:12Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726665270,
@@ -1793,14 +1689,13 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726806893,
               "name": "craft-anything-0.1.0-windows-arm64.msi",
               "sha256": "ce31fc098cf6104560364f3986e5564c4fe3c57d599f78812535469c097b698b",
               "size": 24997888,
               "source_asset_id": 695842528,
               "source_updated_at": "2026-10-31T16:14:15Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726667632,
@@ -1812,14 +1707,13 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 726807008,
               "name": "craft-anything-0.1.0-windows-x64.msi",
               "sha256": "10636e67d5887f77272c4039cc35fce3d3c2d3aa327fc220925c872389ddc132",
               "size": 27938816,
               "source_asset_id": 695842583,
               "source_updated_at": "2026-10-31T16:14:15Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 726668832,
@@ -1868,9 +1762,9 @@
             }
           ],
           "dest_release_id": 438856504,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-0cd65704c62de1e641fd",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/craft--v0.1.0",
           "dest_tag": "craft--v0.1.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-10-31T16:16:07Z",
           "source_tag": "v0.1.0",
@@ -1882,7 +1776,7 @@
       ],
       "repository": "storytold/craft-anything",
       "slug": "craft",
-      "status": "partial",
+      "status": "success",
       "tags": {
         "invalid": [],
         "processed": 5,
@@ -1890,10 +1784,10 @@
         "stale": []
       },
       "upstream_default_branch": "main",
-      "upstream_head_sha": "e101fa5ba0a832412780010c23711c7fb7c488ac"
+      "upstream_head_sha": "2307e12df52a8cba7a04d2fdcb3914b006379a6c"
     }
   },
   "destination": "ZuanCrisp/Craft-Suite",
-  "generated_at": "2026-11-09T08:27:49Z",
+  "generated_at": "2026-11-09T08:50:16Z",
   "schema_version": 1
 }

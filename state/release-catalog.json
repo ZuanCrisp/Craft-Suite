@@ -14,10 +14,10 @@
       "name": "Craft Anything",
       "release_count": 5,
       "repository": "storytold/craft-anything",
-      "status": "partial",
+      "status": "success",
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T08:27:49Z",
+  "generated_at": "2026-11-09T08:50:16Z",
   "schema_version": 1
 }
