@@ -235,24 +235,67 @@ def paginate(url: str, token: Optional[str], per_page: int = 100, max_pages: int
     raise RuntimeError(f"Safety stop: more than {max_pages} pages from {_redact(url)}")
 
 
-def download_to(url: str, dest_path: str, retries: int = 4, timeout: int = 900) -> Tuple[int, str]:
-    """Stream a public URL to disk; returns (size, sha256). No credentials are sent."""
-    attempt = 1
-    while True:
+BACKOFF = [5, 20, 60, 120]                       # seconds between retries for transient errors
+
+
+class _StripAuthOnCrossHostRedirect(urllib.request.HTTPRedirectHandler):
+    """Never forward an Authorization header to another host (e.g. the signed CDN URL)."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        new = super().redirect_request(req, fp, code, msg, headers, newurl)
+        if new is not None and urllib.parse.urlsplit(newurl).netloc != urllib.parse.urlsplit(req.full_url).netloc:
+            new.headers = {k: v for k, v in new.headers.items() if k.lower() != "authorization"}
+            new.unredirected_hdrs = {k: v for k, v in new.unredirected_hdrs.items() if k.lower() != "authorization"}
+        return new
+
+
+def _download_once(url: str, dest_path: str, headers: Dict[str, str], timeout: int) -> Tuple[int, str]:
+    h = hashlib.sha256()
+    size = 0
+    opener = urllib.request.build_opener(_StripAuthOnCrossHostRedirect)
+    req = urllib.request.Request(url, headers=dict({"User-Agent": USER_AGENT}, **headers))
+    with opener.open(req, timeout=timeout) as resp, open(dest_path, "wb") as out:
+        for chunk in iter(lambda: resp.read(1024 * 1024), b""):
+            out.write(chunk)
+            h.update(chunk)
+            size += len(chunk)
+    return size, h.hexdigest()
+
+
+def _download_with_retries(url: str, dest_path: str, headers: Dict[str, str], tries: int, timeout: int) -> Tuple[int, str]:
+    for n in range(1, tries + 1):
         try:
-            h = hashlib.sha256()
-            size = 0
-            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-            with urllib.request.urlopen(req, timeout=timeout) as resp, open(dest_path, "wb") as out:
-                for chunk in iter(lambda: resp.read(1024 * 1024), b""):
-                    out.write(chunk)
-                    h.update(chunk)
-                    size += len(chunk)
-            return size, h.hexdigest()
+            return _download_once(url, dest_path, headers, timeout)
+        except urllib.error.HTTPError as exc:
+            transient = exc.code == 429 or 500 <= exc.code < 600
+            reason = f"HTTP {exc.code}"
+            if not transient:
+                raise RuntimeError(f"download failed: {reason}")
         except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as exc:
-            if attempt >= retries:
-                raise RuntimeError(f"download failed after {retries} attempts: {exc}")
-            d = 2 ** (attempt - 1)
-            warn(f"Download error (attempt {attempt}/{retries}); retry in {d}s")
-            time.sleep(d)
-            attempt += 1
+            reason = str(exc)
+        if n == tries:
+            raise RuntimeError(f"download failed after {tries} attempts: {reason}")
+        delay = BACKOFF[min(n - 1, len(BACKOFF) - 1)] * float(os.environ.get("CRAFT_SUITE_BACKOFF_SCALE", "1"))
+        warn(f"Download error ({reason}), attempt {n}/{tries}; retry in {delay:g}s")
+        time.sleep(delay)
+    raise RuntimeError("unreachable")
+
+
+def download_to(url: str, dest_path: str, api_url: Optional[str] = None, api_token: Optional[str] = None,
+                timeout: int = 900) -> Tuple[int, str]:
+    """Stream an asset to disk; returns (size, sha256).
+
+    1st: the public browser_download_url (no credentials). If it keeps failing (e.g. HTTP 504 from the
+    github.com download endpoint) fall back to the API asset endpoint, which is served differently.
+    The token is only sent to the API host and is dropped on the redirect to the CDN.
+    """
+    try:
+        return _download_with_retries(url, dest_path, {}, 5, timeout)
+    except RuntimeError as first:
+        if not api_url:
+            raise
+        warn(f"{first}; falling back to the API asset endpoint")
+        hdrs = {"Accept": "application/octet-stream"}
+        if api_token:
+            hdrs["Authorization"] = f"Bearer {api_token}"
+        return _download_with_retries(api_url, dest_path, hdrs, 4, timeout)

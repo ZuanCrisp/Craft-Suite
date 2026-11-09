@@ -3,6 +3,7 @@ import sys
 import unittest
 
 os.environ["CRAFT_SUITE_PACE"] = "0"
+os.environ["CRAFT_SUITE_BACKOFF_SCALE"] = "0"
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "engine"))
 sys.path.insert(0, os.path.dirname(__file__))
 from mock_github import MockGitHub  # noqa
@@ -114,6 +115,14 @@ class Releases(unittest.TestCase):
         r = self.sync()
         self.assertEqual(self.gh.dest[5]["body"], "handmade")
         self.assertIn("RELEASE_CONFLICT", [e["category"] for e in r["errors"]])
+
+    def test_download_504_falls_back_to_api_endpoint(self):
+        self.gh.download_status = 504                      # github.com download endpoint is down
+        r = self.sync()
+        self.assertEqual(r["counts"], {"created": 2})
+        self.assertEqual(r["errors"], [])
+        dest = [x for x in self.gh.dest.values() if x["tag_name"] == "photocraft--v1.0.0"][0]
+        self.assertEqual({self.gh.asset_data[a["id"]] for a in dest["assets"]}, {b"AAAA", b"BBBB"})
 
     def test_dry_run_has_no_mutations(self):
         r = self.sync(dry=True)

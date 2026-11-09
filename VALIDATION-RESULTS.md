@@ -1,7 +1,7 @@
 # Validation results
 
 Environment: Linux sandbox, Python 3.12.3, git 2.43.0, no network, no PowerShell, no git-lfs.
-Command: `python3 -m unittest discover -s tests -v` -> **Ran 36 tests, OK** (about 42 s).
+Command: `python3 -m unittest discover -s tests -v` -> **Ran 37 tests, OK** (about 11 s).
 
 ## Passed (actually executed)
 - Git engine, 10 tests: default branch `trunk` detected (not assumed); only the default branch is pushed and renamed;
@@ -9,7 +9,7 @@ Command: `python3 -m unittest discover -s tests -v` -> **Ran 36 tests, OK** (abo
   second run pushes nothing; moved tag updated, deleted tag only reported (never pruned); two apps with identical tag names
   do not collide and have independent histories; Craft overlay installs the controller workflow and is idempotent;
   dry run changes nothing; auth header is scoped to the destination URL only.
-- Release engine against a mock GitHub API, 11 tests: draft -> publish with `make_latest:"false"`; hidden identity marker;
+- Release engine against a mock GitHub API, 12 tests (incl. HTTP 504 on the download endpoint -> fallback to the API asset endpoint): draft -> publish with `make_latest:"false"`; hidden identity marker;
   title/tag prefixes; @mentions neutralised; rerun = zero API writes; same-name same-size changed asset replaced by digest;
   asset without upstream digest handled via recorded identity (and conservatively re-transferred without state);
   missing tag blocks one release only; digest mismatch never publishes; foreign release untouched; dry run = zero writes;
@@ -24,6 +24,8 @@ Command: `python3 -m unittest discover -s tests -v` -> **Ran 36 tests, OK** (abo
   bare remote. Parentheses/braces/brackets of `Install-CraftSuite.ps1` balance.
 
 ## Bugs found and fixed
+Found by the user's real Actions run: upstream asset downloads returned HTTP 504 and the retry window was only ~7 s. Now 5 attempts with 5/20/60/120 s backoff, then a fallback to the API asset endpoint (token only to the API host, dropped on the CDN redirect). The fallback is tested against a mock only; whether it cures the real 504 is unconfirmed.
+
 Found by the user's real run: `$refs = Get-RemoteRefs` returned `$null` on an empty remote and PowerShell StrictMode failed on `.Count`; fixed with `@(...)` (user's edit, kept).
 
 ## Bug found and fixed while testing

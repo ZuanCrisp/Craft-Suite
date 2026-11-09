@@ -20,6 +20,7 @@ Skipped only when destination asset has the same size AND the same SHA-256 (API 
 the identity recorded after the last verified transfer (asset id + updated_at + sha256). Anything else is re-downloaded,
 digest-checked against upstream, then replaced (old asset deleted first, then upload; a short gap is possible on
 published releases and is repaired by the next run). Zero-byte assets are skipped with a warning.
+Download errors (HTTP 429/5xx, network) are retried 5 times with 5/20/60/120 s backoff, then the API asset endpoint is tried; a release whose asset still fails stays a DRAFT and the job turns red. Re-run the same app workflow to finish it.
 
 ## Error categories (in job summary, state and result files)
 `DEFAULT_BRANCH_UNKNOWN`, `BRANCH_FETCH_FAILED`, `WORKFLOW_SANITIZATION_FAILED`, `BRANCH_PUSH_FAILED`, `TAG_PUSH_FAILED`,

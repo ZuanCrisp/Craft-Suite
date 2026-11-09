@@ -25,7 +25,10 @@ from typing import Any, Dict, List, Optional
 
 from .common import SyncError, download_to, http_request, log, paginate, warn
 
-PACE = float(os.environ.get("CRAFT_SUITE_PACE", "0.5"))
+def _pace() -> float:
+    return float(os.environ.get("CRAFT_SUITE_PACE", "0.5"))
+
+
 MARKER_RE = re.compile(r"<!--\s*craft-suite:v1\s+app=([a-z0-9-]+)\s+src=(\S+)\s+release_id=(\d+)\s*-->")
 SYNC_LINE_RE = re.compile(r"^\| Synced \(UTC\) \| .* \|$", re.M)
 MENTION_RE = re.compile(r"(?<![\w`/])@([A-Za-z0-9][A-Za-z0-9-]{0,38}(?:/[A-Za-z0-9_.-]+)?)")
@@ -113,7 +116,7 @@ class ReleaseSync:
     def _dest(self, method: str, path: str, body: Any = None, ok=(200, 201, 204)):
         res = http_request(method, f"{self.dest_api}{path}", token=self.dest_token, body=body, ok=ok)
         if method != "GET":
-            time.sleep(PACE)
+            time.sleep(_pace())
         return res
 
     def fetch_source(self) -> List[Dict[str, Any]]:
@@ -307,7 +310,9 @@ class ReleaseSync:
             return rec
         path = os.path.join(self.workdir, str(sa.get("id") or "asset"))
         try:
-            size, sha = download_to(sa["browser_download_url"], path)
+            api_url = sa.get("url") if urllib.parse.urlsplit(sa.get("url") or "").netloc.lower() == \
+                urllib.parse.urlsplit(self.src_api).netloc.lower() else None
+            size, sha = download_to(sa["browser_download_url"], path, api_url=api_url, api_token=self.src_token)
             if size != sa["size"]:
                 raise SyncError("ASSET_DOWNLOAD_FAILED", f"size {size} != expected {sa['size']}")
             sdig = hexdigest(sa.get("digest"))
@@ -320,7 +325,7 @@ class ReleaseSync:
                                   raw_body=fh, ok=(201,), timeout=3600, headers={
                                       "Content-Type": sa.get("content_type") or "application/octet-stream",
                                       "Content-Length": str(size)}).json()
-            time.sleep(PACE)
+            time.sleep(_pace())
             got = hexdigest(up.get("digest"))
             if up.get("size") != size or (got and got != sha):
                 self._dest("DELETE", f"/repos/{self.dest_repo}/releases/assets/{up['id']}", ok=(204, 404))

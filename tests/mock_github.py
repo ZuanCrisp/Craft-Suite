@@ -17,6 +17,8 @@ class MockGitHub:
         self.asset_data = {}
         self.calls = []                   # (method, path, payload)
         self.fail_upload_names = set()
+        self.download_status = None       # e.g. 504 makes /download/* fail
+        self.asset_files = {}             # asset id -> key in self.files
         self.server = ThreadingHTTPServer(("127.0.0.1", 0), self._handler())
         self.port = self.server.server_address[1]
         self.base = f"http://127.0.0.1:{self.port}"
@@ -39,7 +41,9 @@ class MockGitHub:
                 "id": rid * 100 + i, "name": name, "size": len(data), "state": "uploaded",
                 "content_type": "application/octet-stream", "updated_at": published,
                 "digest": ("sha256:" + hashlib.sha256(data).hexdigest()) if with_digest else None,
+                "url": f"{self.base}/repos/src/app/releases/assets/{rid * 100 + i}",
                 "browser_download_url": f"{self.base}/download/{rid}-{name}"})
+            self.asset_files[rid * 100 + i] = f"{rid}-{name}"
         self.src_releases.append(rel)
         return rel
 
@@ -68,6 +72,9 @@ class MockGitHub:
                 u = urlsplit(self.path)
                 qs = parse_qs(u.query)
                 outer.calls.append(("GET", u.path, None))
+                m = re.match(r"^/repos/[^/]+/[^/]+/releases/assets/(\d+)$", u.path)
+                if m:
+                    return self._send(200, raw=outer.files[outer.asset_files[int(m.group(1))]])
                 m = re.match(r"^/repos/([^/]+/[^/]+)$", u.path)
                 if m and m.group(1) in outer.src_default_branch:
                     return self._send(200, {"default_branch": outer.src_default_branch[m.group(1)]})
@@ -77,6 +84,8 @@ class MockGitHub:
                 if u.path == "/repos/dst/repo/releases":
                     return self._send(200, self._page(list(outer.dest.values()), qs))
                 if u.path.startswith("/download/"):
+                    if outer.download_status:
+                        return self._send(outer.download_status, {"message": "gateway"})
                     name = u.path[len("/download/"):]
                     return self._send(200, raw=outer.files[name])
                 self._send(404, {"message": "not found"})

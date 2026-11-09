@@ -41,7 +41,7 @@ class E2E(unittest.TestCase):
         self.gh.add_source_release(2, "v2.0.0", [("b.zip", b"BBBB", False)], published="2026-02-01T00:00:00Z")
         self.env = dict(os.environ, HOME=home, CRAFT_SUITE_ROOT=self.root, DEST_GIT_URL=self.dest,
                         SRC_API_URL=self.gh.base, DEST_API_URL=self.gh.base, CRAFT_SUITE_DEST_REPO="dst/repo",
-                        CRAFT_SUITE_PACE="0", GITHUB_TOKEN="api-token-xyz", GH_SYNC_TOKEN="SUPERSECRET123")
+                        CRAFT_SUITE_PACE="0", CRAFT_SUITE_BACKOFF_SCALE="0", GITHUB_TOKEN="api-token-xyz", GH_SYNC_TOKEN="SUPERSECRET123")
 
     def tearDown(self):
         self.gh.stop()
