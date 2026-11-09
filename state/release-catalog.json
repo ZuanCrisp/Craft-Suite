@@ -51,6 +51,23 @@
       "status": "success",
       "upstream_default_branch": "main"
     },
+    "materialcraft": {
+      "destination_branch": "materialcraft",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/materialcraft--v0.3.0",
+        "destination_tag": "materialcraft--v0.3.0",
+        "published_at": "2026-11-09T11:49:44Z",
+        "source_tag": "v0.3.0",
+        "upstream_release_id": 439069610,
+        "upstream_release_url": "https://github.com/storytold/materialcraft/releases/tag/v0.3.0"
+      },
+      "name": "MaterialCraft",
+      "release_count": 5,
+      "repository": "storytold/materialcraft",
+      "status": "success",
+      "upstream_default_branch": "main"
+    },
     "photocraft": {
       "destination_branch": "photocraft",
       "latest_prerelease": null,
@@ -103,6 +120,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T11:35:44Z",
+  "generated_at": "2026-11-09T12:22:41Z",
   "schema_version": 1
 }

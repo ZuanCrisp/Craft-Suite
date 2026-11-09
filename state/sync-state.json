@@ -12870,6 +12870,2233 @@
       "upstream_default_branch": "main",
       "upstream_head_sha": "29e6937ec0e2e27c98719b208362be55e54ae2d8"
     },
+    "materialcraft": {
+      "auto_sync": true,
+      "destination_branch": "materialcraft",
+      "destination_head_sha": "ff328e9acaf312045485d95eeb59c2e84039b478",
+      "enabled": true,
+      "errors": [],
+      "last_success_at": "2026-11-09T12:22:41Z",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/materialcraft--v0.3.0",
+        "destination_tag": "materialcraft--v0.3.0",
+        "published_at": "2026-11-09T11:49:44Z",
+        "source_tag": "v0.3.0",
+        "upstream_release_id": 439069610,
+        "upstream_release_url": "https://github.com/storytold/materialcraft/releases/tag/v0.3.0"
+      },
+      "lfs": "not_used",
+      "name": "MaterialCraft",
+      "releases": [
+        {
+          "action": "synced",
+          "assets": [
+            {
+              "dest_asset_id": 727387450,
+              "name": "materialcraft-0.3.0-freebsd-aarch64.tar.gz",
+              "sha256": "fd37836b30c1588770f294d01b66dd2d39d5e3d648b2bf7a8ad81248fecc0f13",
+              "size": 19168129,
+              "source_asset_id": 727297444,
+              "source_updated_at": "2026-11-09T11:49:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387583,
+              "name": "materialcraft-0.3.0-freebsd-x86_64.tar.gz",
+              "sha256": "be4202440bc76629a8af842583a99b1d8f415ac61e618e370e23be23713504bc",
+              "size": 21002570,
+              "source_asset_id": 727297461,
+              "source_updated_at": "2026-11-09T11:49:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387735,
+              "name": "materialcraft-0.3.0-linux-aarch64.AppImage",
+              "sha256": "ae2424b0abc4765664245d45026d38b178ecb879d00ed37e08f754bf96b35603",
+              "size": 18844168,
+              "source_asset_id": 727295568,
+              "source_updated_at": "2026-11-09T11:48:33Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387823,
+              "name": "materialcraft-0.3.0-linux-aarch64.AppImage.asc",
+              "sha256": "d5372479d6fcf7057d225efffddc0480e6d962f3c00500e33ed16f47035a002d",
+              "size": 228,
+              "source_asset_id": 727295637,
+              "source_updated_at": "2026-11-09T11:48:33Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387900,
+              "name": "materialcraft-0.3.0-linux-aarch64.AppImage.zsync",
+              "sha256": "607f86c595e6ca58a69b345f545ee5d784057116e01d9f0a38a27e31755b44cb",
+              "size": 64669,
+              "source_asset_id": 727295653,
+              "source_updated_at": "2026-11-09T11:48:33Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387967,
+              "name": "materialcraft-0.3.0-linux-aarch64.AppImage.zsync.asc",
+              "sha256": "e500871657e79fe2ee32ab56bc20cf946a895d948f0a04e983a75f975273a201",
+              "size": 228,
+              "source_asset_id": 727295693,
+              "source_updated_at": "2026-11-09T11:48:33Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727388050,
+              "name": "materialcraft-0.3.0-linux-aarch64.deb",
+              "sha256": "091ac93e5d1db96899ee9d12e0120290b2285f1a504aaa5b7ee1639a0fe66551",
+              "size": 20591748,
+              "source_asset_id": 727295694,
+              "source_updated_at": "2026-11-09T11:48:34Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727388169,
+              "name": "materialcraft-0.3.0-linux-aarch64.deb.asc",
+              "sha256": "29f6e23692b8be84c1fd0529afc0a256aa6af4d7367a3616f370048fcde60ad6",
+              "size": 228,
+              "source_asset_id": 727295698,
+              "source_updated_at": "2026-11-09T11:48:33Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727388239,
+              "name": "materialcraft-0.3.0-linux-aarch64.flatpak",
+              "sha256": "a5dfd11022beeafb9055ad337ef3e30f4a804e447d39ff6d0fa72d823cb1f734",
+              "size": 12712624,
+              "source_asset_id": 727295700,
+              "source_updated_at": "2026-11-09T11:48:34Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727388352,
+              "name": "materialcraft-0.3.0-linux-aarch64.flatpak.asc",
+              "sha256": "4b852ed68ae543dfe37388fe322bf1f6bd401d42788c62a4cd65c8a46a283619",
+              "size": 228,
+              "source_asset_id": 727295708,
+              "source_updated_at": "2026-11-09T11:48:33Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727388433,
+              "name": "materialcraft-0.3.0-linux-aarch64.oci-manifest.json",
+              "sha256": "0d0341e3a514dc8bb2b61952f79494d477cdebd4e75268a787929c7e23b987c9",
+              "size": 493,
+              "source_asset_id": 727295728,
+              "source_updated_at": "2026-11-09T11:48:34Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727388510,
+              "name": "materialcraft-0.3.0-linux-aarch64.oci.sig",
+              "sha256": "7944b2899c4285090d89f567a3e2c493424f2abb27652e0cc760f9bd9ec3c5d4",
+              "size": 392,
+              "source_asset_id": 727295738,
+              "source_updated_at": "2026-11-09T11:48:34Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727388640,
+              "name": "materialcraft-0.3.0-linux-aarch64.pkg.tar.zst",
+              "sha256": "6ebca9f2e8bc0b1213be1b2050b3e5084bfad2f5bcc8f43a61a5338be71d03e8",
+              "size": 12124101,
+              "source_asset_id": 727295747,
+              "source_updated_at": "2026-11-09T11:48:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727388780,
+              "name": "materialcraft-0.3.0-linux-aarch64.pkg.tar.zst.sig",
+              "sha256": "59b2448b24ff67070b8603e78e9777af7a67b71429df9353bc384c7e850ea1d7",
+              "size": 119,
+              "source_asset_id": 727295770,
+              "source_updated_at": "2026-11-09T11:48:34Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727388885,
+              "name": "materialcraft-0.3.0-linux-aarch64.rpm",
+              "sha256": "0fe4510793a91107f0bc1c367d7f0f646e5355256b2158e1fa71001f63e980b6",
+              "size": 20368860,
+              "source_asset_id": 727295788,
+              "source_updated_at": "2026-11-09T11:48:36Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727389018,
+              "name": "materialcraft-0.3.0-linux-aarch64.rpm.asc",
+              "sha256": "b8af6966f62a564e1595f00a13161985ae52c915525b08921952e23884b0616c",
+              "size": 228,
+              "source_asset_id": 727295799,
+              "source_updated_at": "2026-11-09T11:48:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727389140,
+              "name": "materialcraft-0.3.0-linux-aarch64.tar.gz",
+              "sha256": "264679e4a62612aba7f102699fb67646c993060492b2f18fd3faa8aa3618dd55",
+              "size": 19633811,
+              "source_asset_id": 727295815,
+              "source_updated_at": "2026-11-09T11:48:36Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727389330,
+              "name": "materialcraft-0.3.0-linux-aarch64.tar.gz.asc",
+              "sha256": "767769006303025514161278c1fb9ba545f855b85dd6188a8c6b5b304f60b02d",
+              "size": 228,
+              "source_asset_id": 727295834,
+              "source_updated_at": "2026-11-09T11:48:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727389464,
+              "name": "materialcraft-0.3.0-linux-riscv64.deb",
+              "sha256": "f12f8c751a6e6cf130a12a4f7cc1c6fa81d7b32764bcaf6d8555747e109d0f85",
+              "size": 21191320,
+              "source_asset_id": 727295837,
+              "source_updated_at": "2026-11-09T11:48:36Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727389598,
+              "name": "materialcraft-0.3.0-linux-riscv64.deb.asc",
+              "sha256": "f6cffe58885d5cac5b49fe20f747d5ea4c44a6f223be38040f6bf45fd3b17577",
+              "size": 228,
+              "source_asset_id": 727295849,
+              "source_updated_at": "2026-11-09T11:48:36Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727389698,
+              "name": "materialcraft-0.3.0-linux-riscv64.rpm",
+              "sha256": "339f12d87a2172263e64e9f39216d0aca64ad673f7cd5b7fbf1a52918f0d0e1f",
+              "size": 21132989,
+              "source_asset_id": 727295866,
+              "source_updated_at": "2026-11-09T11:48:37Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727389868,
+              "name": "materialcraft-0.3.0-linux-riscv64.rpm.asc",
+              "sha256": "49d0750270f0990ab3b6dab4ad2ec7e7b2cef8528172a385e6b6231a494eebac",
+              "size": 228,
+              "source_asset_id": 727295889,
+              "source_updated_at": "2026-11-09T11:48:36Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727389980,
+              "name": "materialcraft-0.3.0-linux-riscv64.tar.gz",
+              "sha256": "5d508aad76c58560ffead160253a8e502523282a58a8294ac803353b2f3e1f58",
+              "size": 20736528,
+              "source_asset_id": 727295899,
+              "source_updated_at": "2026-11-09T11:48:37Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390094,
+              "name": "materialcraft-0.3.0-linux-riscv64.tar.gz.asc",
+              "sha256": "1db8014a2e2c3b9a595cb779a6f45a4f72b8720ed84b4a3223820cb6949a4c84",
+              "size": 228,
+              "source_asset_id": 727295898,
+              "source_updated_at": "2026-11-09T11:48:37Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390170,
+              "name": "materialcraft-0.3.0-linux-x86_64.AppImage",
+              "sha256": "aca227f07d0047bc62ded8fcde63ddcc3c1051960f593c029194d6e9dd4a6b3d",
+              "size": 20208120,
+              "source_asset_id": 727295923,
+              "source_updated_at": "2026-11-09T11:48:38Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390303,
+              "name": "materialcraft-0.3.0-linux-x86_64.AppImage.asc",
+              "sha256": "5f6c04eea200766927607b0b74e00efcac6dec8f83e77d5448dd9f4d66df0c61",
+              "size": 228,
+              "source_asset_id": 727295929,
+              "source_updated_at": "2026-11-09T11:48:37Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390385,
+              "name": "materialcraft-0.3.0-linux-x86_64.AppImage.zsync",
+              "sha256": "6ed35d42c30152a5013efbc028d388e0ed7d78501df987dede4bbe002e8f0c52",
+              "size": 69329,
+              "source_asset_id": 727295943,
+              "source_updated_at": "2026-11-09T11:48:37Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390465,
+              "name": "materialcraft-0.3.0-linux-x86_64.AppImage.zsync.asc",
+              "sha256": "467d0c848daf1faaa9b7a4537da6a7a272b50162bd0ef17d5dc52f7c1ec0c6b1",
+              "size": 228,
+              "source_asset_id": 727295946,
+              "source_updated_at": "2026-11-09T11:48:37Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390558,
+              "name": "materialcraft-0.3.0-linux-x86_64.deb",
+              "sha256": "061c6fe9b93abcb9d75fadaa3bf6c4971cd904aacdfb55f89f6fe04307ae2f85",
+              "size": 21608186,
+              "source_asset_id": 727295969,
+              "source_updated_at": "2026-11-09T11:48:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390660,
+              "name": "materialcraft-0.3.0-linux-x86_64.deb.asc",
+              "sha256": "aa0cef20a724d1e50a1788d25477a28ebc0e334e024a4ec8084f311a64392214",
+              "size": 228,
+              "source_asset_id": 727295976,
+              "source_updated_at": "2026-11-09T11:48:38Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390710,
+              "name": "materialcraft-0.3.0-linux-x86_64.flatpak",
+              "sha256": "532665cd431c4d568950eddc35ced4cbd185117a6a7532b15de1f70354d9cce1",
+              "size": 14442840,
+              "source_asset_id": 727295981,
+              "source_updated_at": "2026-11-09T11:48:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390817,
+              "name": "materialcraft-0.3.0-linux-x86_64.flatpak.asc",
+              "sha256": "f569a1572b4398b042e0c3209f02cef0058dd9b235dfd017ba998645cf26a51f",
+              "size": 228,
+              "source_asset_id": 727295987,
+              "source_updated_at": "2026-11-09T11:48:38Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390888,
+              "name": "materialcraft-0.3.0-linux-x86_64.oci-manifest.json",
+              "sha256": "9fabbe0c3e4da09dd060ff2a0b2d589d931b352d1904ae16ff94b3a27e0be996",
+              "size": 493,
+              "source_asset_id": 727296002,
+              "source_updated_at": "2026-11-09T11:48:38Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390930,
+              "name": "materialcraft-0.3.0-linux-x86_64.oci.sig",
+              "sha256": "ed8723bd1ac9e69824d87564898e660cb1485552f68ad6c4b9056d884dbfeafd",
+              "size": 391,
+              "source_asset_id": 727296001,
+              "source_updated_at": "2026-11-09T11:48:38Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391016,
+              "name": "materialcraft-0.3.0-linux-x86_64.pkg.tar.zst",
+              "sha256": "986ae93ecb1f90f8e92d12fedb25c80ecf60b697ea06f366e8c8faaa1c8ad3ad",
+              "size": 13128525,
+              "source_asset_id": 727296012,
+              "source_updated_at": "2026-11-09T11:48:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391111,
+              "name": "materialcraft-0.3.0-linux-x86_64.pkg.tar.zst.sig",
+              "sha256": "6f7b6e6cc262acb031c45df33bbaae3b0698aea27d472b06005735c3ea5b79d1",
+              "size": 119,
+              "source_asset_id": 727296028,
+              "source_updated_at": "2026-11-09T11:48:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391247,
+              "name": "materialcraft-0.3.0-linux-x86_64.rpm",
+              "sha256": "eee1f36605e4d388c7ba6b7498e92c294495606d0e32e2ab5d3cd15b0526e0e4",
+              "size": 21457136,
+              "source_asset_id": 727296034,
+              "source_updated_at": "2026-11-09T11:48:40Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391470,
+              "name": "materialcraft-0.3.0-linux-x86_64.rpm.asc",
+              "sha256": "ebdd62ebe9e6e096938d403cd408525dae5a2ff2b023cfa0954d867881489787",
+              "size": 228,
+              "source_asset_id": 727296050,
+              "source_updated_at": "2026-11-09T11:48:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391576,
+              "name": "materialcraft-0.3.0-linux-x86_64.tar.gz",
+              "sha256": "d1439d1f073e2bacd8e18a123d7b8c24c0c41743919b3ccae32a932183f76285",
+              "size": 21111023,
+              "source_asset_id": 727296048,
+              "source_updated_at": "2026-11-09T11:48:40Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391693,
+              "name": "materialcraft-0.3.0-linux-x86_64.tar.gz.asc",
+              "sha256": "15af678874cbdd588a86764e038ec3e2fae509b912ca040b81c90e66992e0967",
+              "size": 228,
+              "source_asset_id": 727296066,
+              "source_updated_at": "2026-11-09T11:48:40Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391744,
+              "name": "materialcraft-0.3.0-macos-universal.dmg",
+              "sha256": "439fb79ba7037fd6d19a98e5401df48b2dca1e7867f836cfd38f614c2e95cf13",
+              "size": 27005137,
+              "source_asset_id": 727296076,
+              "source_updated_at": "2026-11-09T11:48:41Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391914,
+              "name": "materialcraft-0.3.0-windows-arm64-portable.zip",
+              "sha256": "535fc4698c457e10aa7276a88b0c5c1fe608862ab3701c2d5ca80816d2957350",
+              "size": 19013234,
+              "source_asset_id": 727296102,
+              "source_updated_at": "2026-11-09T11:48:41Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392076,
+              "name": "materialcraft-0.3.0-windows-arm64.msi",
+              "sha256": "8840b211bc4d2c2db298c7b79e1b45777d3ec1477ca5ee8794ed715e975e30ff",
+              "size": 14012416,
+              "source_asset_id": 727296116,
+              "source_updated_at": "2026-11-09T11:48:41Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392263,
+              "name": "materialcraft-0.3.0-windows-x64-portable.zip",
+              "sha256": "2748b5cf7984d9fc25ec087d7ef66124bcbf30fffdf7c5c2aa76c03de1177c0e",
+              "size": 20607611,
+              "source_asset_id": 727296126,
+              "source_updated_at": "2026-11-09T11:48:41Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392380,
+              "name": "materialcraft-0.3.0-windows-x64.msi",
+              "sha256": "6096c3a75f074bc4426fc5e94c1c4db354bc316060a27ffb20fecf569a83bb12",
+              "size": 15675392,
+              "source_asset_id": 727296141,
+              "source_updated_at": "2026-11-09T11:48:42Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392495,
+              "name": "materialcraft-cli-0.3.0-macos-universal.zip",
+              "sha256": "9854d9efda5188ad5295c624f0350d34ee6c9b6d412ba96bc1c2d3bd5b21e632",
+              "size": 11299460,
+              "source_asset_id": 727296172,
+              "source_updated_at": "2026-11-09T11:48:42Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392593,
+              "name": "materialcraft-web-0.3.0.zip",
+              "sha256": "56c351ea91a038934baedf9a53ab12118c46ebad2977abb8260d7e51d818116a",
+              "size": 5032170,
+              "source_asset_id": 727296176,
+              "source_updated_at": "2026-11-09T11:48:42Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392700,
+              "name": "release-signing-key.asc",
+              "sha256": "8e6925a173d6a7134118da099948de4d9eeec7c1c0770998aec33c9d3f484740",
+              "size": 803,
+              "source_asset_id": 727296178,
+              "source_updated_at": "2026-11-09T11:48:42Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392761,
+              "name": "SHA256SUMS.txt",
+              "sha256": "1cbfa62b717f8a283754527e31aa417cd25327d325cd8fcd3354afda99cd6e5a",
+              "size": 5217,
+              "source_asset_id": 727297437,
+              "source_updated_at": "2026-11-09T11:49:05Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392809,
+              "name": "SHA256SUMS.txt.asc",
+              "sha256": "5a8208d909b823c68a6292af24ce626cecb3e21ec854c1bc26e5f412b59edf00",
+              "size": 228,
+              "source_asset_id": 727295570,
+              "source_updated_at": "2026-11-09T11:48:32Z",
+              "status": "synced"
+            }
+          ],
+          "dest_release_id": 439099512,
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/materialcraft--v0.3.0",
+          "dest_tag": "materialcraft--v0.3.0",
+          "error": null,
+          "prerelease": false,
+          "published_at": "2026-11-09T11:49:44Z",
+          "source_tag": "v0.3.0",
+          "stale_assets": [],
+          "title": "[MaterialCraft] MaterialCraft v0.3.0",
+          "upstream_release_id": 439069610,
+          "upstream_release_url": "https://github.com/storytold/materialcraft/releases/tag/v0.3.0"
+        },
+        {
+          "action": "synced",
+          "assets": [
+            {
+              "dest_asset_id": 727381412,
+              "name": "materialcraft-0.2.0-freebsd-aarch64.tar.gz",
+              "sha256": "bf853175a80a9bfe4a860dc36995c4cfeeb79c162f577c5579f596d0eb8e14fc",
+              "size": 16119051,
+              "source_asset_id": 718349423,
+              "source_updated_at": "2026-11-06T19:47:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727381577,
+              "name": "materialcraft-0.2.0-freebsd-x86_64.tar.gz",
+              "sha256": "be203687122f6646ce14bc8e1582b406e6a59009812740d8db11daeea1e00288",
+              "size": 17635159,
+              "source_asset_id": 718349437,
+              "source_updated_at": "2026-11-06T19:47:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727381719,
+              "name": "materialcraft-0.2.0-linux-aarch64.AppImage",
+              "sha256": "9c16db2f2596ce613383df94cf8e617b7828268d7112199e4148933957d1a117",
+              "size": 15931912,
+              "source_asset_id": 718348373,
+              "source_updated_at": "2026-11-06T19:46:46Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727381887,
+              "name": "materialcraft-0.2.0-linux-aarch64.AppImage.asc",
+              "sha256": "6c5b279823748a323238424869a0d828d45a715dc36e1c5e116c1965af4f9f34",
+              "size": 228,
+              "source_asset_id": 718348410,
+              "source_updated_at": "2026-11-06T19:46:46Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727381940,
+              "name": "materialcraft-0.2.0-linux-aarch64.AppImage.zsync",
+              "sha256": "53ed08c5e110eb601e9cbeb901970d22eca4f0c1c614773e9764720e77e877d9",
+              "size": 54715,
+              "source_asset_id": 718348412,
+              "source_updated_at": "2026-11-06T19:46:46Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382019,
+              "name": "materialcraft-0.2.0-linux-aarch64.AppImage.zsync.asc",
+              "sha256": "30256f4122e37b0cfe8778c443934c9d0a4fff3163d848055dcb20397589f471",
+              "size": 228,
+              "source_asset_id": 718348446,
+              "source_updated_at": "2026-11-06T19:46:46Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382129,
+              "name": "materialcraft-0.2.0-linux-aarch64.deb",
+              "sha256": "7022103927d113faa8ee55e9bccd100500f263b6426aa8d54aea468655061861",
+              "size": 17267474,
+              "source_asset_id": 718348449,
+              "source_updated_at": "2026-11-06T19:46:47Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382259,
+              "name": "materialcraft-0.2.0-linux-aarch64.deb.asc",
+              "sha256": "a29574c321f0d63722ee965c21bf3595516152644f0d66e94ae18680240182bd",
+              "size": 228,
+              "source_asset_id": 718348453,
+              "source_updated_at": "2026-11-06T19:46:46Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382375,
+              "name": "materialcraft-0.2.0-linux-aarch64.flatpak",
+              "sha256": "ffe738cf30607be93c4b12d8c9fdab7b02bd0f706e054715c01b1c5196ac4ea7",
+              "size": 10712304,
+              "source_asset_id": 718348461,
+              "source_updated_at": "2026-11-06T19:46:47Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382490,
+              "name": "materialcraft-0.2.0-linux-aarch64.flatpak.asc",
+              "sha256": "928810e84d24c186ef318bdc1770f7016fcdff4e6811540592962c805e1aff8a",
+              "size": 228,
+              "source_asset_id": 718348472,
+              "source_updated_at": "2026-11-06T19:46:46Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382573,
+              "name": "materialcraft-0.2.0-linux-aarch64.oci-manifest.json",
+              "sha256": "5201585e0f173c0d9ffd016d6551111b314be859cad11047b8419c9fb0e687c4",
+              "size": 493,
+              "source_asset_id": 718348488,
+              "source_updated_at": "2026-11-06T19:46:47Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382653,
+              "name": "materialcraft-0.2.0-linux-aarch64.oci.sig",
+              "sha256": "c33db0159d12afe3e12c40298d7ce7b7dafa9cee70ded1882083b3a0433cea60",
+              "size": 387,
+              "source_asset_id": 718348490,
+              "source_updated_at": "2026-11-06T19:46:47Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382754,
+              "name": "materialcraft-0.2.0-linux-aarch64.pkg.tar.zst",
+              "sha256": "89490d35446e66d45a55b6a2181cdff8689b21894662fe758ac96457b9583e67",
+              "size": 10340294,
+              "source_asset_id": 718348499,
+              "source_updated_at": "2026-11-06T19:46:47Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382861,
+              "name": "materialcraft-0.2.0-linux-aarch64.pkg.tar.zst.sig",
+              "sha256": "4b8bba168e1d8c48713335764765ce320632faf06820596d77b3c2fe8747d88f",
+              "size": 119,
+              "source_asset_id": 718348518,
+              "source_updated_at": "2026-11-06T19:46:47Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382936,
+              "name": "materialcraft-0.2.0-linux-aarch64.rpm",
+              "sha256": "d9a49e6ce70c709f3e5ba8e07153af7d23c69e8103b9ef89a3e28fbe62cf3e77",
+              "size": 17080847,
+              "source_asset_id": 718348523,
+              "source_updated_at": "2026-11-06T19:46:48Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383050,
+              "name": "materialcraft-0.2.0-linux-aarch64.rpm.asc",
+              "sha256": "b3625c6911d779ba2a5fb537bf084b8229054c98ba211dc592697cabbcfa8479",
+              "size": 228,
+              "source_asset_id": 718348526,
+              "source_updated_at": "2026-11-06T19:46:48Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383110,
+              "name": "materialcraft-0.2.0-linux-aarch64.tar.gz",
+              "sha256": "f8b9fd8b18d83dc6912edf4e7d7b6b2371988c1bca43793ea6da591448ba5da5",
+              "size": 16453824,
+              "source_asset_id": 718348528,
+              "source_updated_at": "2026-11-06T19:46:48Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383237,
+              "name": "materialcraft-0.2.0-linux-aarch64.tar.gz.asc",
+              "sha256": "9f86f1329cfd770dc23c02b8d980456fa180afaa3aea51d1aa78b4524eaebd5d",
+              "size": 228,
+              "source_asset_id": 718348534,
+              "source_updated_at": "2026-11-06T19:46:48Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383299,
+              "name": "materialcraft-0.2.0-linux-riscv64.deb",
+              "sha256": "50ee70c0b594e3aad784e55e09de4feeb1668d269a79b6ed76fce5813208e51f",
+              "size": 18042508,
+              "source_asset_id": 718348547,
+              "source_updated_at": "2026-11-06T19:46:49Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383438,
+              "name": "materialcraft-0.2.0-linux-riscv64.deb.asc",
+              "sha256": "6046f3e006b37f3006057998998f2d4f9b1a0e41ee4c62ae89651a1b005ca2a1",
+              "size": 228,
+              "source_asset_id": 718348550,
+              "source_updated_at": "2026-11-06T19:46:48Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383549,
+              "name": "materialcraft-0.2.0-linux-riscv64.rpm",
+              "sha256": "293802eb48bc1d1186710380bb52386ad4e8881f2dbc4a2ada14639b6e0b8c0a",
+              "size": 17993182,
+              "source_asset_id": 718348558,
+              "source_updated_at": "2026-11-06T19:46:49Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383743,
+              "name": "materialcraft-0.2.0-linux-riscv64.rpm.asc",
+              "sha256": "2da7c87e36c5eb437eaa38ea9d605f4b286bd97cc6d8420a2aac9f2b33a16a2f",
+              "size": 228,
+              "source_asset_id": 718348571,
+              "source_updated_at": "2026-11-06T19:46:49Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383815,
+              "name": "materialcraft-0.2.0-linux-riscv64.tar.gz",
+              "sha256": "319582a1e6d3bbd90bd1aacb7e2f536b9287f4717c7ce6ad8d1071aba002ea88",
+              "size": 17650942,
+              "source_asset_id": 718348579,
+              "source_updated_at": "2026-11-06T19:46:49Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383953,
+              "name": "materialcraft-0.2.0-linux-riscv64.tar.gz.asc",
+              "sha256": "133455b04d12ca8eead94b3d72c16be715c95195e630072d71aaee0f3906c0b2",
+              "size": 228,
+              "source_asset_id": 718348590,
+              "source_updated_at": "2026-11-06T19:46:49Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384039,
+              "name": "materialcraft-0.2.0-linux-x86_64.AppImage",
+              "sha256": "d0220ea90e490561ba37d50d537bf176257af4d159c3eae975dbdf3aaecc44a1",
+              "size": 17095160,
+              "source_asset_id": 718348622,
+              "source_updated_at": "2026-11-06T19:46:50Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384172,
+              "name": "materialcraft-0.2.0-linux-x86_64.AppImage.asc",
+              "sha256": "c19e696bc21bfce7b7f1ce3db05d39e958371ff5172d370cdad6bb56a3d2ca31",
+              "size": 228,
+              "source_asset_id": 718348635,
+              "source_updated_at": "2026-11-06T19:46:49Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384253,
+              "name": "materialcraft-0.2.0-linux-x86_64.AppImage.zsync",
+              "sha256": "bc93218fdd10429f0613d07b0534b16e97fdb450937a29f997df6fcd42b44086",
+              "size": 58689,
+              "source_asset_id": 718348638,
+              "source_updated_at": "2026-11-06T19:46:49Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384344,
+              "name": "materialcraft-0.2.0-linux-x86_64.AppImage.zsync.asc",
+              "sha256": "416f5da3a2d2bfd1cf67017359915a20ad8700d65f0ae184b053a5f03953b9d1",
+              "size": 228,
+              "source_asset_id": 718348644,
+              "source_updated_at": "2026-11-06T19:46:50Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384439,
+              "name": "materialcraft-0.2.0-linux-x86_64.deb",
+              "sha256": "5e7e404334bd52fe12f0339868c0eccda2c3e7c03ba01b458dca54d11765ee07",
+              "size": 18110544,
+              "source_asset_id": 718348666,
+              "source_updated_at": "2026-11-06T19:46:51Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384575,
+              "name": "materialcraft-0.2.0-linux-x86_64.deb.asc",
+              "sha256": "c49079e4fdbfa2d5c28327656804847e05c36a0de6d174d89f3bd19418ab59f8",
+              "size": 228,
+              "source_asset_id": 718348671,
+              "source_updated_at": "2026-11-06T19:46:50Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384685,
+              "name": "materialcraft-0.2.0-linux-x86_64.flatpak",
+              "sha256": "b228bf437ce3466748126e17462aa11dc9acf2078cb18b15bf257fe2263cdb74",
+              "size": 12187680,
+              "source_asset_id": 718348672,
+              "source_updated_at": "2026-11-06T19:46:51Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384781,
+              "name": "materialcraft-0.2.0-linux-x86_64.flatpak.asc",
+              "sha256": "a786ed262a80baeb02b76dce9b284cfdc03616503812ad309902901417ab5966",
+              "size": 228,
+              "source_asset_id": 718348675,
+              "source_updated_at": "2026-11-06T19:46:50Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384840,
+              "name": "materialcraft-0.2.0-linux-x86_64.oci-manifest.json",
+              "sha256": "19dd22e4531b28b5eaad95a597463e80b13408a6cc698b224fa2b812c071b1b9",
+              "size": 493,
+              "source_asset_id": 718348687,
+              "source_updated_at": "2026-11-06T19:46:50Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384960,
+              "name": "materialcraft-0.2.0-linux-x86_64.oci.sig",
+              "sha256": "d5e3f185896d2ad9aa1169db8c7adc7e3c22158c1efacc4ee741ece8273f69a0",
+              "size": 387,
+              "source_asset_id": 718348696,
+              "source_updated_at": "2026-11-06T19:46:51Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727385057,
+              "name": "materialcraft-0.2.0-linux-x86_64.pkg.tar.zst",
+              "sha256": "6fcfa2234fd1cd91ad474c1a856474b65ea18769be1b92fd3c182d0a7faf90d0",
+              "size": 10964331,
+              "source_asset_id": 718348697,
+              "source_updated_at": "2026-11-06T19:46:51Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727385309,
+              "name": "materialcraft-0.2.0-linux-x86_64.pkg.tar.zst.sig",
+              "sha256": "65f1483145d18542631e623f217c8a2c5eb338e8267a99c6134f5ecda051c35a",
+              "size": 119,
+              "source_asset_id": 718348711,
+              "source_updated_at": "2026-11-06T19:46:51Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727385398,
+              "name": "materialcraft-0.2.0-linux-x86_64.rpm",
+              "sha256": "747a0266ac8d4831e6853bd2bf5dc610229d7f9d97634a27bab56103e1f1f95b",
+              "size": 17983350,
+              "source_asset_id": 718348718,
+              "source_updated_at": "2026-11-06T19:46:52Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727385539,
+              "name": "materialcraft-0.2.0-linux-x86_64.rpm.asc",
+              "sha256": "4336a563dc767bd62836683c681d6c4f889698f7eda4336138ad4d35a1782510",
+              "size": 228,
+              "source_asset_id": 718348736,
+              "source_updated_at": "2026-11-06T19:46:51Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727385712,
+              "name": "materialcraft-0.2.0-linux-x86_64.tar.gz",
+              "sha256": "3c7b6c1a4755e204ce6e0ea6813f1622eb1c36c15a45d53ba3722735780b26f6",
+              "size": 17680614,
+              "source_asset_id": 718348737,
+              "source_updated_at": "2026-11-06T19:46:52Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727385840,
+              "name": "materialcraft-0.2.0-linux-x86_64.tar.gz.asc",
+              "sha256": "c5d64fb16e1ae0cb7d8af2a531b16e0118af6cf4eb4fe51c4323ca32a1f380f0",
+              "size": 228,
+              "source_asset_id": 718348766,
+              "source_updated_at": "2026-11-06T19:46:52Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727385932,
+              "name": "materialcraft-0.2.0-macos-universal.dmg",
+              "sha256": "058ddc0f4c64e108c50fb05dfb502dc9d2d677bb33c6098f8bd15113b80e5576",
+              "size": 21523974,
+              "source_asset_id": 718348767,
+              "source_updated_at": "2026-11-06T19:46:53Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727386064,
+              "name": "materialcraft-0.2.0-windows-arm64-portable.zip",
+              "sha256": "6dfd7c85c2d9e5f6c3fac4e1d8db84f287c81dd277446bdcabccbe28c8e550be",
+              "size": 15678284,
+              "source_asset_id": 718348780,
+              "source_updated_at": "2026-11-06T19:46:53Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727386231,
+              "name": "materialcraft-0.2.0-windows-arm64.msi",
+              "sha256": "3fc6eadb952c9be11778f5695c511b848eccc7a88b70ef27c61be4b2c7a5002e",
+              "size": 11534336,
+              "source_asset_id": 718348803,
+              "source_updated_at": "2026-11-06T19:46:53Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727386345,
+              "name": "materialcraft-0.2.0-windows-x64-portable.zip",
+              "sha256": "3fb4729f66fc211dda028e4e00fddc8ed42402402eddd1bf67c2716b8a8734c6",
+              "size": 16995604,
+              "source_asset_id": 718348811,
+              "source_updated_at": "2026-11-06T19:46:53Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727386493,
+              "name": "materialcraft-0.2.0-windows-x64.msi",
+              "sha256": "d400ea8ab51a8508e1893de58f93d4c43e87c50525d94477d34001ac5864c543",
+              "size": 12894208,
+              "source_asset_id": 718348814,
+              "source_updated_at": "2026-11-06T19:46:53Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727386698,
+              "name": "materialcraft-0.2.0-windows-x86-portable.zip",
+              "sha256": "a0da3ad645973f0204b3eafa79f278acf406f2aab092e90a6c9a9a537140303d",
+              "size": 15930030,
+              "source_asset_id": 718348869,
+              "source_updated_at": "2026-11-06T19:46:54Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727386833,
+              "name": "materialcraft-0.2.0-windows-x86.msi",
+              "sha256": "67176d613255674452af68fb3ab5acba42b8a6135378653d0d3760ba0a7fe6c7",
+              "size": 12386304,
+              "source_asset_id": 718348884,
+              "source_updated_at": "2026-11-06T19:46:54Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727386929,
+              "name": "materialcraft-cli-0.2.0-macos-universal.zip",
+              "sha256": "a852ee3cc7b3ba9f6742d52df2b9c18c65564488ce2eec4b82344e00f9379058",
+              "size": 9652904,
+              "source_asset_id": 718348894,
+              "source_updated_at": "2026-11-06T19:46:54Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387018,
+              "name": "materialcraft-web-0.2.0.zip",
+              "sha256": "0bdf84607dcbd637adff124608f0ac3b96796647d3c6892cbec7054d2f637b0d",
+              "size": 4618296,
+              "source_asset_id": 718348895,
+              "source_updated_at": "2026-11-06T19:46:54Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387095,
+              "name": "release-signing-key.asc",
+              "sha256": "8e6925a173d6a7134118da099948de4d9eeec7c1c0770998aec33c9d3f484740",
+              "size": 803,
+              "source_asset_id": 718348912,
+              "source_updated_at": "2026-11-06T19:46:54Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387169,
+              "name": "SHA256SUMS.txt",
+              "sha256": "4849788a0131804f300f33c11b50dd3df8876b2525b650205eef3d9531f8824e",
+              "size": 5430,
+              "source_asset_id": 718349420,
+              "source_updated_at": "2026-11-06T19:47:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387237,
+              "name": "SHA256SUMS.txt.asc",
+              "sha256": "90b68f696a0992d737fc2273850afa58c0f3e32827c2727ddcf5b0980063497b",
+              "size": 228,
+              "source_asset_id": 718348372,
+              "source_updated_at": "2026-11-06T19:46:45Z",
+              "status": "synced"
+            }
+          ],
+          "dest_release_id": 439097794,
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/materialcraft--v0.2.0",
+          "dest_tag": "materialcraft--v0.2.0",
+          "error": null,
+          "prerelease": false,
+          "published_at": "2026-11-06T20:21:54Z",
+          "source_tag": "v0.2.0",
+          "stale_assets": [],
+          "title": "[MaterialCraft] MaterialCraft v0.2.0",
+          "upstream_release_id": 436924945,
+          "upstream_release_url": "https://github.com/storytold/materialcraft/releases/tag/v0.2.0"
+        },
+        {
+          "action": "synced",
+          "assets": [
+            {
+              "dest_asset_id": 727374484,
+              "name": "materialcraft-0.1.2-freebsd-aarch64.tar.gz",
+              "sha256": "ba927e4b905815fc0fe895b043c821af16020cfdb6e922d67c240b1ca54e13a8",
+              "size": 15430280,
+              "source_asset_id": 711513264,
+              "source_updated_at": "2026-11-05T00:50:31Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727374657,
+              "name": "materialcraft-0.1.2-freebsd-x86_64.tar.gz",
+              "sha256": "7e4a58b3d6cb25d6fa37f2c6234715c48edce77e4277bffb42038bf8d3cee78b",
+              "size": 16858266,
+              "source_asset_id": 711513288,
+              "source_updated_at": "2026-11-05T00:50:32Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727374845,
+              "name": "materialcraft-0.1.2-linux-aarch64.AppImage",
+              "sha256": "ca331c562772d2daf4709a674be2ca8d8e53aa77e7edaff3dc9ced7c71e08f8a",
+              "size": 15256072,
+              "source_asset_id": 711507026,
+              "source_updated_at": "2026-11-05T00:47:55Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727375025,
+              "name": "materialcraft-0.1.2-linux-aarch64.AppImage.asc",
+              "sha256": "e808a926c97c0caffa325e19f7c0b5454f4385b54568ad3ceb142f9ddc578801",
+              "size": 228,
+              "source_asset_id": 711507028,
+              "source_updated_at": "2026-11-05T00:47:54Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727375117,
+              "name": "materialcraft-0.1.2-linux-aarch64.AppImage.zsync",
+              "sha256": "982d7e435484fd7e364802ddb1e1e47ea047a28a6456523826b66b101df7cb9f",
+              "size": 52405,
+              "source_asset_id": 711507060,
+              "source_updated_at": "2026-11-05T00:47:55Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727375244,
+              "name": "materialcraft-0.1.2-linux-aarch64.AppImage.zsync.asc",
+              "sha256": "d080b88d09ac04bd77cef76bc6efee14c0f5c30b45aa453d90da140bdde73c26",
+              "size": 228,
+              "source_asset_id": 711507059,
+              "source_updated_at": "2026-11-05T00:47:55Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727375384,
+              "name": "materialcraft-0.1.2-linux-aarch64.deb",
+              "sha256": "ba55f9e5e20e66105b4419f7480a9f23307dce3ad95caa82a63933a02ed2d25c",
+              "size": 16512166,
+              "source_asset_id": 711507061,
+              "source_updated_at": "2026-11-05T00:47:56Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727375506,
+              "name": "materialcraft-0.1.2-linux-aarch64.deb.asc",
+              "sha256": "1735c64bb6909588369bebfcac98ec4b144c5cbedcdd837d3fc943321c2c81df",
+              "size": 228,
+              "source_asset_id": 711507084,
+              "source_updated_at": "2026-11-05T00:47:55Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727375613,
+              "name": "materialcraft-0.1.2-linux-aarch64.flatpak",
+              "sha256": "9ddc4ddbecf2f96bad4b54da400c29d8085be212e0d653219f4f6f725e929e1c",
+              "size": 10239776,
+              "source_asset_id": 711507086,
+              "source_updated_at": "2026-11-05T00:47:56Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727375799,
+              "name": "materialcraft-0.1.2-linux-aarch64.flatpak.asc",
+              "sha256": "a725d1820c5ef824b88ea3565ff31885e160a3524a2f5cd3721e5cfc5a91ae89",
+              "size": 228,
+              "source_asset_id": 711507092,
+              "source_updated_at": "2026-11-05T00:47:56Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727375901,
+              "name": "materialcraft-0.1.2-linux-aarch64.oci-manifest.json",
+              "sha256": "b245b47ced0ea657323847ade43acf87d0919120a4145b0c49658b9b32b0f108",
+              "size": 493,
+              "source_asset_id": 711507095,
+              "source_updated_at": "2026-11-05T00:47:56Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727376013,
+              "name": "materialcraft-0.1.2-linux-aarch64.oci.sig",
+              "sha256": "f3ad45a4075b4a50b0fd745a2808a96fc1c5d909548466558baa39a7e880e60f",
+              "size": 391,
+              "source_asset_id": 711507102,
+              "source_updated_at": "2026-11-05T00:47:56Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727376129,
+              "name": "materialcraft-0.1.2-linux-aarch64.pkg.tar.zst",
+              "sha256": "81a2012e4c500293a181e08141db9b19a8f297cbbe0b25fdff659c498f1fed8e",
+              "size": 9966400,
+              "source_asset_id": 711507110,
+              "source_updated_at": "2026-11-05T00:47:57Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727376347,
+              "name": "materialcraft-0.1.2-linux-aarch64.pkg.tar.zst.sig",
+              "sha256": "579ec2cca1eef5a08c00fe9893c99a51eace40e542faf0171219696946ff569f",
+              "size": 118,
+              "source_asset_id": 711507118,
+              "source_updated_at": "2026-11-05T00:47:56Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727376454,
+              "name": "materialcraft-0.1.2-linux-aarch64.rpm",
+              "sha256": "5d9bb1e4b1de20c23dd8be1b917723300b9999926c8aad08c41fb26f7408d8e5",
+              "size": 16345605,
+              "source_asset_id": 711507116,
+              "source_updated_at": "2026-11-05T00:47:57Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727376615,
+              "name": "materialcraft-0.1.2-linux-aarch64.rpm.asc",
+              "sha256": "7fff3e812b8291047838a92b899ff5d5bea8e3f1a0562eb2eb1ff7379dfa8872",
+              "size": 228,
+              "source_asset_id": 711507126,
+              "source_updated_at": "2026-11-05T00:47:57Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727376749,
+              "name": "materialcraft-0.1.2-linux-aarch64.tar.gz",
+              "sha256": "aa3160ee398d20a6bb4d4bae9e011395f6bbec31790882a0ed40d754253bd0b3",
+              "size": 15738411,
+              "source_asset_id": 711507131,
+              "source_updated_at": "2026-11-05T00:47:57Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727376905,
+              "name": "materialcraft-0.1.2-linux-aarch64.tar.gz.asc",
+              "sha256": "218788d1e6b7c04a08ad234b26c35b6cc6031e90a3deb3af42acf26c0fba5208",
+              "size": 228,
+              "source_asset_id": 711507146,
+              "source_updated_at": "2026-11-05T00:47:57Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727377037,
+              "name": "materialcraft-0.1.2-linux-riscv64.deb",
+              "sha256": "8646bc98f256882407f77a1896a51a8188a687c6e948d518496e8c31c3998de6",
+              "size": 17047552,
+              "source_asset_id": 711507156,
+              "source_updated_at": "2026-11-05T00:47:59Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727377191,
+              "name": "materialcraft-0.1.2-linux-riscv64.deb.asc",
+              "sha256": "f131bfd44ff57daaadbda6bfb0ae800a0475a12b22a946654ebd79128888b0bc",
+              "size": 228,
+              "source_asset_id": 711507163,
+              "source_updated_at": "2026-11-05T00:47:57Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727377373,
+              "name": "materialcraft-0.1.2-linux-riscv64.rpm",
+              "sha256": "48fab69d4a9aedc248326a2407282cf8c0dc7818a1b0edef3f063859dbcdfd35",
+              "size": 17018061,
+              "source_asset_id": 711507167,
+              "source_updated_at": "2026-11-05T00:47:58Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727377532,
+              "name": "materialcraft-0.1.2-linux-riscv64.rpm.asc",
+              "sha256": "90a656d660647de8cedfc25de8d16e1c618b111cce6a33c503106d2d04210db2",
+              "size": 228,
+              "source_asset_id": 711507172,
+              "source_updated_at": "2026-11-05T00:47:58Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727377668,
+              "name": "materialcraft-0.1.2-linux-riscv64.tar.gz",
+              "sha256": "226229f151b3469a02c484cedce8514e5e06483c73e2fbf9b8b603c247f639eb",
+              "size": 16673032,
+              "source_asset_id": 711507176,
+              "source_updated_at": "2026-11-05T00:47:59Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727377830,
+              "name": "materialcraft-0.1.2-linux-riscv64.tar.gz.asc",
+              "sha256": "134b793ff69f09cc3fb2a16267717c3112ffd93c239f6494edf8d866e044ff1a",
+              "size": 228,
+              "source_asset_id": 711507179,
+              "source_updated_at": "2026-11-05T00:47:58Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727377937,
+              "name": "materialcraft-0.1.2-linux-x86_64.AppImage",
+              "sha256": "740e4ecfec26d3a79475c8a38194b120fbfbc5b3ed7a779b11fba475dc7632c3",
+              "size": 16296440,
+              "source_asset_id": 711507204,
+              "source_updated_at": "2026-11-05T00:47:59Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727378083,
+              "name": "materialcraft-0.1.2-linux-x86_64.AppImage.asc",
+              "sha256": "922c9a40c3b120cca5d9260c0793601433a7370ac026451091aee1610eeb2287",
+              "size": 228,
+              "source_asset_id": 711507207,
+              "source_updated_at": "2026-11-05T00:47:58Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727378210,
+              "name": "materialcraft-0.1.2-linux-x86_64.AppImage.zsync",
+              "sha256": "1daf022976456df1707de23a1ab6841b70986f8b578ba1926de965e66b622188",
+              "size": 55959,
+              "source_asset_id": 711507209,
+              "source_updated_at": "2026-11-05T00:47:59Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727378304,
+              "name": "materialcraft-0.1.2-linux-x86_64.AppImage.zsync.asc",
+              "sha256": "8d21693c9da05c3a5070b307caac5f53191680f88740a3851fb5787ebeca775c",
+              "size": 228,
+              "source_asset_id": 711507236,
+              "source_updated_at": "2026-11-05T00:47:59Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727378419,
+              "name": "materialcraft-0.1.2-linux-x86_64.deb",
+              "sha256": "5413394519872697415a9769dbe8a6d92183bb19ab184b685d4ad58d54189178",
+              "size": 17291890,
+              "source_asset_id": 711507238,
+              "source_updated_at": "2026-11-05T00:48:00Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727378545,
+              "name": "materialcraft-0.1.2-linux-x86_64.deb.asc",
+              "sha256": "4fa119133f2103cda0571084850142873544ff3032e49ef1d59247db256e3a72",
+              "size": 228,
+              "source_asset_id": 711507246,
+              "source_updated_at": "2026-11-05T00:47:59Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727378683,
+              "name": "materialcraft-0.1.2-linux-x86_64.flatpak",
+              "sha256": "5ba11dc157734783790e2014d980803c279704bec2666a12b6ebe3964b4e71fe",
+              "size": 11601152,
+              "source_asset_id": 711507260,
+              "source_updated_at": "2026-11-05T00:48:00Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727378854,
+              "name": "materialcraft-0.1.2-linux-x86_64.flatpak.asc",
+              "sha256": "5c431d0157ff1a12461c887eaa6dd0d114bf079eccc8cdcd1438bf30292dc1f4",
+              "size": 228,
+              "source_asset_id": 711507273,
+              "source_updated_at": "2026-11-05T00:48:00Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727378946,
+              "name": "materialcraft-0.1.2-linux-x86_64.oci-manifest.json",
+              "sha256": "73cec38bfd7ec774bc5bd40bcef7b8b21de4cd97da6fcbef57b9144d660ebe68",
+              "size": 493,
+              "source_asset_id": 711507286,
+              "source_updated_at": "2026-11-05T00:48:00Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727379054,
+              "name": "materialcraft-0.1.2-linux-x86_64.oci.sig",
+              "sha256": "f0f26482a1282aceb1816bae8c8922beecc53726546c52a5c7ba2c973e1896d3",
+              "size": 387,
+              "source_asset_id": 711507288,
+              "source_updated_at": "2026-11-05T00:48:00Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727379153,
+              "name": "materialcraft-0.1.2-linux-x86_64.pkg.tar.zst",
+              "sha256": "d2c51c2e3ee57284e1427ee8a1a83d7f6e77de06857350e457faa1ff1e80d5e8",
+              "size": 10550707,
+              "source_asset_id": 711507307,
+              "source_updated_at": "2026-11-05T00:48:01Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727379249,
+              "name": "materialcraft-0.1.2-linux-x86_64.pkg.tar.zst.sig",
+              "sha256": "0de20ef0b93106955bda4825c5738f78c9078e7ab97b10d467828be3caf773cc",
+              "size": 119,
+              "source_asset_id": 711507302,
+              "source_updated_at": "2026-11-05T00:48:00Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727379355,
+              "name": "materialcraft-0.1.2-linux-x86_64.rpm",
+              "sha256": "bee2bc3c6b1417dbfa2cf034f78638be751bbba6b4634ecab9a4ef35b667dcbd",
+              "size": 17190923,
+              "source_asset_id": 711507321,
+              "source_updated_at": "2026-11-05T00:48:01Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727379470,
+              "name": "materialcraft-0.1.2-linux-x86_64.rpm.asc",
+              "sha256": "68c061d758f0636a6cade105b8a25c00e1d865b3ce67325d6b1dae324b9bdfb8",
+              "size": 228,
+              "source_asset_id": 711507334,
+              "source_updated_at": "2026-11-05T00:48:01Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727379538,
+              "name": "materialcraft-0.1.2-linux-x86_64.tar.gz",
+              "sha256": "22b782c3b4147893c3d9c5a7e6965778fc8d80b4ccfdd1abc2012a3ba206fe4d",
+              "size": 16889133,
+              "source_asset_id": 711507336,
+              "source_updated_at": "2026-11-05T00:48:01Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727379631,
+              "name": "materialcraft-0.1.2-linux-x86_64.tar.gz.asc",
+              "sha256": "0894edbe237c099d3f8b41e45706ab670fe4559cb1f23b93acab83d552d7cdd6",
+              "size": 228,
+              "source_asset_id": 711507349,
+              "source_updated_at": "2026-11-05T00:48:01Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727379722,
+              "name": "materialcraft-0.1.2-macos-universal.dmg",
+              "sha256": "12b01451ac29a626812eb114d966d053de118f4a9da086f86dd0e0c86158aea7",
+              "size": 20280237,
+              "source_asset_id": 711507364,
+              "source_updated_at": "2026-11-05T00:48:02Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727379879,
+              "name": "materialcraft-0.1.2-windows-arm64-portable.zip",
+              "sha256": "a86d0dfc9da4f96ff4b98d68dc8423aab709a93af2c188783bb191eeaedf258b",
+              "size": 15061352,
+              "source_asset_id": 711507376,
+              "source_updated_at": "2026-11-05T00:48:02Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727380036,
+              "name": "materialcraft-0.1.2-windows-arm64.msi",
+              "sha256": "429c161c4614bea21764ee9f80ce1a17f82cce7608c75ba69d56c9d5ff7e827a",
+              "size": 11001856,
+              "source_asset_id": 711507377,
+              "source_updated_at": "2026-11-05T00:48:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727380192,
+              "name": "materialcraft-0.1.2-windows-x64-portable.zip",
+              "sha256": "f02cb203594420685b1dc81563b80277bc5b37ac2a0ac0017f79240de2593865",
+              "size": 16291786,
+              "source_asset_id": 711507381,
+              "source_updated_at": "2026-11-05T00:48:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727380376,
+              "name": "materialcraft-0.1.2-windows-x64.msi",
+              "sha256": "f52a2c3a83761570e0de6345f2623547f038c0ab337f7ac94b1a7096009a1ee2",
+              "size": 12214272,
+              "source_asset_id": 711507390,
+              "source_updated_at": "2026-11-05T00:48:02Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727380526,
+              "name": "materialcraft-0.1.2-windows-x86-portable.zip",
+              "sha256": "984e124acd80fe78fe10f4580e7e6ffd50e36097615b00e309cc0c380d16b5d6",
+              "size": 15135028,
+              "source_asset_id": 711507428,
+              "source_updated_at": "2026-11-05T00:48:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727380652,
+              "name": "materialcraft-0.1.2-windows-x86.msi",
+              "sha256": "ad0cbd59b40b637b048150940f04201f3dd333daaeb74202d499521b792e02d7",
+              "size": 11640832,
+              "source_asset_id": 711507433,
+              "source_updated_at": "2026-11-05T00:48:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727380776,
+              "name": "materialcraft-cli-0.1.2-macos-universal.zip",
+              "sha256": "e734037da5dfd41a5ebf5324d2a09b7f945281e71c1097cea0277b5a0a06a011",
+              "size": 9394299,
+              "source_asset_id": 711507452,
+              "source_updated_at": "2026-11-05T00:48:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727380892,
+              "name": "materialcraft-web-0.1.2.zip",
+              "sha256": "06d7eff5979f8bcb5d7cf0dc0b0b806000f6f2397ca945fb3b48f25f0a05cf87",
+              "size": 4318199,
+              "source_asset_id": 711507470,
+              "source_updated_at": "2026-11-05T00:48:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727381023,
+              "name": "release-signing-key.asc",
+              "sha256": "8e6925a173d6a7134118da099948de4d9eeec7c1c0770998aec33c9d3f484740",
+              "size": 803,
+              "source_asset_id": 711507483,
+              "source_updated_at": "2026-11-05T00:48:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727381121,
+              "name": "SHA256SUMS.txt",
+              "sha256": "771666b55f8fd76b931a660f3a1ff794428f1b6daa30bcc679626b48e467155b",
+              "size": 5430,
+              "source_asset_id": 711513286,
+              "source_updated_at": "2026-11-05T00:50:31Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727381206,
+              "name": "SHA256SUMS.txt.asc",
+              "sha256": "a6dd1251c1df356d6c89c871cc70a758e87a79cd8cfca71caf4ddaf1f5c98585",
+              "size": 228,
+              "source_asset_id": 712249664,
+              "source_updated_at": "2026-11-05T05:52:27Z",
+              "status": "synced"
+            }
+          ],
+          "dest_release_id": 439096086,
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/materialcraft--v0.1.2",
+          "dest_tag": "materialcraft--v0.1.2",
+          "error": null,
+          "prerelease": false,
+          "published_at": "2026-11-05T01:24:43Z",
+          "source_tag": "v0.1.2",
+          "stale_assets": [],
+          "title": "[MaterialCraft] MaterialCraft v0.1.2",
+          "upstream_release_id": 434603784,
+          "upstream_release_url": "https://github.com/storytold/materialcraft/releases/tag/v0.1.2"
+        },
+        {
+          "action": "synced",
+          "assets": [
+            {
+              "dest_asset_id": 727368394,
+              "name": "materialcraft-0.1.1-freebsd-aarch64.tar.gz",
+              "sha256": "b2b5618949737b774cbf665200df642c0fc3d24f7afea5c8ef665a8f687cf615",
+              "size": 15427894,
+              "source_asset_id": 710427952,
+              "source_updated_at": "2026-11-04T18:08:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727368628,
+              "name": "materialcraft-0.1.1-freebsd-x86_64.tar.gz",
+              "sha256": "440526c28a9fa111f42f991162c5f170063f05bc6cb620723c49113c51a9b36d",
+              "size": 16854866,
+              "source_asset_id": 710427953,
+              "source_updated_at": "2026-11-04T18:08:34Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727368841,
+              "name": "materialcraft-0.1.1-linux-aarch64.AppImage",
+              "sha256": "6ec1e82adfcd1acad7ee542c0faaec32a4551081454da90603d3931955b72282",
+              "size": 15264264,
+              "source_asset_id": 710426636,
+              "source_updated_at": "2026-11-04T18:08:08Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727368997,
+              "name": "materialcraft-0.1.1-linux-aarch64.AppImage.asc",
+              "sha256": "e9a9e0081267fc0e2ce7f67480fb6e9008ba72ee1a23abd72ea50375709961a1",
+              "size": 228,
+              "source_asset_id": 710426673,
+              "source_updated_at": "2026-11-04T18:08:08Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369090,
+              "name": "materialcraft-0.1.1-linux-aarch64.AppImage.zsync",
+              "sha256": "5251045d7098fe5a23cd009a426fbc3a03d75a55fdc337b4006c4c2fd41fd76b",
+              "size": 52433,
+              "source_asset_id": 710426674,
+              "source_updated_at": "2026-11-04T18:08:08Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369202,
+              "name": "materialcraft-0.1.1-linux-aarch64.AppImage.zsync.asc",
+              "sha256": "5e220ca960635b0d3e874223c22ffed6724354c869384680c42a575756499896",
+              "size": 228,
+              "source_asset_id": 710426693,
+              "source_updated_at": "2026-11-04T18:08:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369300,
+              "name": "materialcraft-0.1.1-linux-aarch64.deb",
+              "sha256": "4628b1f86df4e596ea73be50cf5c099b39a3502c365f27781283f82307e66e53",
+              "size": 16512980,
+              "source_asset_id": 710426695,
+              "source_updated_at": "2026-11-04T18:08:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369432,
+              "name": "materialcraft-0.1.1-linux-aarch64.deb.asc",
+              "sha256": "a3225ff6ec54c35176da6c2901c26be61ef6dab60678400450fd1ae38a5faf3e",
+              "size": 228,
+              "source_asset_id": 710426699,
+              "source_updated_at": "2026-11-04T18:08:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369515,
+              "name": "materialcraft-0.1.1-linux-aarch64.flatpak",
+              "sha256": "a64280ed7c9aba2261847605a9c3591aa23b44c023056056357fc6a232b65aa2",
+              "size": 10239744,
+              "source_asset_id": 710426698,
+              "source_updated_at": "2026-11-04T18:08:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369621,
+              "name": "materialcraft-0.1.1-linux-aarch64.flatpak.asc",
+              "sha256": "0d7349193ad1dec1a915f25ddc48ef49b852e4d134c2a53ee90f67775f06938e",
+              "size": 228,
+              "source_asset_id": 710426700,
+              "source_updated_at": "2026-11-04T18:08:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369692,
+              "name": "materialcraft-0.1.1-linux-aarch64.oci-manifest.json",
+              "sha256": "29203a79dd63388085c3b01f1f520ee860a99e83aa0f7fb828deb896d6617990",
+              "size": 493,
+              "source_asset_id": 710426736,
+              "source_updated_at": "2026-11-04T18:08:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369773,
+              "name": "materialcraft-0.1.1-linux-aarch64.oci.sig",
+              "sha256": "c6cd77711720c82c05d085036f1af4c685d46120b56839b781146860e2b0a602",
+              "size": 385,
+              "source_asset_id": 710426740,
+              "source_updated_at": "2026-11-04T18:08:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369837,
+              "name": "materialcraft-0.1.1-linux-aarch64.pkg.tar.zst",
+              "sha256": "831ac85eca847a7842cd9220da6c0ce5d96220f461ec3c8f64659792b1812ee7",
+              "size": 9962019,
+              "source_asset_id": 710426742,
+              "source_updated_at": "2026-11-04T18:08:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369936,
+              "name": "materialcraft-0.1.1-linux-aarch64.pkg.tar.zst.sig",
+              "sha256": "fb2a61f30304d68c09b0d2c8d4c06c572c3bc115ef437701a55d78be108969b0",
+              "size": 119,
+              "source_asset_id": 710426758,
+              "source_updated_at": "2026-11-04T18:08:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370018,
+              "name": "materialcraft-0.1.1-linux-aarch64.rpm",
+              "sha256": "1d0b74452eda365c31670c814821522f73821566004f244717fb5cd38412e7a3",
+              "size": 16349882,
+              "source_asset_id": 710426761,
+              "source_updated_at": "2026-11-04T18:08:11Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370101,
+              "name": "materialcraft-0.1.1-linux-aarch64.rpm.asc",
+              "sha256": "8d56edcb42ecd5dae527e3926e524c4e79669e5cb849757fe1f93fc79847ece6",
+              "size": 228,
+              "source_asset_id": 710426773,
+              "source_updated_at": "2026-11-04T18:08:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370188,
+              "name": "materialcraft-0.1.1-linux-aarch64.tar.gz",
+              "sha256": "2e1fca076943a9229060bd08ab2f6c74d137b56a64505c5cecf4b977365732f8",
+              "size": 15739613,
+              "source_asset_id": 710426801,
+              "source_updated_at": "2026-11-04T18:08:11Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370304,
+              "name": "materialcraft-0.1.1-linux-aarch64.tar.gz.asc",
+              "sha256": "5546933289c2216501365d59d210787db108386ccae7f5f185ecc24c03a03c50",
+              "size": 228,
+              "source_asset_id": 710426816,
+              "source_updated_at": "2026-11-04T18:08:11Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370412,
+              "name": "materialcraft-0.1.1-linux-riscv64.deb",
+              "sha256": "0bf6504ef5df744d02208e9cd0fe026e99afe2f79ab486b0ddd9e22a2f4ced6d",
+              "size": 17048568,
+              "source_asset_id": 710426813,
+              "source_updated_at": "2026-11-04T18:08:12Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370564,
+              "name": "materialcraft-0.1.1-linux-riscv64.deb.asc",
+              "sha256": "094db2d7611f1df1be616bd72a0165b1cc6bee5d6abaa8ce758627dce7ceca20",
+              "size": 228,
+              "source_asset_id": 710426820,
+              "source_updated_at": "2026-11-04T18:08:11Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370655,
+              "name": "materialcraft-0.1.1-linux-riscv64.rpm",
+              "sha256": "bd6dd32b6f09a1e370c0182e41457c049c588b8dd0047ce8e6f8413f7cb6d7af",
+              "size": 17020082,
+              "source_asset_id": 710426853,
+              "source_updated_at": "2026-11-04T18:08:12Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370792,
+              "name": "materialcraft-0.1.1-linux-riscv64.rpm.asc",
+              "sha256": "82c1a903f7625c360935d6667fe98919628d0b501b06e55b6b77fed7fd72d01a",
+              "size": 228,
+              "source_asset_id": 710426861,
+              "source_updated_at": "2026-11-04T18:08:12Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370870,
+              "name": "materialcraft-0.1.1-linux-riscv64.tar.gz",
+              "sha256": "d07049057081f53df7ababdf7c93c6be92832ca39e0994872fe7fffd801c3691",
+              "size": 16677914,
+              "source_asset_id": 710426862,
+              "source_updated_at": "2026-11-04T18:08:13Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370984,
+              "name": "materialcraft-0.1.1-linux-riscv64.tar.gz.asc",
+              "sha256": "75bf9946749c786cfff93ec1cda46314739638d1558561fb70b236e9234cfcf0",
+              "size": 228,
+              "source_asset_id": 710426888,
+              "source_updated_at": "2026-11-04T18:08:12Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371062,
+              "name": "materialcraft-0.1.1-linux-x86_64.AppImage",
+              "sha256": "71a2b75e7d2c88cbcbee63e9eb1dec3b460895fe758dd172f066622e6e65b870",
+              "size": 16300536,
+              "source_asset_id": 710426914,
+              "source_updated_at": "2026-11-04T18:08:14Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371168,
+              "name": "materialcraft-0.1.1-linux-x86_64.AppImage.asc",
+              "sha256": "920309fbb49e08cf5a9e977aa1dd70216d19f7df806588ad99a54342b3f1ba2f",
+              "size": 228,
+              "source_asset_id": 710426922,
+              "source_updated_at": "2026-11-04T18:08:13Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371256,
+              "name": "materialcraft-0.1.1-linux-x86_64.AppImage.zsync",
+              "sha256": "14275f4e5afd2f061fc45d9e2d4be6e5c715361429b2be1e22fd019b81562305",
+              "size": 55973,
+              "source_asset_id": 710426925,
+              "source_updated_at": "2026-11-04T18:08:13Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371333,
+              "name": "materialcraft-0.1.1-linux-x86_64.AppImage.zsync.asc",
+              "sha256": "2b86c02c10312af1ce38872da86d04848176baa482adf3b5e411a771499b61b2",
+              "size": 228,
+              "source_asset_id": 710426943,
+              "source_updated_at": "2026-11-04T18:08:13Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371475,
+              "name": "materialcraft-0.1.1-linux-x86_64.deb",
+              "sha256": "5b0af828bd3a6c727bbc56b8d0ceec5af1398cd5770b2d1549dc20dae096b617",
+              "size": 17297174,
+              "source_asset_id": 710426949,
+              "source_updated_at": "2026-11-04T18:08:14Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371600,
+              "name": "materialcraft-0.1.1-linux-x86_64.deb.asc",
+              "sha256": "37acaab3beec9be153bd67d6842cb1b9e9a28657fd057719868945d23fc0f5ca",
+              "size": 228,
+              "source_asset_id": 710426960,
+              "source_updated_at": "2026-11-04T18:08:14Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371741,
+              "name": "materialcraft-0.1.1-linux-x86_64.flatpak",
+              "sha256": "cfd03b868bf6950ba9652d1472c7b36f18bfee96d1402c814647c7cff5b0a9db",
+              "size": 11603088,
+              "source_asset_id": 710426963,
+              "source_updated_at": "2026-11-04T18:08:14Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371844,
+              "name": "materialcraft-0.1.1-linux-x86_64.flatpak.asc",
+              "sha256": "d295285e4e3f16465f6af0da3c32d59ef7f0b28a1b209a761ca38fb32b8e1322",
+              "size": 228,
+              "source_asset_id": 710426970,
+              "source_updated_at": "2026-11-04T18:08:14Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371908,
+              "name": "materialcraft-0.1.1-linux-x86_64.oci-manifest.json",
+              "sha256": "cd437ccedf4ca8e7ff36ad821c2948d8983db71e8474ac56ee7d871c8d3d8ffe",
+              "size": 493,
+              "source_asset_id": 710427000,
+              "source_updated_at": "2026-11-04T18:08:14Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371992,
+              "name": "materialcraft-0.1.1-linux-x86_64.oci.sig",
+              "sha256": "834f66d7486d723fe08f9148816e7e425db024101b654bea998e8e88293be572",
+              "size": 382,
+              "source_asset_id": 710427002,
+              "source_updated_at": "2026-11-04T18:08:14Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727372090,
+              "name": "materialcraft-0.1.1-linux-x86_64.pkg.tar.zst",
+              "sha256": "256007fcf09b322f389a518a8302f2922485883b007de2db28f94e6c9a2551cf",
+              "size": 10558906,
+              "source_asset_id": 710427008,
+              "source_updated_at": "2026-11-04T18:08:15Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727372219,
+              "name": "materialcraft-0.1.1-linux-x86_64.pkg.tar.zst.sig",
+              "sha256": "6e5ac7896f650cfc327bb57d412aa0eae88b28398911244136aac0de2aeec933",
+              "size": 119,
+              "source_asset_id": 710427025,
+              "source_updated_at": "2026-11-04T18:08:15Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727372318,
+              "name": "materialcraft-0.1.1-linux-x86_64.rpm",
+              "sha256": "ec4da682e91a626f20bb37a57150c187579aece8b363c4dc70e6b7ab53efa480",
+              "size": 17194279,
+              "source_asset_id": 710427028,
+              "source_updated_at": "2026-11-04T18:08:16Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727372460,
+              "name": "materialcraft-0.1.1-linux-x86_64.rpm.asc",
+              "sha256": "0d339c4daf42feb9be3e0ba2467d49332acea10e38b61eb2425751ed24f693f8",
+              "size": 228,
+              "source_asset_id": 710427032,
+              "source_updated_at": "2026-11-04T18:08:15Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727372548,
+              "name": "materialcraft-0.1.1-linux-x86_64.tar.gz",
+              "sha256": "161b9c4bce09ea15c136fe1bf58bbb0342a90f7470b47101c82cd6f1ba0521b9",
+              "size": 16892219,
+              "source_asset_id": 710427047,
+              "source_updated_at": "2026-11-04T18:08:16Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727372685,
+              "name": "materialcraft-0.1.1-linux-x86_64.tar.gz.asc",
+              "sha256": "814cf2e5f880c7886c67ac42a1c8bb838dc0de6afaa9f1c20b51f328c8c2ae76",
+              "size": 228,
+              "source_asset_id": 710427073,
+              "source_updated_at": "2026-11-04T18:08:16Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727372780,
+              "name": "materialcraft-0.1.1-macos-universal.dmg",
+              "sha256": "5fba4d8222a7e63a1f27b45ded366091be2561b8d6c0bd5b3a2928c29d83d7d4",
+              "size": 20277786,
+              "source_asset_id": 710427075,
+              "source_updated_at": "2026-11-04T18:08:17Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727372931,
+              "name": "materialcraft-0.1.1-windows-arm64-portable.zip",
+              "sha256": "284c89a497f4f3dcaeba1b6bf48fb59781ac789b1395cd37a7a08149edd92a34",
+              "size": 15056632,
+              "source_asset_id": 710427078,
+              "source_updated_at": "2026-11-04T18:08:17Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727373115,
+              "name": "materialcraft-0.1.1-windows-arm64.msi",
+              "sha256": "ff8a6f4715131d885d8fbfccc303f01aef8a5477468531667f988c787c8d3484",
+              "size": 10993664,
+              "source_asset_id": 710427112,
+              "source_updated_at": "2026-11-04T18:08:17Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727373249,
+              "name": "materialcraft-0.1.1-windows-x64-portable.zip",
+              "sha256": "0223618c0be89336ca09c0e8fb13577ddc66462b88fa230e32d41cbdd8420e67",
+              "size": 16291419,
+              "source_asset_id": 710427114,
+              "source_updated_at": "2026-11-04T18:08:18Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727373408,
+              "name": "materialcraft-0.1.1-windows-x64.msi",
+              "sha256": "293cde6453bf66312844d60c727cc7e541907788c651ac3eb8c742e599b5ac85",
+              "size": 12218368,
+              "source_asset_id": 710427117,
+              "source_updated_at": "2026-11-04T18:08:18Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727373533,
+              "name": "materialcraft-0.1.1-windows-x86-portable.zip",
+              "sha256": "010425e261ad218b53e7f1733beca2cde32b0fd423ce2f87a09a6ec9b2391237",
+              "size": 15135473,
+              "source_asset_id": 710427153,
+              "source_updated_at": "2026-11-04T18:08:18Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727373667,
+              "name": "materialcraft-0.1.1-windows-x86.msi",
+              "sha256": "c3473149a565917c96332b47fe1c3ba10a60169e8ff9e82f51377f64b935f429",
+              "size": 11644928,
+              "source_asset_id": 710427169,
+              "source_updated_at": "2026-11-04T18:08:19Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727373760,
+              "name": "materialcraft-cli-0.1.1-macos-universal.zip",
+              "sha256": "abe56dc6d74658e009750676d69323449d5d7a9b9fcc9641ac6bc4b9f9df9d33",
+              "size": 9392388,
+              "source_asset_id": 710427181,
+              "source_updated_at": "2026-11-04T18:08:19Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727373877,
+              "name": "materialcraft-web-0.1.1.zip",
+              "sha256": "b534e17e722ed54a50e433d7f781bfc9957fd09432d29401c2dffe77de977eb9",
+              "size": 4317249,
+              "source_asset_id": 710427194,
+              "source_updated_at": "2026-11-04T18:08:19Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727373983,
+              "name": "release-signing-key.asc",
+              "sha256": "8e6925a173d6a7134118da099948de4d9eeec7c1c0770998aec33c9d3f484740",
+              "size": 803,
+              "source_asset_id": 710427201,
+              "source_updated_at": "2026-11-04T18:08:19Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727374056,
+              "name": "SHA256SUMS.txt",
+              "sha256": "4b252884ad7c08f206729fd4b7184f716bda62966f2b4fb8c5691ee2296cded9",
+              "size": 5430,
+              "source_asset_id": 710427966,
+              "source_updated_at": "2026-11-04T18:08:33Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727374133,
+              "name": "SHA256SUMS.txt.asc",
+              "sha256": "a58ff1a423d5380f8fe925cdbe62ec274c2ed6a768919734c243ae7a28731700",
+              "size": 228,
+              "source_asset_id": 710426642,
+              "source_updated_at": "2026-11-04T18:08:07Z",
+              "status": "synced"
+            }
+          ],
+          "dest_release_id": 439094422,
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/materialcraft--v0.1.1",
+          "dest_tag": "materialcraft--v0.1.1",
+          "error": null,
+          "prerelease": false,
+          "published_at": "2026-11-04T18:08:56Z",
+          "source_tag": "v0.1.1",
+          "stale_assets": [],
+          "title": "[MaterialCraft] MaterialCraft v0.1.1",
+          "upstream_release_id": 434272090,
+          "upstream_release_url": "https://github.com/storytold/materialcraft/releases/tag/v0.1.1"
+        },
+        {
+          "action": "synced",
+          "assets": [
+            {
+              "dest_asset_id": 727363915,
+              "name": "materialcraft-0.1.0-freebsd-aarch64.tar.gz",
+              "sha256": "4751c2b4de54bfd68d05f68d794f93e86dfacac6cfa6febe9760ef149c08a89e",
+              "size": 15105051,
+              "source_asset_id": 700984333,
+              "source_updated_at": "2026-11-02T08:03:51Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727364037,
+              "name": "materialcraft-0.1.0-freebsd-x86_64.tar.gz",
+              "sha256": "1a9908145aa799662edc637f45d519bf67dadec8a927c8ecc6956090cafa515d",
+              "size": 16504464,
+              "source_asset_id": 700984336,
+              "source_updated_at": "2026-11-02T08:03:51Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727364211,
+              "name": "materialcraft-0.1.0-linux-aarch64.AppImage",
+              "sha256": "faaec0787586ff3cce4244719088fc981d5ad197cad2049c948b358a196fcde0",
+              "size": 14961160,
+              "source_asset_id": 700983398,
+              "source_updated_at": "2026-11-02T08:03:25Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727364336,
+              "name": "materialcraft-0.1.0-linux-aarch64.AppImage.zsync",
+              "sha256": "07f207d38a941cfe3f19d9c3d037fbf137fe7673afa2522e2a452727d66b6480",
+              "size": 51397,
+              "source_asset_id": 700983400,
+              "source_updated_at": "2026-11-02T08:03:24Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727364456,
+              "name": "materialcraft-0.1.0-linux-aarch64.deb",
+              "sha256": "46d6ec5ec3ee3309c515b6afb327af5e69f7aa8a2bdb7e8e76c4413576bc3cb6",
+              "size": 16179216,
+              "source_asset_id": 700983419,
+              "source_updated_at": "2026-11-02T08:03:25Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727364601,
+              "name": "materialcraft-0.1.0-linux-aarch64.flatpak",
+              "sha256": "5aaab412d10c902394404bd80bcd84be7c1831842146e14ed001988264310333",
+              "size": 9980720,
+              "source_asset_id": 700983417,
+              "source_updated_at": "2026-11-02T08:03:25Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727364761,
+              "name": "materialcraft-0.1.0-linux-aarch64.pkg.tar.zst",
+              "sha256": "403d53f5ba454b5a45b7f4dd8bc32eac9cc677e73fa2b0c0f4f17fff62c28aa4",
+              "size": 9808436,
+              "source_asset_id": 700983453,
+              "source_updated_at": "2026-11-02T08:03:26Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727364872,
+              "name": "materialcraft-0.1.0-linux-aarch64.rpm",
+              "sha256": "2d70cb32a150539fbfe99f2a3a8b2e19c3932c639563be6072e3a3cb0ea053e6",
+              "size": 16019918,
+              "source_asset_id": 700983456,
+              "source_updated_at": "2026-11-02T08:03:26Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727365037,
+              "name": "materialcraft-0.1.0-linux-aarch64.tar.gz",
+              "sha256": "0bd602258cf507246baaf4a2377853238c99d9949aba4b66d7f93848eb4addb1",
+              "size": 15421818,
+              "source_asset_id": 700983455,
+              "source_updated_at": "2026-11-02T08:03:26Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727365164,
+              "name": "materialcraft-0.1.0-linux-riscv64.deb",
+              "sha256": "a5a3f5bf301a137018555f9747b7f4a4655be9883abac2915fce657401d342b5",
+              "size": 16712730,
+              "source_asset_id": 700983467,
+              "source_updated_at": "2026-11-02T08:03:27Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727365301,
+              "name": "materialcraft-0.1.0-linux-riscv64.rpm",
+              "sha256": "4530ccb89c9781d8eaacca36fa578f023527c9d4195ac6db9604af8e82c760c4",
+              "size": 16687393,
+              "source_asset_id": 700983477,
+              "source_updated_at": "2026-11-02T08:03:27Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727365454,
+              "name": "materialcraft-0.1.0-linux-riscv64.tar.gz",
+              "sha256": "c84435d04b2e00743127b3121c24bd4b2f6ef2aae9306153291763b2631a2e89",
+              "size": 16347387,
+              "source_asset_id": 700983500,
+              "source_updated_at": "2026-11-02T08:03:27Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727365675,
+              "name": "materialcraft-0.1.0-linux-x86_64.AppImage",
+              "sha256": "583cb97df491ad280e725ff67b2a07a88324f27390fc101a578b2682ce94e352",
+              "size": 15968760,
+              "source_asset_id": 700983527,
+              "source_updated_at": "2026-11-02T08:03:28Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727365799,
+              "name": "materialcraft-0.1.0-linux-x86_64.AppImage.zsync",
+              "sha256": "ac0ee7d4cd10f848df0ec625fde83d4ea95892752d193f0bb6c37163bf063750",
+              "size": 54839,
+              "source_asset_id": 700983528,
+              "source_updated_at": "2026-11-02T08:03:27Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727365880,
+              "name": "materialcraft-0.1.0-linux-x86_64.deb",
+              "sha256": "5b55b9c5a18f4addfbf8b895e32553f54a34b35fff40cf7035af92e2a81138bf",
+              "size": 16937254,
+              "source_asset_id": 700983554,
+              "source_updated_at": "2026-11-02T08:03:28Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727366043,
+              "name": "materialcraft-0.1.0-linux-x86_64.flatpak",
+              "sha256": "c74f1df1efbee501c96823c9df429799def655f97dc618b33759874f3a372358",
+              "size": 11300936,
+              "source_asset_id": 700983569,
+              "source_updated_at": "2026-11-02T08:03:28Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727366139,
+              "name": "materialcraft-0.1.0-linux-x86_64.pkg.tar.zst",
+              "sha256": "407cc073876137f699a5c82d00931e52a4e2a6dad1664de835c43ecca9dad559",
+              "size": 10393180,
+              "source_asset_id": 700983568,
+              "source_updated_at": "2026-11-02T08:03:28Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727366289,
+              "name": "materialcraft-0.1.0-linux-x86_64.rpm",
+              "sha256": "271c97c33a1fba616e09b6f53934cd31c26baa3d03481b2d89402b3c75a1b4a3",
+              "size": 16836100,
+              "source_asset_id": 700983577,
+              "source_updated_at": "2026-11-02T08:03:29Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727366453,
+              "name": "materialcraft-0.1.0-linux-x86_64.tar.gz",
+              "sha256": "67d051eeb2477021b3a4ed7c66b8fcb6312bcadbcaf44c9d643ab379e6740091",
+              "size": 16544243,
+              "source_asset_id": 700983589,
+              "source_updated_at": "2026-11-02T08:03:29Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727366656,
+              "name": "materialcraft-0.1.0-macos-universal.dmg",
+              "sha256": "ee8e7ff35c9443b207d6cc359ae6b5fe495e9a9201c56dd4374c1fb8288bb2a2",
+              "size": 19893640,
+              "source_asset_id": 700983615,
+              "source_updated_at": "2026-11-02T08:03:30Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727366777,
+              "name": "materialcraft-0.1.0-windows-arm64-portable.zip",
+              "sha256": "c8fd650c17db3f618b8d20307da8ae49464647dde25e3191f8e4155eacac9859",
+              "size": 14720229,
+              "source_asset_id": 700983621,
+              "source_updated_at": "2026-11-02T08:03:30Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727366936,
+              "name": "materialcraft-0.1.0-windows-arm64.msi",
+              "sha256": "ad84826d9fc4e3c0058e59df3f17bc178ff6edca60628b02805f7e6ac5886657",
+              "size": 10743808,
+              "source_asset_id": 700983627,
+              "source_updated_at": "2026-11-02T08:03:30Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727367062,
+              "name": "materialcraft-0.1.0-windows-x64-portable.zip",
+              "sha256": "38709dd7d1e6e4af639637dcac2514add40a8522e1187711b65271e1b5ddf23b",
+              "size": 15914198,
+              "source_asset_id": 700983649,
+              "source_updated_at": "2026-11-02T08:03:30Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727367250,
+              "name": "materialcraft-0.1.0-windows-x64.msi",
+              "sha256": "3dca9a43e12315f7030b586b6862c5e89e4d31279809b348939ee449b6ad1b82",
+              "size": 11939840,
+              "source_asset_id": 700983658,
+              "source_updated_at": "2026-11-02T08:03:30Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727367415,
+              "name": "materialcraft-0.1.0-windows-x86-portable.zip",
+              "sha256": "dc2172279ed90fac055118fa0ac0f32a2907738825a7222546ce28f42780e84d",
+              "size": 14788906,
+              "source_asset_id": 700983691,
+              "source_updated_at": "2026-11-02T08:03:31Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727367515,
+              "name": "materialcraft-0.1.0-windows-x86.msi",
+              "sha256": "651d343919d821d1ddcf88dc09e71a26c84cd702f9842dc2be0197ec7e399704",
+              "size": 11366400,
+              "source_asset_id": 700983701,
+              "source_updated_at": "2026-11-02T08:03:31Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727367640,
+              "name": "materialcraft-cli-0.1.0-macos-universal.zip",
+              "sha256": "ee04f95f70e0e00137f1cdf680131a69720a4c5696755c383430acaba5e6a9ae",
+              "size": 9069185,
+              "source_asset_id": 700983714,
+              "source_updated_at": "2026-11-02T08:03:31Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727367795,
+              "name": "materialcraft-web-0.1.0.zip",
+              "sha256": "b9362c39f0d5523aa5c7d34eac49dd314a5ca19c21722b49f953b909bc766b38",
+              "size": 4233021,
+              "source_asset_id": 700983716,
+              "source_updated_at": "2026-11-02T08:03:31Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727367923,
+              "name": "SHA256SUMS.txt",
+              "sha256": "f978d5882def19023d9c0818a8a05782f8ffe19081a8719223ee5d2df358caeb",
+              "size": 2996,
+              "source_asset_id": 700984337,
+              "source_updated_at": "2026-11-02T08:03:50Z",
+              "status": "synced"
+            }
+          ],
+          "dest_release_id": 439093150,
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/materialcraft--v0.1.0",
+          "dest_tag": "materialcraft--v0.1.0",
+          "error": null,
+          "prerelease": false,
+          "published_at": "2026-11-03T00:09:14Z",
+          "source_tag": "v0.1.0",
+          "stale_assets": [],
+          "title": "[MaterialCraft] MaterialCraft v0.1.0",
+          "upstream_release_id": 431183111,
+          "upstream_release_url": "https://github.com/storytold/materialcraft/releases/tag/v0.1.0"
+        }
+      ],
+      "repository": "storytold/materialcraft",
+      "slug": "materialcraft",
+      "status": "success",
+      "tags": {
+        "invalid": [],
+        "processed": 5,
+        "sanitized": 5,
+        "stale": []
+      },
+      "upstream_default_branch": "main",
+      "upstream_head_sha": "7476e99d1f880b773e5c38a0bdea426a8f1ef579"
+    },
     "photocraft": {
       "auto_sync": true,
       "destination_branch": "photocraft",
@@ -30028,6 +32255,6 @@
     }
   },
   "destination": "ZuanCrisp/Craft-Suite",
-  "generated_at": "2026-11-09T11:35:44Z",
+  "generated_at": "2026-11-09T12:22:41Z",
   "schema_version": 1
 }
