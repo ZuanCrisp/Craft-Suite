@@ -102,6 +102,23 @@
       "status": "success",
       "upstream_default_branch": "main"
     },
+    "texturecraft": {
+      "destination_branch": "texturecraft",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/texturecraft--v0.5.0",
+        "destination_tag": "texturecraft--v0.5.0",
+        "published_at": "2026-11-09T11:52:51Z",
+        "source_tag": "v0.5.0",
+        "upstream_release_id": 439072646,
+        "upstream_release_url": "https://github.com/storytold/texturecraft/releases/tag/v0.5.0"
+      },
+      "name": "TextureCraft",
+      "release_count": 7,
+      "repository": "storytold/texturecraft",
+      "status": "success",
+      "upstream_default_branch": "main"
+    },
     "vectorcraft": {
       "destination_branch": "vectorcraft",
       "latest_prerelease": null,
@@ -120,6 +137,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T12:22:41Z",
+  "generated_at": "2026-11-09T12:25:53Z",
   "schema_version": 1
 }

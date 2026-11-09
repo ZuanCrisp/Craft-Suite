@@ -26043,6 +26043,2544 @@
       "upstream_default_branch": "main",
       "upstream_head_sha": "3f6703f87f28de38305fc66439abd85f1adf3368"
     },
+    "texturecraft": {
+      "auto_sync": true,
+      "destination_branch": "texturecraft",
+      "destination_head_sha": "117f9bc38bf72f31dba0abac3bcdbe003dc34497",
+      "enabled": true,
+      "errors": [],
+      "last_success_at": "2026-11-09T12:25:53Z",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/texturecraft--v0.5.0",
+        "destination_tag": "texturecraft--v0.5.0",
+        "published_at": "2026-11-09T11:52:51Z",
+        "source_tag": "v0.5.0",
+        "upstream_release_id": 439072646,
+        "upstream_release_url": "https://github.com/storytold/texturecraft/releases/tag/v0.5.0"
+      },
+      "lfs": "not_used",
+      "name": "TextureCraft",
+      "releases": [
+        {
+          "action": "synced",
+          "assets": [
+            {
+              "dest_asset_id": 727396971,
+              "name": "release-signing-key.asc",
+              "sha256": "8e6925a173d6a7134118da099948de4d9eeec7c1c0770998aec33c9d3f484740",
+              "size": 803,
+              "source_asset_id": 727304412,
+              "source_updated_at": "2026-11-09T11:52:01Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727397031,
+              "name": "SHA256SUMS.txt",
+              "sha256": "3906c6bdbf9c4cec8bedbd47429f55927bcfe9ebc8b45fca90685073d8282d33",
+              "size": 5170,
+              "source_asset_id": 727304415,
+              "source_updated_at": "2026-11-09T11:52:01Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727397113,
+              "name": "SHA256SUMS.txt.asc",
+              "sha256": "9fd33a1329077b702319ee36714a232d86ed54995cc62d0b60a81eba131820ad",
+              "size": 228,
+              "source_asset_id": 727304424,
+              "source_updated_at": "2026-11-09T11:52:01Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727397187,
+              "name": "texturecraft-0.5.0-freebsd-aarch64.tar.gz",
+              "sha256": "a19b82b9097b41628148dffa79954b98a4bb76b9fd1a66138d1cd8767d3e3447",
+              "size": 40164948,
+              "source_asset_id": 727304418,
+              "source_updated_at": "2026-11-09T11:52:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727397387,
+              "name": "texturecraft-0.5.0-freebsd-x86_64.tar.gz",
+              "sha256": "e7346d0fe11b88feb1f19e5ea90537561861a6e1c0c7aea4f0f6ef97d52f3c2f",
+              "size": 42331475,
+              "source_asset_id": 727304414,
+              "source_updated_at": "2026-11-09T11:52:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727397511,
+              "name": "texturecraft-0.5.0-linux-aarch64.AppImage",
+              "sha256": "44389b88e5c215a822abf6a9cf43573bf4c5543aa0960e0532af13c2171ab32e",
+              "size": 39127560,
+              "source_asset_id": 727304437,
+              "source_updated_at": "2026-11-09T11:52:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727397618,
+              "name": "texturecraft-0.5.0-linux-aarch64.AppImage.asc",
+              "sha256": "884efd7f1236160d1a19f0f69d503121f9d33857b2a910261214c7d65457fe26",
+              "size": 228,
+              "source_asset_id": 727304445,
+              "source_updated_at": "2026-11-09T11:52:02Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727397674,
+              "name": "texturecraft-0.5.0-linux-aarch64.AppImage.zsync",
+              "sha256": "7b249102c7538ca60bc47a64f7ac0347344273df48557e2bc634849a865001c3",
+              "size": 133995,
+              "source_asset_id": 727304465,
+              "source_updated_at": "2026-11-09T11:52:02Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727397730,
+              "name": "texturecraft-0.5.0-linux-aarch64.AppImage.zsync.asc",
+              "sha256": "358427a07a6fbbd2467603acb727cab45df38a826178e6c3780dfa1b7d2d7ff8",
+              "size": 228,
+              "source_asset_id": 727304505,
+              "source_updated_at": "2026-11-09T11:52:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727397829,
+              "name": "texturecraft-0.5.0-linux-aarch64.deb",
+              "sha256": "98132ec7e32edbe038bad484003571f8333151478336b8d53091feed0a9876cf",
+              "size": 41970920,
+              "source_asset_id": 727304530,
+              "source_updated_at": "2026-11-09T11:52:05Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727398010,
+              "name": "texturecraft-0.5.0-linux-aarch64.deb.asc",
+              "sha256": "d07572fb1cd0f7d467de58f8c96787c60369fc5f34c2211e97ac3517ea6cae61",
+              "size": 228,
+              "source_asset_id": 727304557,
+              "source_updated_at": "2026-11-09T11:52:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727398061,
+              "name": "texturecraft-0.5.0-linux-aarch64.flatpak",
+              "sha256": "a4659094e6a4cc9ca1966082ad0a3a0af693de0e4a2296925fb26ef3483d7364",
+              "size": 28956896,
+              "source_asset_id": 727304571,
+              "source_updated_at": "2026-11-09T11:52:05Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727398139,
+              "name": "texturecraft-0.5.0-linux-aarch64.flatpak.asc",
+              "sha256": "84bff3afc0460c25ee8bae6e52e5abbd0392e973283741ec3d56839e7a0c3c6d",
+              "size": 228,
+              "source_asset_id": 727304572,
+              "source_updated_at": "2026-11-09T11:52:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727398191,
+              "name": "texturecraft-0.5.0-linux-aarch64.oci-manifest.json",
+              "sha256": "454e08b7c7b0e885b81ad3c9673d4c70f46d1a2a98baf96ba68ff221d6be770e",
+              "size": 493,
+              "source_asset_id": 727304590,
+              "source_updated_at": "2026-11-09T11:52:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727398268,
+              "name": "texturecraft-0.5.0-linux-aarch64.oci.sig",
+              "sha256": "dbcaadffb2c5eeac8b5c6e6390ba65a0ec349a2bad57247aad9062912746db0c",
+              "size": 390,
+              "source_asset_id": 727304591,
+              "source_updated_at": "2026-11-09T11:52:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727398334,
+              "name": "texturecraft-0.5.0-linux-aarch64.pkg.tar.zst",
+              "sha256": "60f2f284ae06ee5e6d3e56f1ffa6b4b67a039ffc1360e0edf3641c5c62c87822",
+              "size": 32240947,
+              "source_asset_id": 727304598,
+              "source_updated_at": "2026-11-09T11:52:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727398446,
+              "name": "texturecraft-0.5.0-linux-aarch64.pkg.tar.zst.sig",
+              "sha256": "96b74943ec867b80c23cedee70dab137757fcdfcb14e11e9f90a35d2ce4fd661",
+              "size": 119,
+              "source_asset_id": 727304616,
+              "source_updated_at": "2026-11-09T11:52:05Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727398519,
+              "name": "texturecraft-0.5.0-linux-aarch64.rpm",
+              "sha256": "8357c71ed43366904215ef66c88c98c2deb59ba50a6428666815e5961a228c4a",
+              "size": 41628042,
+              "source_asset_id": 727304618,
+              "source_updated_at": "2026-11-09T11:52:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727398633,
+              "name": "texturecraft-0.5.0-linux-aarch64.rpm.asc",
+              "sha256": "66e0558151d2d56d62b3fa091b964c7b757954f3295f6c53f1b3edf248a1059f",
+              "size": 228,
+              "source_asset_id": 727304638,
+              "source_updated_at": "2026-11-09T11:52:06Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727398694,
+              "name": "texturecraft-0.5.0-linux-aarch64.tar.gz",
+              "sha256": "f03fbd48e1a44745be7ebbda9b475eb791638bf05ab4290022796a7edc8e4313",
+              "size": 40716282,
+              "source_asset_id": 727304640,
+              "source_updated_at": "2026-11-09T11:52:08Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727398803,
+              "name": "texturecraft-0.5.0-linux-aarch64.tar.gz.asc",
+              "sha256": "435e69322c5eadcbbc98ae7a486a1aca543fb7f245e3d9c738a0203adf4c3009",
+              "size": 228,
+              "source_asset_id": 727304652,
+              "source_updated_at": "2026-11-09T11:52:06Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727398871,
+              "name": "texturecraft-0.5.0-linux-riscv64.deb",
+              "sha256": "1ac8fa1f3208773e90e8c73f24b7a50fcd69f7283873aee764925a46be4edf0e",
+              "size": 42610992,
+              "source_asset_id": 727304676,
+              "source_updated_at": "2026-11-09T11:52:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727398987,
+              "name": "texturecraft-0.5.0-linux-riscv64.deb.asc",
+              "sha256": "f1fe1f53b1b5cf676c50c62c8862a0965a61a79530d512ae243ab8b28369055e",
+              "size": 228,
+              "source_asset_id": 727304681,
+              "source_updated_at": "2026-11-09T11:52:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727399044,
+              "name": "texturecraft-0.5.0-linux-riscv64.rpm",
+              "sha256": "866dd123cd334ca271cd88f4b61103a76f3b361f90d0010635fd75ee4512c22d",
+              "size": 42458639,
+              "source_asset_id": 727304698,
+              "source_updated_at": "2026-11-09T11:52:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727399161,
+              "name": "texturecraft-0.5.0-linux-riscv64.rpm.asc",
+              "sha256": "452425493704783942ab6f7defec5c87c32b6ea8b7900f60b88aa8b7cf18ea40",
+              "size": 228,
+              "source_asset_id": 727304705,
+              "source_updated_at": "2026-11-09T11:52:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727399218,
+              "name": "texturecraft-0.5.0-linux-riscv64.tar.gz",
+              "sha256": "a8ba6a241e212c20700fa3aa4d57f13bd9f8032f5592f34ca6009265fc47cadb",
+              "size": 41924183,
+              "source_asset_id": 727304724,
+              "source_updated_at": "2026-11-09T11:52:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727399354,
+              "name": "texturecraft-0.5.0-linux-riscv64.tar.gz.asc",
+              "sha256": "08def8694b0dc5ce54739b066718a698f30f9bff32756e647d0fc1089e7f01f0",
+              "size": 228,
+              "source_asset_id": 727304757,
+              "source_updated_at": "2026-11-09T11:52:08Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727399423,
+              "name": "texturecraft-0.5.0-linux-x86_64.AppImage",
+              "sha256": "b28f0a7f695d41f5809fa51b8588d71b9937f3c5f5862ec610907d096ee5cd00",
+              "size": 40708600,
+              "source_asset_id": 727304772,
+              "source_updated_at": "2026-11-09T11:52:11Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727399569,
+              "name": "texturecraft-0.5.0-linux-x86_64.AppImage.asc",
+              "sha256": "98d2407e71e1d7972a65325fdc02ec53a392c540ce2c6411caa1a98aa6854cc7",
+              "size": 228,
+              "source_asset_id": 727304794,
+              "source_updated_at": "2026-11-09T11:52:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727399720,
+              "name": "texturecraft-0.5.0-linux-x86_64.AppImage.zsync",
+              "sha256": "6fc4c09f31d37bb52b2373b6ea7d5452a8499d67b21ad4d79cb29af83bc57b61",
+              "size": 139397,
+              "source_asset_id": 727304798,
+              "source_updated_at": "2026-11-09T11:52:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727399844,
+              "name": "texturecraft-0.5.0-linux-x86_64.AppImage.zsync.asc",
+              "sha256": "d687c797c1545aaecf214cfe0ad06f9d7bdf94d26976733d972288f846051881",
+              "size": 228,
+              "source_asset_id": 727304836,
+              "source_updated_at": "2026-11-09T11:52:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727399933,
+              "name": "texturecraft-0.5.0-linux-x86_64.deb",
+              "sha256": "a9364709e78f479774669f118e732b73f51ba841193b4ffda7d5c02e141e6df6",
+              "size": 43209556,
+              "source_asset_id": 727304834,
+              "source_updated_at": "2026-11-09T11:52:12Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727400130,
+              "name": "texturecraft-0.5.0-linux-x86_64.deb.asc",
+              "sha256": "24546c82216c29f95b6dab47ca04368b4b2470e90299b35f03229d0dacdb5a21",
+              "size": 228,
+              "source_asset_id": 727304858,
+              "source_updated_at": "2026-11-09T11:52:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727400203,
+              "name": "texturecraft-0.5.0-linux-x86_64.flatpak",
+              "sha256": "692e4f8f1cb3f96760d6f2dbc866db295ce64fc7f9b66c06eddab778f1a7cbcd",
+              "size": 31027272,
+              "source_asset_id": 727304869,
+              "source_updated_at": "2026-11-09T11:52:12Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727400400,
+              "name": "texturecraft-0.5.0-linux-x86_64.flatpak.asc",
+              "sha256": "e8286975b50036f714656ddb6f65d8602485b567b6462a0c9aa14978f1d8336a",
+              "size": 228,
+              "source_asset_id": 727304871,
+              "source_updated_at": "2026-11-09T11:52:11Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727400496,
+              "name": "texturecraft-0.5.0-linux-x86_64.oci-manifest.json",
+              "sha256": "985873972227e94e842294a74f9b9ae9bd30130ff04a910b60f32c6adcd25a7f",
+              "size": 493,
+              "source_asset_id": 727304880,
+              "source_updated_at": "2026-11-09T11:52:11Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727400579,
+              "name": "texturecraft-0.5.0-linux-x86_64.oci.sig",
+              "sha256": "33e23b042d957db196c36827db43d2f6af7abdce91e9d675996b20c1d4ca6f93",
+              "size": 388,
+              "source_asset_id": 727304890,
+              "source_updated_at": "2026-11-09T11:52:11Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727400694,
+              "name": "texturecraft-0.5.0-linux-x86_64.pkg.tar.zst",
+              "sha256": "a1ea38e6fd437d1ce80f1493c617e54b48ab61356990ae8a333458099b2b4f6d",
+              "size": 30031925,
+              "source_asset_id": 727304897,
+              "source_updated_at": "2026-11-09T11:52:13Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727400838,
+              "name": "texturecraft-0.5.0-linux-x86_64.pkg.tar.zst.sig",
+              "sha256": "eed97f9bb422eb5ffefb6e82ed161324220347ac6b14da065ef27e951f0aa5b6",
+              "size": 119,
+              "source_asset_id": 727304903,
+              "source_updated_at": "2026-11-09T11:52:12Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727400907,
+              "name": "texturecraft-0.5.0-linux-x86_64.rpm",
+              "sha256": "5cbe83d4207106440f642bc4dfebb7a459a516cb2599ef02cbbad7079404ebc1",
+              "size": 42945299,
+              "source_asset_id": 727304917,
+              "source_updated_at": "2026-11-09T11:52:15Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727401081,
+              "name": "texturecraft-0.5.0-linux-x86_64.rpm.asc",
+              "sha256": "f76836d32dd6d18015956f66d94ca3d1587b29e7266e555d860c5ae56d6be553",
+              "size": 228,
+              "source_asset_id": 727304935,
+              "source_updated_at": "2026-11-09T11:52:12Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727401172,
+              "name": "texturecraft-0.5.0-linux-x86_64.tar.gz",
+              "sha256": "0d564fe27d620850212a907711f307a0077e7d471d2277924431d5e91d40bb5f",
+              "size": 42462823,
+              "source_asset_id": 727304940,
+              "source_updated_at": "2026-11-09T11:52:15Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727401341,
+              "name": "texturecraft-0.5.0-linux-x86_64.tar.gz.asc",
+              "sha256": "f542107718bcf312e579c7efa9b7e8b5e5d8f13b9014b2668bcd9b37b5079573",
+              "size": 228,
+              "source_asset_id": 727304950,
+              "source_updated_at": "2026-11-09T11:52:13Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727401412,
+              "name": "texturecraft-0.5.0-macos-universal.dmg",
+              "sha256": "36ad1557595abb432847a576bb45a2632e3c8ba0f4ca0778ab5e8b82488b2f48",
+              "size": 64198503,
+              "source_asset_id": 727304958,
+              "source_updated_at": "2026-11-09T11:52:16Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727401613,
+              "name": "texturecraft-0.5.0-windows-arm64-portable.zip",
+              "sha256": "55efdabd28eb753589b151d1aeeaf2f0df153133a499e029f4a0c54741bcc58a",
+              "size": 40858285,
+              "source_asset_id": 727304970,
+              "source_updated_at": "2026-11-09T11:52:15Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727401752,
+              "name": "texturecraft-0.5.0-windows-arm64.msi",
+              "sha256": "baaed080423f2dfe56beaf682bfabeb554a306ec8df4e64667758f26fc14f67b",
+              "size": 32858112,
+              "source_asset_id": 727304977,
+              "source_updated_at": "2026-11-09T11:52:15Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727401885,
+              "name": "texturecraft-0.5.0-windows-x64-portable.zip",
+              "sha256": "b9c0ee967b8c304e8b3d2f07708b295bc4847995e77eee2f3f3ead4bbe4ab7b7",
+              "size": 42710716,
+              "source_asset_id": 727305023,
+              "source_updated_at": "2026-11-09T11:52:17Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727402071,
+              "name": "texturecraft-0.5.0-windows-x64.msi",
+              "sha256": "28538f55af61c8300758fd4afc9d45b64700e5802aca4eba95576f619e6f3163",
+              "size": 35053568,
+              "source_asset_id": 727305041,
+              "source_updated_at": "2026-11-09T11:52:17Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727402242,
+              "name": "texturecraft-cli-0.5.0-macos-universal.zip",
+              "sha256": "eb38936f25ef3bf266133e7b30fe81a7fa27db67036a10edb0104a4ac3df8a2d",
+              "size": 16689831,
+              "source_asset_id": 727305055,
+              "source_updated_at": "2026-11-09T11:52:17Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727402417,
+              "name": "texturecraft-web-0.5.0.zip",
+              "sha256": "881c9964cd772d9999924876bd7e381865d720226fefe2c9a64cad47c9e78fd6",
+              "size": 9336090,
+              "source_asset_id": 727305051,
+              "source_updated_at": "2026-11-09T11:52:17Z",
+              "status": "synced"
+            }
+          ],
+          "dest_release_id": 439102312,
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/texturecraft--v0.5.0",
+          "dest_tag": "texturecraft--v0.5.0",
+          "error": null,
+          "prerelease": false,
+          "published_at": "2026-11-09T11:52:51Z",
+          "source_tag": "v0.5.0",
+          "stale_assets": [],
+          "title": "[TextureCraft] TextureCraft v0.5.0",
+          "upstream_release_id": 439072646,
+          "upstream_release_url": "https://github.com/storytold/texturecraft/releases/tag/v0.5.0"
+        },
+        {
+          "action": "synced",
+          "assets": [
+            {
+              "dest_asset_id": 727390463,
+              "name": "release-signing-key.asc",
+              "sha256": "8e6925a173d6a7134118da099948de4d9eeec7c1c0770998aec33c9d3f484740",
+              "size": 803,
+              "source_asset_id": 718354350,
+              "source_updated_at": "2026-11-06T19:48:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390537,
+              "name": "SHA256SUMS.txt",
+              "sha256": "8889e93436281357c96e90a6ae7f1d033b76b5895d945b657810fada1ac44c6a",
+              "size": 5381,
+              "source_asset_id": 718354349,
+              "source_updated_at": "2026-11-06T19:48:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390610,
+              "name": "SHA256SUMS.txt.asc",
+              "sha256": "b6771aa553dbba8baf7e306f10e4fc8163caf56bf10931bceeb2e6ebbb33f859",
+              "size": 228,
+              "source_asset_id": 718354352,
+              "source_updated_at": "2026-11-06T19:48:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390678,
+              "name": "texturecraft-0.4.0-freebsd-aarch64.tar.gz",
+              "sha256": "18a631ac8d418caffa800dfc40df5ba1d6349026ec19c8604c65cf50653ab945",
+              "size": 38710124,
+              "source_asset_id": 718354348,
+              "source_updated_at": "2026-11-06T19:48:38Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390834,
+              "name": "texturecraft-0.4.0-freebsd-x86_64.tar.gz",
+              "sha256": "d4c9d00be47b326ac1cb67d6a685420af545a0c43185cb067941f4d4d36d05e7",
+              "size": 40723391,
+              "source_asset_id": 718354351,
+              "source_updated_at": "2026-11-06T19:48:37Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390961,
+              "name": "texturecraft-0.4.0-linux-aarch64.AppImage",
+              "sha256": "6aabb540842b20f3e90975a2130ccfd7c5d14aec6ed03ab02ce89fc72567a85c",
+              "size": 37759496,
+              "source_asset_id": 718354374,
+              "source_updated_at": "2026-11-06T19:48:37Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391091,
+              "name": "texturecraft-0.4.0-linux-aarch64.AppImage.asc",
+              "sha256": "a720e1e4df4a2538967e393642e204d83237b34cc983e1f7a5fd0d6ef43c2c4e",
+              "size": 228,
+              "source_asset_id": 718354381,
+              "source_updated_at": "2026-11-06T19:48:36Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391201,
+              "name": "texturecraft-0.4.0-linux-aarch64.AppImage.zsync",
+              "sha256": "118ca1997e9994828d1a21bff87b5939946262334e2a0c180d53366aafd5c956",
+              "size": 129319,
+              "source_asset_id": 718354380,
+              "source_updated_at": "2026-11-06T19:48:36Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391304,
+              "name": "texturecraft-0.4.0-linux-aarch64.AppImage.zsync.asc",
+              "sha256": "f502df8a00a2329c7b64ccb57605cbd0e5c647192a65e06e377759c3b3948148",
+              "size": 228,
+              "source_asset_id": 718354400,
+              "source_updated_at": "2026-11-06T19:48:37Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391480,
+              "name": "texturecraft-0.4.0-linux-aarch64.deb",
+              "sha256": "670fa01b0c4c38d5131d51d36a1464307f24c05eb45db4c784a3824cad48ed04",
+              "size": 40368264,
+              "source_asset_id": 718354407,
+              "source_updated_at": "2026-11-06T19:48:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391633,
+              "name": "texturecraft-0.4.0-linux-aarch64.deb.asc",
+              "sha256": "827938d94ac8fa6abdecb20ee78b36d901d04a629501a6032d8fba5d0ebaf71f",
+              "size": 228,
+              "source_asset_id": 718354419,
+              "source_updated_at": "2026-11-06T19:48:37Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391721,
+              "name": "texturecraft-0.4.0-linux-aarch64.flatpak",
+              "sha256": "db7305cab525f4857b185d8a824dccce202551f2347d5e5709979d61e8bf7400",
+              "size": 27940224,
+              "source_asset_id": 718354453,
+              "source_updated_at": "2026-11-06T19:48:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391851,
+              "name": "texturecraft-0.4.0-linux-aarch64.flatpak.asc",
+              "sha256": "98828ae0fc882245c25d98a74f5b2d45791e848e858a8348c7675f2e3a02bf49",
+              "size": 228,
+              "source_asset_id": 718354447,
+              "source_updated_at": "2026-11-06T19:48:38Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727391955,
+              "name": "texturecraft-0.4.0-linux-aarch64.oci-manifest.json",
+              "sha256": "69608e33e843a12db106b65dd7cb2c86c5d52ad52e9b8d553a8dbb5e45069e9b",
+              "size": 493,
+              "source_asset_id": 718354466,
+              "source_updated_at": "2026-11-06T19:48:38Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392032,
+              "name": "texturecraft-0.4.0-linux-aarch64.oci.sig",
+              "sha256": "9e605e529e41725410274d4ac8010d167765b125dbf9869f2ae54123c710dc22",
+              "size": 386,
+              "source_asset_id": 718354470,
+              "source_updated_at": "2026-11-06T19:48:38Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392158,
+              "name": "texturecraft-0.4.0-linux-aarch64.pkg.tar.zst",
+              "sha256": "8190a78acacab85cc83d27b494aac3a1f915493a6f920c024acb6b93727f5af2",
+              "size": 31082037,
+              "source_asset_id": 718354481,
+              "source_updated_at": "2026-11-06T19:48:40Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392293,
+              "name": "texturecraft-0.4.0-linux-aarch64.pkg.tar.zst.sig",
+              "sha256": "3d7b112a25b7435a0df1ad404ecbf466c38e37195d2afe4365d854225db74010",
+              "size": 119,
+              "source_asset_id": 718354488,
+              "source_updated_at": "2026-11-06T19:48:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392370,
+              "name": "texturecraft-0.4.0-linux-aarch64.rpm",
+              "sha256": "dbf92b1a4de57b882ebc38a653268a9a073923347518bb05fc32e4f3c3c46451",
+              "size": 40035701,
+              "source_asset_id": 718354496,
+              "source_updated_at": "2026-11-06T19:48:41Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392503,
+              "name": "texturecraft-0.4.0-linux-aarch64.rpm.asc",
+              "sha256": "76a6c823c65d3ee8bb5126e7d51a7e50d34f232cc32fe4492eb478b28b584a5f",
+              "size": 228,
+              "source_asset_id": 718354502,
+              "source_updated_at": "2026-11-06T19:48:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392604,
+              "name": "texturecraft-0.4.0-linux-aarch64.tar.gz",
+              "sha256": "750b3954161e87f1f826b6e37ff00089a37583a6342bce845178cec94969f0bd",
+              "size": 39178900,
+              "source_asset_id": 718354504,
+              "source_updated_at": "2026-11-06T19:48:41Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392767,
+              "name": "texturecraft-0.4.0-linux-aarch64.tar.gz.asc",
+              "sha256": "e058fc2fe3db5db5a0cadda7480969ae58f51a696d864a9e3abba633d19998ca",
+              "size": 228,
+              "source_asset_id": 718354505,
+              "source_updated_at": "2026-11-06T19:48:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392822,
+              "name": "texturecraft-0.4.0-linux-riscv64.deb",
+              "sha256": "e290f31139df1475110dc3ef822753ee002d974bc6f2a3fda5cd5f724545e6aa",
+              "size": 41125060,
+              "source_asset_id": 718354520,
+              "source_updated_at": "2026-11-06T19:48:42Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727392940,
+              "name": "texturecraft-0.4.0-linux-riscv64.deb.asc",
+              "sha256": "aeebd16f0aa30448106322b3de4e5b995877194838c1b01524d7a5b81b9ffa43",
+              "size": 228,
+              "source_asset_id": 718354536,
+              "source_updated_at": "2026-11-06T19:48:40Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727393020,
+              "name": "texturecraft-0.4.0-linux-riscv64.rpm",
+              "sha256": "371e48f848b11cfb1ec0b8ab28a11caa8889b503d51f4c303f138212aaba4d47",
+              "size": 40968288,
+              "source_asset_id": 718354537,
+              "source_updated_at": "2026-11-06T19:48:42Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727393142,
+              "name": "texturecraft-0.4.0-linux-riscv64.rpm.asc",
+              "sha256": "499816b3d192b259cff9fdaff450275a7f24f615893e668caca021d74ab68905",
+              "size": 228,
+              "source_asset_id": 718354557,
+              "source_updated_at": "2026-11-06T19:48:41Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727393258,
+              "name": "texturecraft-0.4.0-linux-riscv64.tar.gz",
+              "sha256": "85dbd958d7226ba1b41d32b9d050a5168f747a31af155699e89621a1f7198063",
+              "size": 40472473,
+              "source_asset_id": 718354570,
+              "source_updated_at": "2026-11-06T19:48:43Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727393437,
+              "name": "texturecraft-0.4.0-linux-riscv64.tar.gz.asc",
+              "sha256": "fe788f5156fea9f246fa35e23702d3c9c1ccae8e1217e502ccb1e13d4d403db8",
+              "size": 228,
+              "source_asset_id": 718354579,
+              "source_updated_at": "2026-11-06T19:48:42Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727393543,
+              "name": "texturecraft-0.4.0-linux-x86_64.AppImage",
+              "sha256": "0acaf5c545b070c03ed37c9d688711d56680ccd8b12b5fccc454f6bfd656e893",
+              "size": 39184888,
+              "source_asset_id": 718354584,
+              "source_updated_at": "2026-11-06T19:48:43Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727393669,
+              "name": "texturecraft-0.4.0-linux-x86_64.AppImage.asc",
+              "sha256": "3b9e6618f8416f4cc0d2aa12d10cdd0d37b66eca894be0be8b61822297e5f939",
+              "size": 228,
+              "source_asset_id": 718354607,
+              "source_updated_at": "2026-11-06T19:48:42Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727393748,
+              "name": "texturecraft-0.4.0-linux-x86_64.AppImage.zsync",
+              "sha256": "09bed211dc9f1237bcc1b6bd9851b20dc355a315d9348798d0d7520fb40cdc16",
+              "size": 134189,
+              "source_asset_id": 718354610,
+              "source_updated_at": "2026-11-06T19:48:42Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727393811,
+              "name": "texturecraft-0.4.0-linux-x86_64.AppImage.zsync.asc",
+              "sha256": "cb8a3d3366faaad0beec2b66875d2bcb7edbc6410b1f26cbdecb62cd732a6264",
+              "size": 228,
+              "source_asset_id": 718354626,
+              "source_updated_at": "2026-11-06T19:48:43Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727393879,
+              "name": "texturecraft-0.4.0-linux-x86_64.deb",
+              "sha256": "72fd020026fef8f751fa396c4684e720b8bd45eac94834090297644df0042ee5",
+              "size": 41505622,
+              "source_asset_id": 718354633,
+              "source_updated_at": "2026-11-06T19:48:44Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727394034,
+              "name": "texturecraft-0.4.0-linux-x86_64.deb.asc",
+              "sha256": "e703f539bd420b870016e1a43d788105cf97a724a9f287e98b904429eabbc088",
+              "size": 228,
+              "source_asset_id": 718354638,
+              "source_updated_at": "2026-11-06T19:48:43Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727394117,
+              "name": "texturecraft-0.4.0-linux-x86_64.flatpak",
+              "sha256": "c7fe2f8b4d608c617642347bda6e361347feaa34adf571525fb037cf5cd6ed82",
+              "size": 29858536,
+              "source_asset_id": 718354649,
+              "source_updated_at": "2026-11-06T19:48:45Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727394302,
+              "name": "texturecraft-0.4.0-linux-x86_64.flatpak.asc",
+              "sha256": "678b64008558bb6e967f8b9a20879743752a545c5e2f302852f0a98fd2c0dba1",
+              "size": 228,
+              "source_asset_id": 718354660,
+              "source_updated_at": "2026-11-06T19:48:43Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727394382,
+              "name": "texturecraft-0.4.0-linux-x86_64.oci-manifest.json",
+              "sha256": "2af46d1e3fbd176dcef680b1fe6c6e11b90ec605545ce72b81ae318572091026",
+              "size": 493,
+              "source_asset_id": 718354657,
+              "source_updated_at": "2026-11-06T19:48:43Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727394442,
+              "name": "texturecraft-0.4.0-linux-x86_64.oci.sig",
+              "sha256": "9ba07318c62bbf491e9333aa16c6627d9555e76ee0ad6aad64fb6bbaebfad382",
+              "size": 389,
+              "source_asset_id": 718354673,
+              "source_updated_at": "2026-11-06T19:48:44Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727394510,
+              "name": "texturecraft-0.4.0-linux-x86_64.pkg.tar.zst",
+              "sha256": "6417a8b1153597d0375cd8810aa38c09bdc15a1316e74fc84842b921a9b33b31",
+              "size": 28419680,
+              "source_asset_id": 718354677,
+              "source_updated_at": "2026-11-06T19:48:46Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727394638,
+              "name": "texturecraft-0.4.0-linux-x86_64.pkg.tar.zst.sig",
+              "sha256": "c63849503145d793dfb7e38869bbb28b961eef97a922b04ce08211de6a83202d",
+              "size": 119,
+              "source_asset_id": 718354687,
+              "source_updated_at": "2026-11-06T19:48:44Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727394709,
+              "name": "texturecraft-0.4.0-linux-x86_64.rpm",
+              "sha256": "5c5e4747ae08497538eebd965088ddfde9e3538862a68987facde1f58218ea41",
+              "size": 41253634,
+              "source_asset_id": 718354695,
+              "source_updated_at": "2026-11-06T19:48:46Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727394913,
+              "name": "texturecraft-0.4.0-linux-x86_64.rpm.asc",
+              "sha256": "bdd0a27e007ec1ae0e5d20be347f3131a85a99a0d9c3fecaeaab4baae0950974",
+              "size": 228,
+              "source_asset_id": 718354719,
+              "source_updated_at": "2026-11-06T19:48:45Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727395005,
+              "name": "texturecraft-0.4.0-linux-x86_64.tar.gz",
+              "sha256": "ed84769ebbad2231666bd000dfce8a3791f2b107766f5d568a5545d5de0844cf",
+              "size": 40798624,
+              "source_asset_id": 718354723,
+              "source_updated_at": "2026-11-06T19:48:46Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727395168,
+              "name": "texturecraft-0.4.0-linux-x86_64.tar.gz.asc",
+              "sha256": "ed55b22f8ec5b1cf88e31e49a9827bf8d5e6ed697a4c6af2e393d352a5a30561",
+              "size": 228,
+              "source_asset_id": 718354755,
+              "source_updated_at": "2026-11-06T19:48:45Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727395257,
+              "name": "texturecraft-0.4.0-macos-universal.dmg",
+              "sha256": "8f3213019e250b35016d224d892cd2e315fd5142ec8987dee2f7ad709d67e64d",
+              "size": 60329417,
+              "source_asset_id": 718354757,
+              "source_updated_at": "2026-11-06T19:48:48Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727395514,
+              "name": "texturecraft-0.4.0-windows-arm64-portable.zip",
+              "sha256": "078f9b9c41404a424b17253cd257637bcfc365e41ae3daab62b392e04321b180",
+              "size": 39257735,
+              "source_asset_id": 718354778,
+              "source_updated_at": "2026-11-06T19:48:49Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727395723,
+              "name": "texturecraft-0.4.0-windows-arm64.msi",
+              "sha256": "d83dde256d0e3e5f2e2e42b3f7d7eb96e82b08839a95e623e9acf0d02b1ea16e",
+              "size": 31649792,
+              "source_asset_id": 718354795,
+              "source_updated_at": "2026-11-06T19:48:49Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727395877,
+              "name": "texturecraft-0.4.0-windows-x64-portable.zip",
+              "sha256": "fcdc3edafafd6d12650b389998ef85ed8078ce9ed993444c8639604645ae853c",
+              "size": 40994557,
+              "source_asset_id": 718354800,
+              "source_updated_at": "2026-11-06T19:48:49Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727396056,
+              "name": "texturecraft-0.4.0-windows-x64.msi",
+              "sha256": "9f04c66775ec590215f00bf5bc1879d311bf6e258c6eeb43d8af86778ae95685",
+              "size": 33566720,
+              "source_asset_id": 718354837,
+              "source_updated_at": "2026-11-06T19:48:49Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727396252,
+              "name": "texturecraft-0.4.0-windows-x86-portable.zip",
+              "sha256": "150fd2651d6203d813490ba93d2dec61de32e5aa1d883fbf923ead205e80a15c",
+              "size": 39484943,
+              "source_asset_id": 718354914,
+              "source_updated_at": "2026-11-06T19:48:51Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727396443,
+              "name": "texturecraft-0.4.0-windows-x86.msi",
+              "sha256": "b98fa181c8ab024155af7b00de9c07de2a54fc71ca782cbe987bdfa5b36c67ce",
+              "size": 32890880,
+              "source_asset_id": 718354926,
+              "source_updated_at": "2026-11-06T19:48:51Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727396640,
+              "name": "texturecraft-cli-0.4.0-macos-universal.zip",
+              "sha256": "9d5a694bc9d63fcef4c5be66ec7f6efd9a8487e06e74de364d587fcc81d1c56d",
+              "size": 16922301,
+              "source_asset_id": 718354939,
+              "source_updated_at": "2026-11-06T19:48:50Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727396757,
+              "name": "texturecraft-web-0.4.0.zip",
+              "sha256": "e423798c06ccfa455e51f12c5643fe0d8d752160ac8aaad9d20b1c001085e26c",
+              "size": 9180138,
+              "source_asset_id": 718354944,
+              "source_updated_at": "2026-11-06T19:48:50Z",
+              "status": "synced"
+            }
+          ],
+          "dest_release_id": 439100371,
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/texturecraft--v0.4.0",
+          "dest_tag": "texturecraft--v0.4.0",
+          "error": null,
+          "prerelease": false,
+          "published_at": "2026-11-06T20:22:12Z",
+          "source_tag": "v0.4.0",
+          "stale_assets": [],
+          "title": "[TextureCraft] TextureCraft v0.4.0",
+          "upstream_release_id": 436927474,
+          "upstream_release_url": "https://github.com/storytold/texturecraft/releases/tag/v0.4.0"
+        },
+        {
+          "action": "synced",
+          "assets": [
+            {
+              "dest_asset_id": 727383162,
+              "name": "release-signing-key.asc",
+              "sha256": "8e6925a173d6a7134118da099948de4d9eeec7c1c0770998aec33c9d3f484740",
+              "size": 803,
+              "source_asset_id": 711573985,
+              "source_updated_at": "2026-11-05T01:15:02Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383241,
+              "name": "SHA256SUMS.txt",
+              "sha256": "4e624af9b6b8c6b489f1a734ae3265df06dc3268e77b30174591f292169da2ef",
+              "size": 5381,
+              "source_asset_id": 711573983,
+              "source_updated_at": "2026-11-05T01:15:02Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383300,
+              "name": "SHA256SUMS.txt.asc",
+              "sha256": "5efff8d9f41bb3ef7c2c89c58e33756996259536ca47a6a1dad54fe502e10c23",
+              "size": 228,
+              "source_asset_id": 711573987,
+              "source_updated_at": "2026-11-05T01:15:02Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383403,
+              "name": "texturecraft-0.3.2-freebsd-aarch64.tar.gz",
+              "sha256": "5a3b5cf8d2b259cf2adaebddbebf968e3b99f6fba60555203e56d0f380f8058d",
+              "size": 38122608,
+              "source_asset_id": 711573989,
+              "source_updated_at": "2026-11-05T01:15:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383606,
+              "name": "texturecraft-0.3.2-freebsd-x86_64.tar.gz",
+              "sha256": "768543dffa1378f55ec1c1ccc34a0dba9fb38d9cda4fbd245872c2caf91a8470",
+              "size": 40057345,
+              "source_asset_id": 711573984,
+              "source_updated_at": "2026-11-05T01:15:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383802,
+              "name": "texturecraft-0.3.2-linux-aarch64.AppImage",
+              "sha256": "175aa092a43ed7bbd59ddf3439a9341c13bac04f45ab0023c189ddbdb7714a59",
+              "size": 37198344,
+              "source_asset_id": 711574030,
+              "source_updated_at": "2026-11-05T01:15:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727383985,
+              "name": "texturecraft-0.3.2-linux-aarch64.AppImage.asc",
+              "sha256": "352640404aed614dc341ac5c715e96057192ef6086cb13385cf65fa71c0ebf78",
+              "size": 228,
+              "source_asset_id": 711574045,
+              "source_updated_at": "2026-11-05T01:15:02Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384071,
+              "name": "texturecraft-0.3.2-linux-aarch64.AppImage.zsync",
+              "sha256": "67ebf5926cd02ae8df258265f64301e95ab64f30b9a0ad4d87958c6f5dcbde62",
+              "size": 127401,
+              "source_asset_id": 711574060,
+              "source_updated_at": "2026-11-05T01:15:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384159,
+              "name": "texturecraft-0.3.2-linux-aarch64.AppImage.zsync.asc",
+              "sha256": "3122e5d98875c71b80e9943e0e380df11f74bd6b46222c69afdfe75201cdc4e6",
+              "size": 228,
+              "source_asset_id": 711574078,
+              "source_updated_at": "2026-11-05T01:15:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384252,
+              "name": "texturecraft-0.3.2-linux-aarch64.deb",
+              "sha256": "f86174a290511caf65e09c861a417cc08e13ecabe7b3a63654b7696e71102033",
+              "size": 39727466,
+              "source_asset_id": 711574104,
+              "source_updated_at": "2026-11-05T01:15:06Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384455,
+              "name": "texturecraft-0.3.2-linux-aarch64.deb.asc",
+              "sha256": "981cde15801e5634eb972c207290dea333e0a60dbea53dc0c924b9f5c677ddd6",
+              "size": 228,
+              "source_asset_id": 711574111,
+              "source_updated_at": "2026-11-05T01:15:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384562,
+              "name": "texturecraft-0.3.2-linux-aarch64.flatpak",
+              "sha256": "eeb853f0f619f174ef6583887bfbb9b2ed13a860c1db5c74a6dd2fe7d583194b",
+              "size": 27581072,
+              "source_asset_id": 711574124,
+              "source_updated_at": "2026-11-05T01:15:05Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384725,
+              "name": "texturecraft-0.3.2-linux-aarch64.flatpak.asc",
+              "sha256": "54ad200362c989a146ceef0805678bcc6a217b7898a88ea2d543eb8de1f99cc3",
+              "size": 228,
+              "source_asset_id": 711574132,
+              "source_updated_at": "2026-11-05T01:15:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384788,
+              "name": "texturecraft-0.3.2-linux-aarch64.oci-manifest.json",
+              "sha256": "dd4796398d8c49faac53d16c02ac3c9e674cf701d481228018067733bf24267f",
+              "size": 493,
+              "source_asset_id": 711574137,
+              "source_updated_at": "2026-11-05T01:15:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384854,
+              "name": "texturecraft-0.3.2-linux-aarch64.oci.sig",
+              "sha256": "026df9943f788a36c21d74db6575a71b626208843f3f6c292eacdb488509b8c1",
+              "size": 387,
+              "source_asset_id": 711574144,
+              "source_updated_at": "2026-11-05T01:15:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727384979,
+              "name": "texturecraft-0.3.2-linux-aarch64.pkg.tar.zst",
+              "sha256": "3452dcc0d02a6d636e182ccfa8b6432684c876f96767c0fec9bf8a3968e8738b",
+              "size": 30668464,
+              "source_asset_id": 711574161,
+              "source_updated_at": "2026-11-05T01:15:06Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727385292,
+              "name": "texturecraft-0.3.2-linux-aarch64.pkg.tar.zst.sig",
+              "sha256": "513e045d6f5b0fa455a3bf98c27f2dce0355444dafb1823f0b46b7558f55bb36",
+              "size": 119,
+              "source_asset_id": 711574167,
+              "source_updated_at": "2026-11-05T01:15:05Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727385375,
+              "name": "texturecraft-0.3.2-linux-aarch64.rpm",
+              "sha256": "1b8b79401ff1cff2600fe583e479b502b77bc2743104002803e34896540e62b1",
+              "size": 39399552,
+              "source_asset_id": 711574176,
+              "source_updated_at": "2026-11-05T01:15:06Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727385554,
+              "name": "texturecraft-0.3.2-linux-aarch64.rpm.asc",
+              "sha256": "93beac0eed73510be488c974f2d43bdabe87eacc3933fbecf211fe0bad7b7c67",
+              "size": 228,
+              "source_asset_id": 711574189,
+              "source_updated_at": "2026-11-05T01:15:05Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727385729,
+              "name": "texturecraft-0.3.2-linux-aarch64.tar.gz",
+              "sha256": "fa6acdfd9926425aae330360d60f44ef719d1157dd4530b13be1f9156e739283",
+              "size": 38566356,
+              "source_asset_id": 711574198,
+              "source_updated_at": "2026-11-05T01:15:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727385908,
+              "name": "texturecraft-0.3.2-linux-aarch64.tar.gz.asc",
+              "sha256": "70c0dca69dfc19daf91f2b43c0b54e399b9dfc1f20e456017a6a595baf518dd2",
+              "size": 228,
+              "source_asset_id": 711574216,
+              "source_updated_at": "2026-11-05T01:15:06Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727385987,
+              "name": "texturecraft-0.3.2-linux-riscv64.deb",
+              "sha256": "8a5a8ccec4eed42503f540b208d1a35be0ce097a99f583dcaab0ce75a7042e11",
+              "size": 40452488,
+              "source_asset_id": 711574220,
+              "source_updated_at": "2026-11-05T01:15:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727386163,
+              "name": "texturecraft-0.3.2-linux-riscv64.deb.asc",
+              "sha256": "35e48c9a71ac5cb4f6649f4cb2f164056dcff031659b36b12deed934f28fd578",
+              "size": 228,
+              "source_asset_id": 711574238,
+              "source_updated_at": "2026-11-05T01:15:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727386259,
+              "name": "texturecraft-0.3.2-linux-riscv64.rpm",
+              "sha256": "e4a4c9ccfa996efa60e8a66eb9893e4eea0aed48f9b68133826f8f07e10379ff",
+              "size": 40299640,
+              "source_asset_id": 711574241,
+              "source_updated_at": "2026-11-05T01:15:08Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727386413,
+              "name": "texturecraft-0.3.2-linux-riscv64.rpm.asc",
+              "sha256": "9eec9bc01ee279366285d82da562a8fa9c495b6c8db9b32354d3b4a8fb616400",
+              "size": 228,
+              "source_asset_id": 711574247,
+              "source_updated_at": "2026-11-05T01:15:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727386531,
+              "name": "texturecraft-0.3.2-linux-riscv64.tar.gz",
+              "sha256": "4c5338ca504fba7fa04f818137465d46c2ed1d919185a23cc3a19a20d64e14d7",
+              "size": 39807660,
+              "source_asset_id": 711574259,
+              "source_updated_at": "2026-11-05T01:15:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727386711,
+              "name": "texturecraft-0.3.2-linux-riscv64.tar.gz.asc",
+              "sha256": "57724de1b1d29d723a4ec3d61a3eaa5fad6951dedcce851d2dd7f378a1be378e",
+              "size": 228,
+              "source_asset_id": 711574262,
+              "source_updated_at": "2026-11-05T01:15:08Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727386805,
+              "name": "texturecraft-0.3.2-linux-x86_64.AppImage",
+              "sha256": "80d769b2fa60ad753488b0c37c520ce431f54d42f753b24071a093d31921e5b9",
+              "size": 38611448,
+              "source_asset_id": 711574264,
+              "source_updated_at": "2026-11-05T01:15:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727386956,
+              "name": "texturecraft-0.3.2-linux-x86_64.AppImage.asc",
+              "sha256": "d53e04411627ab9b6bdb3578abb10e15ce2b2742b01956bede42fe769738d43d",
+              "size": 228,
+              "source_asset_id": 711574286,
+              "source_updated_at": "2026-11-05T01:15:08Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387027,
+              "name": "texturecraft-0.3.2-linux-x86_64.AppImage.zsync",
+              "sha256": "38d3745586ecae8f6c3b0aed3d6ccd4bf746bd8f1d2083443434ae694685f55f",
+              "size": 132229,
+              "source_asset_id": 711574290,
+              "source_updated_at": "2026-11-05T01:15:08Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387091,
+              "name": "texturecraft-0.3.2-linux-x86_64.AppImage.zsync.asc",
+              "sha256": "b9a780f6227f7705f28b779f8278dd6be24f3cb45d2143fee15875ed20d44cd3",
+              "size": 228,
+              "source_asset_id": 711574302,
+              "source_updated_at": "2026-11-05T01:15:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387168,
+              "name": "texturecraft-0.3.2-linux-x86_64.deb",
+              "sha256": "4502c4177ee1b2862e9b72068d4dbff4ba7079f291ff5ba0a6cd28d55617eb76",
+              "size": 40833194,
+              "source_asset_id": 711574301,
+              "source_updated_at": "2026-11-05T01:15:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387302,
+              "name": "texturecraft-0.3.2-linux-x86_64.deb.asc",
+              "sha256": "11c24d05d0747ad3adb31b0975635c0e8f544d58b2fdfa438f2cdef445a9244c",
+              "size": 228,
+              "source_asset_id": 711574315,
+              "source_updated_at": "2026-11-05T01:15:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387367,
+              "name": "texturecraft-0.3.2-linux-x86_64.flatpak",
+              "sha256": "94f508b5a61758fdd207cdf32cf0dc915bb55811846430f0113da923344bceda",
+              "size": 29447224,
+              "source_asset_id": 711574343,
+              "source_updated_at": "2026-11-05T01:15:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387502,
+              "name": "texturecraft-0.3.2-linux-x86_64.flatpak.asc",
+              "sha256": "f24a67c05cc7c3117f2f1b53b2dfe7db08445eb145fa62636ae87ecaabbe2194",
+              "size": 228,
+              "source_asset_id": 711574351,
+              "source_updated_at": "2026-11-05T01:15:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387587,
+              "name": "texturecraft-0.3.2-linux-x86_64.oci-manifest.json",
+              "sha256": "016a319f54de1e7207b9792402433f49e49b5c0e65bbf0049bf95afbe43f18bd",
+              "size": 493,
+              "source_asset_id": 711574357,
+              "source_updated_at": "2026-11-05T01:15:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387656,
+              "name": "texturecraft-0.3.2-linux-x86_64.oci.sig",
+              "sha256": "c1f1f651a8a43661a8a216b8bab964974e3eb6eb368ff9300a68ba9488c39a09",
+              "size": 388,
+              "source_asset_id": 711574353,
+              "source_updated_at": "2026-11-05T01:15:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387748,
+              "name": "texturecraft-0.3.2-linux-x86_64.pkg.tar.zst",
+              "sha256": "2ff86277e51c1b86cf59371425fe7d5d48d8c8c485c5cfd87db9c7d3822d3ae2",
+              "size": 28099017,
+              "source_asset_id": 711574369,
+              "source_updated_at": "2026-11-05T01:15:11Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387869,
+              "name": "texturecraft-0.3.2-linux-x86_64.pkg.tar.zst.sig",
+              "sha256": "f729dcb162e157d806b3d2d9f8a9b5974e49119262a66e0a091dbca781c5affe",
+              "size": 119,
+              "source_asset_id": 711574385,
+              "source_updated_at": "2026-11-05T01:15:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727387950,
+              "name": "texturecraft-0.3.2-linux-x86_64.rpm",
+              "sha256": "7ffb327579ccb800570c675221cc2465c42415f2c2fa120eed9e9bb10945b93d",
+              "size": 40573490,
+              "source_asset_id": 711574387,
+              "source_updated_at": "2026-11-05T01:15:12Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727388115,
+              "name": "texturecraft-0.3.2-linux-x86_64.rpm.asc",
+              "sha256": "dcc218978d72dbd6af1d23a48c767fe7a820cc933caa42e8c5f0c84210079abd",
+              "size": 228,
+              "source_asset_id": 711574396,
+              "source_updated_at": "2026-11-05T01:15:11Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727388191,
+              "name": "texturecraft-0.3.2-linux-x86_64.tar.gz",
+              "sha256": "4f8febc4af593dee1bacb51293aefcf102d7a898136d3cccc44f5ad4c19bc0d0",
+              "size": 40135170,
+              "source_asset_id": 711574405,
+              "source_updated_at": "2026-11-05T01:15:12Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727388379,
+              "name": "texturecraft-0.3.2-linux-x86_64.tar.gz.asc",
+              "sha256": "1cb906e2aa19e95ac3c8bf6a5370013112b3250405e76b4dc80462f64ed6fa76",
+              "size": 228,
+              "source_asset_id": 711574413,
+              "source_updated_at": "2026-11-05T01:15:11Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727388498,
+              "name": "texturecraft-0.3.2-macos-universal.dmg",
+              "sha256": "fb498bf67c21ece24a5b359743b436579b8eee5129c0929b268b187bca391a19",
+              "size": 59510633,
+              "source_asset_id": 711574428,
+              "source_updated_at": "2026-11-05T01:15:14Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727388804,
+              "name": "texturecraft-0.3.2-windows-arm64-portable.zip",
+              "sha256": "d4177b762653314f01007a72bc954fd14ad3ca52f91cb20b65dfcd9d25021665",
+              "size": 38551933,
+              "source_asset_id": 711574426,
+              "source_updated_at": "2026-11-05T01:15:13Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727389004,
+              "name": "texturecraft-0.3.2-windows-arm64.msi",
+              "sha256": "118d7bf423d46cc0d9be4f392509ecad4e154228bdff44a7cd327f95c47f627a",
+              "size": 31137792,
+              "source_asset_id": 711574433,
+              "source_updated_at": "2026-11-05T01:15:13Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727389240,
+              "name": "texturecraft-0.3.2-windows-x64-portable.zip",
+              "sha256": "233c516f211401b7fc154aa67fcd13c36590c41333ed75db7cc3f1aef45c18f0",
+              "size": 40196853,
+              "source_asset_id": 711574468,
+              "source_updated_at": "2026-11-05T01:15:14Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727389480,
+              "name": "texturecraft-0.3.2-windows-x64.msi",
+              "sha256": "6461c9bae53e8d03a1fc595d4713f25753eb75079ad2b0ea085db4f25cc3c58c",
+              "size": 32980992,
+              "source_asset_id": 711574485,
+              "source_updated_at": "2026-11-05T01:15:14Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727389679,
+              "name": "texturecraft-0.3.2-windows-x86-portable.zip",
+              "sha256": "baf1ea3e7f9e5ac80751c18d857821b0e298ade19b5f5c9298b4ab70fe17fa83",
+              "size": 38795147,
+              "source_asset_id": 711574506,
+              "source_updated_at": "2026-11-05T01:15:15Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727389870,
+              "name": "texturecraft-0.3.2-windows-x86.msi",
+              "sha256": "3a5fd9dd9f2e8ae4691ca8167250698d01ab180de4f07d66f1bb2f5299676522",
+              "size": 32370688,
+              "source_asset_id": 711574512,
+              "source_updated_at": "2026-11-05T01:15:16Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390038,
+              "name": "texturecraft-cli-0.3.2-macos-universal.zip",
+              "sha256": "9c7dd000cf01c2e1e685ed1e86eeb72e4035d367ee580f6c3c195c799dbaa99d",
+              "size": 16408990,
+              "source_asset_id": 711574537,
+              "source_updated_at": "2026-11-05T01:15:15Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727390164,
+              "name": "texturecraft-web-0.3.2.zip",
+              "sha256": "df74aef4ed21df1b61478dccd719df82823967497d9bac7a6fd1ba60e785e608",
+              "size": 9051373,
+              "source_asset_id": 711574541,
+              "source_updated_at": "2026-11-05T01:15:15Z",
+              "status": "synced"
+            }
+          ],
+          "dest_release_id": 439098338,
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/texturecraft--v0.3.2",
+          "dest_tag": "texturecraft--v0.3.2",
+          "error": null,
+          "prerelease": false,
+          "published_at": "2026-11-05T01:24:44Z",
+          "source_tag": "v0.3.2",
+          "stale_assets": [],
+          "title": "[TextureCraft] TextureCraft v0.3.2",
+          "upstream_release_id": 434641007,
+          "upstream_release_url": "https://github.com/storytold/texturecraft/releases/tag/v0.3.2"
+        },
+        {
+          "action": "synced",
+          "assets": [
+            {
+              "dest_asset_id": 727377460,
+              "name": "SHA256SUMS.txt",
+              "sha256": "d78cccdda3d4dc99f8f21a51ddd2ca8c2fb82a4816caf9122c28166486e70dfa",
+              "size": 3201,
+              "source_asset_id": 710427954,
+              "source_updated_at": "2026-11-04T18:08:33Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727377578,
+              "name": "texturecraft-0.3.1-freebsd-aarch64.tar.gz",
+              "sha256": "129d00cba6e6bcbd63d57c8c9dcc8f018f3ee13e0a4ed6481a1351b4e4bc6b2b",
+              "size": 38121942,
+              "source_asset_id": 710427956,
+              "source_updated_at": "2026-11-04T18:08:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727377812,
+              "name": "texturecraft-0.3.1-freebsd-x86_64.tar.gz",
+              "sha256": "e5b053da654d2e96c30a20441b74bfa4838637da3e525a5efb3b0283d94eb4da",
+              "size": 40060745,
+              "source_asset_id": 710427947,
+              "source_updated_at": "2026-11-04T18:08:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727378046,
+              "name": "texturecraft-0.3.1-linux-aarch64.AppImage",
+              "sha256": "7ecf138077abbd2f92dcfaf68dae2375e800f59b726012994a54adcc6617ba25",
+              "size": 37181960,
+              "source_asset_id": 710427960,
+              "source_updated_at": "2026-11-04T18:08:37Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727378254,
+              "name": "texturecraft-0.3.1-linux-aarch64.AppImage.zsync",
+              "sha256": "f57c8d869fc988e64c24d3b11a1d3095bd0f9fa1d16651efb5e5bf6c7356682f",
+              "size": 127345,
+              "source_asset_id": 710427951,
+              "source_updated_at": "2026-11-04T18:08:33Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727378362,
+              "name": "texturecraft-0.3.1-linux-aarch64.deb",
+              "sha256": "126b5853ab261cfdc32f88e242f8ffa5b5cc7bdfbb456f1f91f612f19aa3825d",
+              "size": 39727134,
+              "source_asset_id": 710427985,
+              "source_updated_at": "2026-11-04T18:08:36Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727378562,
+              "name": "texturecraft-0.3.1-linux-aarch64.flatpak",
+              "sha256": "77b2d08bc7a468f9b3e7b9e61e557d23a214a1474b89da728be602181414aacb",
+              "size": 27578296,
+              "source_asset_id": 710427987,
+              "source_updated_at": "2026-11-04T18:08:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727378757,
+              "name": "texturecraft-0.3.1-linux-aarch64.oci-manifest.json",
+              "sha256": "2df6f73ff3e343c693e381e96e2aaca7fcb742435d378b3cabe7a0ad7c872ebc",
+              "size": 493,
+              "source_asset_id": 710428065,
+              "source_updated_at": "2026-11-04T18:08:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727378864,
+              "name": "texturecraft-0.3.1-linux-aarch64.pkg.tar.zst",
+              "sha256": "f351a41c379afc60296128fe1904b8f13922b6ca1bace136b4144c21708f5e0c",
+              "size": 30667303,
+              "source_asset_id": 710428064,
+              "source_updated_at": "2026-11-04T18:08:36Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727379067,
+              "name": "texturecraft-0.3.1-linux-aarch64.rpm",
+              "sha256": "d8f04338d5c8247d0bc466acb4482916cbd03db9e6f046966b7e6414f2b68eb3",
+              "size": 39398015,
+              "source_asset_id": 710428109,
+              "source_updated_at": "2026-11-04T18:08:38Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727379263,
+              "name": "texturecraft-0.3.1-linux-aarch64.tar.gz",
+              "sha256": "812676459f11fdfc38a1bd6d7f4ec0721768a8443d581d94782b302898e607cc",
+              "size": 38564857,
+              "source_asset_id": 710428121,
+              "source_updated_at": "2026-11-04T18:08:38Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727379487,
+              "name": "texturecraft-0.3.1-linux-riscv64.deb",
+              "sha256": "57dcada1f69d2b3d50f2f1d668bfccf7344fcfb171457fd273923899d8eaeb9a",
+              "size": 40450828,
+              "source_asset_id": 710428122,
+              "source_updated_at": "2026-11-04T18:08:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727379687,
+              "name": "texturecraft-0.3.1-linux-riscv64.rpm",
+              "sha256": "892fd8fecd2c5ee7effd1ad713932642162761b83400032661de849a123f2b83",
+              "size": 40298498,
+              "source_asset_id": 710428152,
+              "source_updated_at": "2026-11-04T18:08:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727379859,
+              "name": "texturecraft-0.3.1-linux-riscv64.tar.gz",
+              "sha256": "c89d898a2190287c30072155f5ae73fa65e780a8cf55c021049ca5d27d8077a2",
+              "size": 39806135,
+              "source_asset_id": 710428180,
+              "source_updated_at": "2026-11-04T18:08:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727380103,
+              "name": "texturecraft-0.3.1-linux-x86_64.AppImage",
+              "sha256": "ec8dd97154fb0c339c73b279f1abcc9bd7f5bcb628837a801611b082c0aaae7b",
+              "size": 38603256,
+              "source_asset_id": 710428209,
+              "source_updated_at": "2026-11-04T18:08:40Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727380267,
+              "name": "texturecraft-0.3.1-linux-x86_64.AppImage.zsync",
+              "sha256": "204f4e0577a0f487f037bce262ad482cef5c21dded582cfaa1de2d48f5a0f752",
+              "size": 132201,
+              "source_asset_id": 710428224,
+              "source_updated_at": "2026-11-04T18:08:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727380396,
+              "name": "texturecraft-0.3.1-linux-x86_64.deb",
+              "sha256": "01eb297a287f7417d623407915f796a51e07d3508f358054192b9f55e25d7740",
+              "size": 40833562,
+              "source_asset_id": 710428243,
+              "source_updated_at": "2026-11-04T18:08:41Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727380553,
+              "name": "texturecraft-0.3.1-linux-x86_64.flatpak",
+              "sha256": "061167166ebf015bfef1bf2307eb963e8cd0fae3f6e56ca90dbfc8476b238a11",
+              "size": 29448328,
+              "source_asset_id": 710428245,
+              "source_updated_at": "2026-11-04T18:08:41Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727380709,
+              "name": "texturecraft-0.3.1-linux-x86_64.oci-manifest.json",
+              "sha256": "6c919eb1674885aa4989de7803af6cee6bebc0ebcf4182bde813a3c269193ef9",
+              "size": 493,
+              "source_asset_id": 710428276,
+              "source_updated_at": "2026-11-04T18:08:40Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727380820,
+              "name": "texturecraft-0.3.1-linux-x86_64.pkg.tar.zst",
+              "sha256": "bec1bc46198b5558bc208100cf3b5c48548a8e4d384677e57b9a84af20a3def0",
+              "size": 28099988,
+              "source_asset_id": 710428279,
+              "source_updated_at": "2026-11-04T18:08:41Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727381004,
+              "name": "texturecraft-0.3.1-linux-x86_64.rpm",
+              "sha256": "da739209379f4915d12701059ff60ca3f7a6ffca31dd348c82c2bfa29a028e7f",
+              "size": 40573765,
+              "source_asset_id": 710428296,
+              "source_updated_at": "2026-11-04T18:08:43Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727381204,
+              "name": "texturecraft-0.3.1-linux-x86_64.tar.gz",
+              "sha256": "7fcff64a6d8fe3e4c12ca2556ee96b072a402f224248feafe30e2bc8f275f57c",
+              "size": 40136457,
+              "source_asset_id": 710428317,
+              "source_updated_at": "2026-11-04T18:08:43Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727381390,
+              "name": "texturecraft-0.3.1-macos-universal.dmg",
+              "sha256": "846d88dfe3084943664f5c6f0ee8afaa499346046c8f96d04efd1580b484cc98",
+              "size": 59512152,
+              "source_asset_id": 710428357,
+              "source_updated_at": "2026-11-04T18:08:44Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727381627,
+              "name": "texturecraft-0.3.1-windows-arm64-portable.zip",
+              "sha256": "9d84b7171dbe4a604a358b908f30673b7b2c60a07d36a9934bbf8372f23d9b9a",
+              "size": 38551702,
+              "source_asset_id": 710428375,
+              "source_updated_at": "2026-11-04T18:08:44Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727381801,
+              "name": "texturecraft-0.3.1-windows-arm64.msi",
+              "sha256": "b6b3364ba9f3a225d9d9ad097435556adbabd10d0b62d0f82aec7f61fd6bf8ae",
+              "size": 31141888,
+              "source_asset_id": 710428374,
+              "source_updated_at": "2026-11-04T18:08:44Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727381942,
+              "name": "texturecraft-0.3.1-windows-x64-portable.zip",
+              "sha256": "92f3d71b9457c232dfa0552205920a387ff6ba1a63f5c7c8bdbb21807b6e6101",
+              "size": 40197428,
+              "source_asset_id": 710428434,
+              "source_updated_at": "2026-11-04T18:08:45Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382169,
+              "name": "texturecraft-0.3.1-windows-x64.msi",
+              "sha256": "b32abcdbcef2fff3a52a4f99202c55eb19e0673b5514578870eb9dbb8f671bb0",
+              "size": 32976896,
+              "source_asset_id": 710428465,
+              "source_updated_at": "2026-11-04T18:08:45Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382399,
+              "name": "texturecraft-0.3.1-windows-x86-portable.zip",
+              "sha256": "02fd017d9002649af385f5f9520755b6791d716eadc282559306eac5ecdf0e94",
+              "size": 38791556,
+              "source_asset_id": 710428491,
+              "source_updated_at": "2026-11-04T18:08:46Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382620,
+              "name": "texturecraft-0.3.1-windows-x86.msi",
+              "sha256": "57794fb14c52ff7e6ac30d0923181a3d5481f6de6455f2a73f421028f80b0c74",
+              "size": 32370688,
+              "source_asset_id": 710428493,
+              "source_updated_at": "2026-11-04T18:08:46Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382814,
+              "name": "texturecraft-cli-0.3.1-macos-universal.zip",
+              "sha256": "2a9fc69314d21256507dce06a4a68d5e3762d19065e21344c752a582dfe36d2a",
+              "size": 16409932,
+              "source_asset_id": 710428514,
+              "source_updated_at": "2026-11-04T18:08:46Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727382946,
+              "name": "texturecraft-web-0.3.1.zip",
+              "sha256": "26c017858cb28c3765a49b30ff5ff1ba5f20e11391cfb9a8efcde14850ac6de3",
+              "size": 9051742,
+              "source_asset_id": 710428538,
+              "source_updated_at": "2026-11-04T18:08:46Z",
+              "status": "synced"
+            }
+          ],
+          "dest_release_id": 439096768,
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/texturecraft--v0.3.1",
+          "dest_tag": "texturecraft--v0.3.1",
+          "error": null,
+          "prerelease": false,
+          "published_at": "2026-11-04T18:09:10Z",
+          "source_tag": "v0.3.1",
+          "stale_assets": [],
+          "title": "[TextureCraft] TextureCraft v0.3.1",
+          "upstream_release_id": 434272499,
+          "upstream_release_url": "https://github.com/storytold/texturecraft/releases/tag/v0.3.1"
+        },
+        {
+          "action": "synced",
+          "assets": [
+            {
+              "dest_asset_id": 727371382,
+              "name": "SHA256SUMS.txt",
+              "sha256": "cf3a85444a0b907320a942b72798e73afbcb8cd875c3ff9d6700c933dcf47045",
+              "size": 2968,
+              "source_asset_id": 703721359,
+              "source_updated_at": "2026-11-03T00:44:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371513,
+              "name": "texturecraft-0.3.0-freebsd-aarch64.tar.gz",
+              "sha256": "ecbb773a69b4e4b9c3c87f5b42dd21b5829445422acc2415bbf509d89b9e5329",
+              "size": 37806191,
+              "source_asset_id": 703721362,
+              "source_updated_at": "2026-11-03T00:44:06Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371759,
+              "name": "texturecraft-0.3.0-freebsd-x86_64.tar.gz",
+              "sha256": "e7dad0cb96cf432254543dce8154f44e1690ea38f03cf7ca69af802325219528",
+              "size": 39717030,
+              "source_asset_id": 703721364,
+              "source_updated_at": "2026-11-03T00:44:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371925,
+              "name": "texturecraft-0.3.0-linux-aarch64.AppImage",
+              "sha256": "15de4099d46d95fbcb18bf3ee8969795b2ee9efecfacd5b828bf1cb435830ff4",
+              "size": 36870664,
+              "source_asset_id": 703721365,
+              "source_updated_at": "2026-11-03T00:44:06Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727372172,
+              "name": "texturecraft-0.3.0-linux-aarch64.AppImage.zsync",
+              "sha256": "8a3a592ec7592c05e8d43d37766da66af73b06d0531265b86bcd89c0403fc2a1",
+              "size": 126281,
+              "source_asset_id": 703721360,
+              "source_updated_at": "2026-11-03T00:44:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727372266,
+              "name": "texturecraft-0.3.0-linux-aarch64.deb",
+              "sha256": "6b716dcb88d070028802d09a942611db5602dbeb76bda1ec9ebecfe761b525c9",
+              "size": 39391456,
+              "source_asset_id": 703721386,
+              "source_updated_at": "2026-11-03T00:44:06Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727372451,
+              "name": "texturecraft-0.3.0-linux-aarch64.flatpak",
+              "sha256": "730cdbeebfc0db2f5ddedc4c6eb9112180761051054bdb8dc5fe1826c133766f",
+              "size": 27371504,
+              "source_asset_id": 703721376,
+              "source_updated_at": "2026-11-03T00:44:05Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727372605,
+              "name": "texturecraft-0.3.0-linux-aarch64.pkg.tar.zst",
+              "sha256": "7921d326b71fc254ce6754d864c4eda88735c925f7beaee80e8666f34ed9454a",
+              "size": 30431267,
+              "source_asset_id": 703721482,
+              "source_updated_at": "2026-11-03T00:44:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727372760,
+              "name": "texturecraft-0.3.0-linux-aarch64.rpm",
+              "sha256": "7645c32ecdcc321f7f58876188ddd873507ccaf8f36423f8918a9ece9beafaaa",
+              "size": 39061515,
+              "source_asset_id": 703721532,
+              "source_updated_at": "2026-11-03T00:44:09Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727372937,
+              "name": "texturecraft-0.3.0-linux-aarch64.tar.gz",
+              "sha256": "97c22520f760a53292d4f0c285259f49a042a9fbd642fe100fafa983c4136656",
+              "size": 38247989,
+              "source_asset_id": 703721543,
+              "source_updated_at": "2026-11-03T00:44:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727373185,
+              "name": "texturecraft-0.3.0-linux-riscv64.deb",
+              "sha256": "a1b48a2dbe13a31525f7e2e86f35009c57a2414eda397696b17c0f908a54e5d5",
+              "size": 40101056,
+              "source_asset_id": 703721566,
+              "source_updated_at": "2026-11-03T00:44:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727373412,
+              "name": "texturecraft-0.3.0-linux-riscv64.rpm",
+              "sha256": "2c48632cefe7221e2b07cb6d645e6781e520daed8f414d197204910dac1243f0",
+              "size": 39947943,
+              "source_asset_id": 703721567,
+              "source_updated_at": "2026-11-03T00:44:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727373573,
+              "name": "texturecraft-0.3.0-linux-riscv64.tar.gz",
+              "sha256": "fdc0b1c45ad9c7076f0c5acb5304ff165838b5b5549aecb170781ee489397c1b",
+              "size": 39467964,
+              "source_asset_id": 703721582,
+              "source_updated_at": "2026-11-03T00:44:11Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727373727,
+              "name": "texturecraft-0.3.0-linux-x86_64.AppImage",
+              "sha256": "6a6b3efbec8c33954682f5af9e79ab5ca4040ba8d89a84c425099ec202946543",
+              "size": 38312440,
+              "source_asset_id": 703721707,
+              "source_updated_at": "2026-11-03T00:44:11Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727373888,
+              "name": "texturecraft-0.3.0-linux-x86_64.AppImage.zsync",
+              "sha256": "ad783d23151fc0eaf62181abf4dc9178c26b0c4762d9317b303d85703a6c1f6c",
+              "size": 131207,
+              "source_asset_id": 703721724,
+              "source_updated_at": "2026-11-03T00:44:10Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727374018,
+              "name": "texturecraft-0.3.0-linux-x86_64.deb",
+              "sha256": "6f0d262cd081d1a94b16a646a1180773a26c0cf4d8281550a06b3119bc3bbc26",
+              "size": 40479892,
+              "source_asset_id": 703721739,
+              "source_updated_at": "2026-11-03T00:44:13Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727374253,
+              "name": "texturecraft-0.3.0-linux-x86_64.flatpak",
+              "sha256": "5278b5f6267cfd8fe40b3bc0d7421e8a0b952cc2013260e0c56e50972c0b4c1a",
+              "size": 29207096,
+              "source_asset_id": 703721764,
+              "source_updated_at": "2026-11-03T00:44:14Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727374459,
+              "name": "texturecraft-0.3.0-linux-x86_64.pkg.tar.zst",
+              "sha256": "c3fed1c1ea5a1e569fb29b3e0e453a0b2900029c5a20fe72d9cd629bb2d50d9f",
+              "size": 27926155,
+              "source_asset_id": 703721771,
+              "source_updated_at": "2026-11-03T00:44:13Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727374690,
+              "name": "texturecraft-0.3.0-linux-x86_64.rpm",
+              "sha256": "47557a82bf5778a1e1e05edcd743f7cba0288dc2affcb613b83705ea7c159b3e",
+              "size": 40231300,
+              "source_asset_id": 703721766,
+              "source_updated_at": "2026-11-03T00:44:14Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727374949,
+              "name": "texturecraft-0.3.0-linux-x86_64.tar.gz",
+              "sha256": "c5537d2910af8dd79410c7f6afcd9c2865f72a3252154c2e12a613acc60bc63d",
+              "size": 39787889,
+              "source_asset_id": 703721802,
+              "source_updated_at": "2026-11-03T00:44:14Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727375222,
+              "name": "texturecraft-0.3.0-macos-universal.dmg",
+              "sha256": "eb575f1dae6e7374276b9cd4002286121278398a1ac84e267ed0205c761f6fcd",
+              "size": 59106737,
+              "source_asset_id": 703721916,
+              "source_updated_at": "2026-11-03T00:44:17Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727375486,
+              "name": "texturecraft-0.3.0-windows-arm64-portable.zip",
+              "sha256": "c9ecb04be3f9f8fd24f4d953c6a239346c1c0ee0cca4f4b555175b65de37d742",
+              "size": 38213818,
+              "source_asset_id": 703721925,
+              "source_updated_at": "2026-11-03T00:44:17Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727375704,
+              "name": "texturecraft-0.3.0-windows-arm64.msi",
+              "sha256": "1098882afde890e0d1c0dc9cc20c01c3f056ae88aa05c593be79b89d1c11503d",
+              "size": 30879744,
+              "source_asset_id": 703721965,
+              "source_updated_at": "2026-11-03T00:44:17Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727375920,
+              "name": "texturecraft-0.3.0-windows-x64-portable.zip",
+              "sha256": "c2148e772ff16d5af1f7aa49d85acdbe6306a478a0dc17ff4330dc9ede1ddde4",
+              "size": 39838860,
+              "source_asset_id": 703721981,
+              "source_updated_at": "2026-11-03T00:44:17Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727376169,
+              "name": "texturecraft-0.3.0-windows-x64.msi",
+              "sha256": "f9b064ee24228cea27d6ab1a5f7203308f3a53715b3564457ac1e34736f4cbf3",
+              "size": 32698368,
+              "source_asset_id": 703721991,
+              "source_updated_at": "2026-11-03T00:44:17Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727376438,
+              "name": "texturecraft-0.3.0-windows-x86-portable.zip",
+              "sha256": "858c0e489d69f06590d940fa748b9b70f271aa7f6e3bd2826c5c84b8398fe8c5",
+              "size": 38455066,
+              "source_asset_id": 703722085,
+              "source_updated_at": "2026-11-03T00:44:21Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727376693,
+              "name": "texturecraft-0.3.0-windows-x86.msi",
+              "sha256": "b8a5daae26d42b6eac192b7475f1a0568023ac9d10ee5cad4d4e09770a63e849",
+              "size": 32092160,
+              "source_asset_id": 703722093,
+              "source_updated_at": "2026-11-03T00:44:20Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727376913,
+              "name": "texturecraft-cli-0.3.0-macos-universal.zip",
+              "sha256": "9f35ffaf01c1a09388fc9eecd0c9fd72a701c1edee45c5effbbea8acc334df6e",
+              "size": 16086286,
+              "source_asset_id": 703722095,
+              "source_updated_at": "2026-11-03T00:44:19Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727377109,
+              "name": "texturecraft-web-0.3.0.zip",
+              "sha256": "b6229b1b75c2d007f1c817e2b2d3850e625f74c4b19bb6324fbc9ccf1346a048",
+              "size": 8949483,
+              "source_asset_id": 703722118,
+              "source_updated_at": "2026-11-03T00:44:19Z",
+              "status": "synced"
+            }
+          ],
+          "dest_release_id": 439095244,
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/texturecraft--v0.3.0",
+          "dest_tag": "texturecraft--v0.3.0",
+          "error": null,
+          "prerelease": false,
+          "published_at": "2026-11-03T00:45:34Z",
+          "source_tag": "v0.3.0",
+          "stale_assets": [],
+          "title": "[TextureCraft] TextureCraft v0.3.0",
+          "upstream_release_id": 432125337,
+          "upstream_release_url": "https://github.com/storytold/texturecraft/releases/tag/v0.3.0"
+        },
+        {
+          "action": "synced",
+          "assets": [
+            {
+              "dest_asset_id": 727365908,
+              "name": "SHA256SUMS.txt",
+              "sha256": "89fcc0d42f7b9b466ce0c97c1313a2684bc7d513099d1908142f256fdf21069f",
+              "size": 2968,
+              "source_asset_id": 699072461,
+              "source_updated_at": "2026-11-01T17:55:52Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727365999,
+              "name": "texturecraft-0.2.0-freebsd-aarch64.tar.gz",
+              "sha256": "148139d1b7dd91ad6d68b385a52479071fefdd89731f0704cf641a4fae5757c4",
+              "size": 35207987,
+              "source_asset_id": 699072472,
+              "source_updated_at": "2026-11-01T17:55:55Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727366158,
+              "name": "texturecraft-0.2.0-freebsd-x86_64.tar.gz",
+              "sha256": "3d9fb417c3e0b852e2c364512b656899f5e5bfb0f1117169769e08d2f1aec020",
+              "size": 36910128,
+              "source_asset_id": 699072468,
+              "source_updated_at": "2026-11-01T17:55:54Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727366341,
+              "name": "texturecraft-0.2.0-linux-aarch64.AppImage",
+              "sha256": "f81a27cab5286b5dbf4601b814aa586b6ba9dc53be762fb9e11d43b960d5b24a",
+              "size": 34466312,
+              "source_asset_id": 699072474,
+              "source_updated_at": "2026-11-01T17:55:54Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727366485,
+              "name": "texturecraft-0.2.0-linux-aarch64.AppImage.zsync",
+              "sha256": "d61f63a18845475d259d207d43e1c453c0da90e8257c2badb8921f59b21f594b",
+              "size": 118063,
+              "source_asset_id": 699072469,
+              "source_updated_at": "2026-11-01T17:55:52Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727366602,
+              "name": "texturecraft-0.2.0-linux-aarch64.deb",
+              "sha256": "f01d804aae0b597036d7eea654f312f805832a594d7fecda447c86f724b1fc85",
+              "size": 36663282,
+              "source_asset_id": 699072490,
+              "source_updated_at": "2026-11-01T17:55:55Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727366788,
+              "name": "texturecraft-0.2.0-linux-aarch64.flatpak",
+              "sha256": "250427aad145b17b6d63e30dab62293bdc2efe4f95249e29da8e9a5a3d595dd8",
+              "size": 25756256,
+              "source_asset_id": 699072495,
+              "source_updated_at": "2026-11-01T17:55:54Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727366980,
+              "name": "texturecraft-0.2.0-linux-aarch64.pkg.tar.zst",
+              "sha256": "a2f3a264382af323574cfb5746b1cbf10cd25a80e19dae7d49d1eb0175f5a7ad",
+              "size": 28579235,
+              "source_asset_id": 699072576,
+              "source_updated_at": "2026-11-01T17:55:56Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727367139,
+              "name": "texturecraft-0.2.0-linux-aarch64.rpm",
+              "sha256": "b899096e0ec9c2dd219e5dfbe7a098cfe60a09869397974df24984ebb6628092",
+              "size": 36356655,
+              "source_asset_id": 699072592,
+              "source_updated_at": "2026-11-01T17:55:57Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727367368,
+              "name": "texturecraft-0.2.0-linux-aarch64.tar.gz",
+              "sha256": "88024d8168583c25a9e83ab2d4414a7b00ab93063a42b8c86af85668b3ea646a",
+              "size": 35613347,
+              "source_asset_id": 699072593,
+              "source_updated_at": "2026-11-01T17:55:57Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727367503,
+              "name": "texturecraft-0.2.0-linux-riscv64.deb",
+              "sha256": "99ac0443fb1b9abfbee9a86d42b9908051c9f3df476e11ee1d78596a480afcbd",
+              "size": 37269040,
+              "source_asset_id": 699072600,
+              "source_updated_at": "2026-11-01T17:55:57Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727367700,
+              "name": "texturecraft-0.2.0-linux-riscv64.rpm",
+              "sha256": "a6bab7bc41e7a8a4cb6ac807680ca92b8c631361700df332cfbc64d018373c74",
+              "size": 37121229,
+              "source_asset_id": 699072609,
+              "source_updated_at": "2026-11-01T17:55:58Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727367924,
+              "name": "texturecraft-0.2.0-linux-riscv64.tar.gz",
+              "sha256": "d13159efefaec0a8184a30ca49f5969dbe481b488a345cd51f8e835fff3c5f51",
+              "size": 36683325,
+              "source_asset_id": 699072666,
+              "source_updated_at": "2026-11-01T17:55:59Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727368186,
+              "name": "texturecraft-0.2.0-linux-x86_64.AppImage",
+              "sha256": "27fbecd858e1afc4e738a7a1198c92d02fb8bd823005853e08ede56091dd69a6",
+              "size": 35711480,
+              "source_asset_id": 699072672,
+              "source_updated_at": "2026-11-01T17:55:59Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727368491,
+              "name": "texturecraft-0.2.0-linux-x86_64.AppImage.zsync",
+              "sha256": "f41aa0a8329cda505c1fb26c19b68c26f050a26bd44ccea1044b0a2aee13e984",
+              "size": 122317,
+              "source_asset_id": 699072685,
+              "source_updated_at": "2026-11-01T17:55:58Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727368637,
+              "name": "texturecraft-0.2.0-linux-x86_64.deb",
+              "sha256": "d1339c54bde5bd22f42b8a07c20637d5f05db0a0195d49802421d698ca84d17e",
+              "size": 37603688,
+              "source_asset_id": 699072686,
+              "source_updated_at": "2026-11-01T17:55:59Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727368888,
+              "name": "texturecraft-0.2.0-linux-x86_64.flatpak",
+              "sha256": "a51ce430f13ac1793c24095e7c83a41e98bf6341cb8217b71f81c5964e65dde6",
+              "size": 27442896,
+              "source_asset_id": 699072712,
+              "source_updated_at": "2026-11-01T17:56:00Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369121,
+              "name": "texturecraft-0.2.0-linux-x86_64.pkg.tar.zst",
+              "sha256": "3dabe9d281c11e524c92018faa2703d3fe0002b20bbb66190e45fbca3910563e",
+              "size": 26558776,
+              "source_asset_id": 699072713,
+              "source_updated_at": "2026-11-01T17:56:00Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369334,
+              "name": "texturecraft-0.2.0-linux-x86_64.rpm",
+              "sha256": "a1aaabf76fcd0d9b0e6a649efcb2e492a5bccfb1996c63a8c3f1cb8ecbff3e2b",
+              "size": 37370226,
+              "source_asset_id": 699072746,
+              "source_updated_at": "2026-11-01T17:56:01Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369572,
+              "name": "texturecraft-0.2.0-linux-x86_64.tar.gz",
+              "sha256": "9919068b13d880d512d6a995433446c9fccb3e0b447fdce2c7716e1393d7cfb2",
+              "size": 36972234,
+              "source_asset_id": 699072756,
+              "source_updated_at": "2026-11-01T17:56:01Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369753,
+              "name": "texturecraft-0.2.0-macos-universal.dmg",
+              "sha256": "d8c78b01eb6d3acc2b495219b813b311a619938d2c2b9b2fa50b1c36ded96222",
+              "size": 56000418,
+              "source_asset_id": 699072766,
+              "source_updated_at": "2026-11-01T17:56:02Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727369943,
+              "name": "texturecraft-0.2.0-windows-arm64-portable.zip",
+              "sha256": "b91def3c46eff84e59331ca626356225edbe1d9309e240ac71e96b903aab8d96",
+              "size": 35412646,
+              "source_asset_id": 699072788,
+              "source_updated_at": "2026-11-01T17:56:02Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370116,
+              "name": "texturecraft-0.2.0-windows-arm64.msi",
+              "sha256": "b4b5dbc23e460178857db741d5562686d52b4bf059d365d5d342a5129dae7efd",
+              "size": 28905472,
+              "source_asset_id": 699072792,
+              "source_updated_at": "2026-11-01T17:56:02Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370278,
+              "name": "texturecraft-0.2.0-windows-x64-portable.zip",
+              "sha256": "f4259bde63ee894ae3bc8c8f7f0a281b66c195e0080c819f1db5edffa887c4f4",
+              "size": 36877360,
+              "source_asset_id": 699072818,
+              "source_updated_at": "2026-11-01T17:56:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370475,
+              "name": "texturecraft-0.2.0-windows-x64.msi",
+              "sha256": "312b6fab3ca67873042359db36fa0f0016c6b087a66b0da3ff492a96683c4656",
+              "size": 30547968,
+              "source_asset_id": 699072830,
+              "source_updated_at": "2026-11-01T17:56:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370662,
+              "name": "texturecraft-0.2.0-windows-x86-portable.zip",
+              "sha256": "94707f1ff1a9c6f32562c1204817ba415be3294232d3bb2c997d94021e943a8f",
+              "size": 35558937,
+              "source_asset_id": 699072864,
+              "source_updated_at": "2026-11-01T17:56:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727370863,
+              "name": "texturecraft-0.2.0-windows-x86.msi",
+              "sha256": "8e9ad71a259fe1d9763e8f6c8c0c5498342bf8112a3369989ab8ce04f018aecb",
+              "size": 30015488,
+              "source_asset_id": 699072880,
+              "source_updated_at": "2026-11-01T17:56:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371006,
+              "name": "texturecraft-cli-0.2.0-macos-universal.zip",
+              "sha256": "989f9113e15d52f36109b362ded0e2902f5b9d179821cb6d517c141a4da524c7",
+              "size": 13455174,
+              "source_asset_id": 699072895,
+              "source_updated_at": "2026-11-01T17:56:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727371097,
+              "name": "texturecraft-web-0.2.0.zip",
+              "sha256": "77866fb28e658709b08ab72e8b427d598b0f1e36bd86d3b35d996b16e7220f84",
+              "size": 8221675,
+              "source_asset_id": 699072898,
+              "source_updated_at": "2026-11-01T17:56:03Z",
+              "status": "synced"
+            }
+          ],
+          "dest_release_id": 439093756,
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/texturecraft--v0.2.0",
+          "dest_tag": "texturecraft--v0.2.0",
+          "error": null,
+          "prerelease": false,
+          "published_at": "2026-11-01T17:57:34Z",
+          "source_tag": "v0.2.0",
+          "stale_assets": [],
+          "title": "[TextureCraft] TextureCraft v0.2.0",
+          "upstream_release_id": 430754906,
+          "upstream_release_url": "https://github.com/storytold/texturecraft/releases/tag/v0.2.0"
+        },
+        {
+          "action": "synced",
+          "assets": [
+            {
+              "dest_asset_id": 727362412,
+              "name": "SHA256SUMS.txt",
+              "sha256": "cd6ef3c6ab6dc63a8bf3783635eb5861825e3ec20ee318373b3e50b791900aa3",
+              "size": 2327,
+              "source_asset_id": 672853852,
+              "source_updated_at": "2026-10-24T17:20:58Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727362476,
+              "name": "texturecraft-0.1.0-freebsd-x86_64.tar.gz",
+              "sha256": "bbbf74fd308ae688a5b282a0496f30ec6583e3feea37f1b5cc00540df80a413d",
+              "size": 36213946,
+              "source_asset_id": 672853857,
+              "source_updated_at": "2026-10-24T17:21:01Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727362625,
+              "name": "texturecraft-0.1.0-linux-aarch64.AppImage",
+              "sha256": "883559a1746becdf018364736cee6b04d342c93c696017617aba3f37e22862d1",
+              "size": 33868296,
+              "source_asset_id": 672853854,
+              "source_updated_at": "2026-10-24T17:20:59Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727362801,
+              "name": "texturecraft-0.1.0-linux-aarch64.AppImage.zsync",
+              "sha256": "2fe7c994127dd079ef24913008cd1f39ae2d60363871801d5c78dbd2c1aa9262",
+              "size": 116019,
+              "source_asset_id": 672853858,
+              "source_updated_at": "2026-10-24T17:20:58Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727362900,
+              "name": "texturecraft-0.1.0-linux-aarch64.deb",
+              "sha256": "e84838e505f8bd284d05fa247fe302a1b564a169c459da609f0295d7447ef140",
+              "size": 35934666,
+              "source_asset_id": 672853859,
+              "source_updated_at": "2026-10-24T17:20:59Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727363036,
+              "name": "texturecraft-0.1.0-linux-aarch64.flatpak",
+              "sha256": "f048e4446efa5eb141bd0d541e206c85844dcc49adb1c43731429cf6270079c6",
+              "size": 25456240,
+              "source_asset_id": 672853871,
+              "source_updated_at": "2026-10-24T17:21:00Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727363201,
+              "name": "texturecraft-0.1.0-linux-aarch64.rpm",
+              "sha256": "74eaef767754ef48027a80292a0b77131ac2c05284716861148ce241add7d0ad",
+              "size": 35641537,
+              "source_asset_id": 672853881,
+              "source_updated_at": "2026-10-24T17:21:01Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727363348,
+              "name": "texturecraft-0.1.0-linux-aarch64.tar.gz",
+              "sha256": "4c6377cc21bafe524494dfdc3dfdb2e288735c209e7ad90cb61ce75a3450091e",
+              "size": 34931674,
+              "source_asset_id": 672853901,
+              "source_updated_at": "2026-10-24T17:21:02Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727363501,
+              "name": "texturecraft-0.1.0-linux-x86_64.AppImage",
+              "sha256": "21187b468e1685f605a465a8b3b93dad0e21e200f22bda21f92394eb01c1164a",
+              "size": 35101176,
+              "source_asset_id": 672853918,
+              "source_updated_at": "2026-10-24T17:21:02Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727363618,
+              "name": "texturecraft-0.1.0-linux-x86_64.AppImage.zsync",
+              "sha256": "28aade4e1a5dda7815784fc08c61ed22642af298ceea0415ef74ba9d852387c8",
+              "size": 120231,
+              "source_asset_id": 672853926,
+              "source_updated_at": "2026-10-24T17:21:01Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727363692,
+              "name": "texturecraft-0.1.0-linux-x86_64.deb",
+              "sha256": "34d60e5e667f21b5fb4754a6d72aaba53473e29945c4f22ff0d80b71b001ad4c",
+              "size": 36890572,
+              "source_asset_id": 672853930,
+              "source_updated_at": "2026-10-24T17:21:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727363847,
+              "name": "texturecraft-0.1.0-linux-x86_64.flatpak",
+              "sha256": "7e36e02205a9d44086cd76cce4b077e883bfb80caf19dcbdb7725faceb429cb9",
+              "size": 27105696,
+              "source_asset_id": 672853935,
+              "source_updated_at": "2026-10-24T17:21:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727363982,
+              "name": "texturecraft-0.1.0-linux-x86_64.rpm",
+              "sha256": "44e075dbc3adac969b717e57251ba1dc5d5e0708db66750f6857ced6277e83c8",
+              "size": 36665217,
+              "source_asset_id": 672853937,
+              "source_updated_at": "2026-10-24T17:21:03Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727364156,
+              "name": "texturecraft-0.1.0-linux-x86_64.tar.gz",
+              "sha256": "1fa58c2ec961c1b4be04635d171ee515298b763376b2ef5a1f06aa3b62b6e5e2",
+              "size": 36281030,
+              "source_asset_id": 672853967,
+              "source_updated_at": "2026-10-24T17:21:04Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727364345,
+              "name": "texturecraft-0.1.0-macos-universal.dmg",
+              "sha256": "12f7aff8904a80f9c86a16a8b10debfa863bee46ec9334c93582cd1caf3b3aa4",
+              "size": 54396612,
+              "source_asset_id": 672853986,
+              "source_updated_at": "2026-10-24T17:21:06Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727364556,
+              "name": "texturecraft-0.1.0-windows-arm64-portable.zip",
+              "sha256": "5a19d180e175394182ed65866f88ee89aa3fa8775b14260ed66f0b2d5dac5f9f",
+              "size": 34525200,
+              "source_asset_id": 672853993,
+              "source_updated_at": "2026-10-24T17:21:05Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727364682,
+              "name": "texturecraft-0.1.0-windows-arm64.msi",
+              "sha256": "f8516ea292cadda4b79cf3bcb379f50f33b72e19392df8b053e2928b05b43b97",
+              "size": 28413952,
+              "source_asset_id": 672854003,
+              "source_updated_at": "2026-10-24T17:21:05Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727364873,
+              "name": "texturecraft-0.1.0-windows-x64-portable.zip",
+              "sha256": "443d39d3bf3b14fdbc2beba71350ed36ced15631821829c0d641bdfc0155c220",
+              "size": 35982824,
+              "source_asset_id": 672854009,
+              "source_updated_at": "2026-10-24T17:21:05Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727365013,
+              "name": "texturecraft-0.1.0-windows-x64.msi",
+              "sha256": "36b9bfd6db83bfef47f32f750d437cc67dc8ff0588f017682534ea5c58d4cf26",
+              "size": 29990912,
+              "source_asset_id": 672854042,
+              "source_updated_at": "2026-10-24T17:21:06Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727365213,
+              "name": "texturecraft-0.1.0-windows-x86-portable.zip",
+              "sha256": "f7b7bb949e805a78383d788f60964d7ee4eba17f2d962e9016a14eefaaf3731a",
+              "size": 34706872,
+              "source_asset_id": 672854066,
+              "source_updated_at": "2026-10-24T17:21:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727365361,
+              "name": "texturecraft-0.1.0-windows-x86.msi",
+              "sha256": "90d000dda9208e1120353ae690a5f83f0cd6bd5eb5d4d91e398a70288fa68969",
+              "size": 29491200,
+              "source_asset_id": 672854077,
+              "source_updated_at": "2026-10-24T17:21:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727365588,
+              "name": "texturecraft-cli-0.1.0-macos-universal.zip",
+              "sha256": "9af2f4033fb4571385fd2ce5635003c8ce5542d35942fd7e4ea1e0fce8a35960",
+              "size": 13361190,
+              "source_asset_id": 672854078,
+              "source_updated_at": "2026-10-24T17:21:07Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 727365691,
+              "name": "texturecraft-web-0.1.0.zip",
+              "sha256": "5dfdb751cec6efbd11ab6d9889cb8683a6522992c03c056de7b9428eb5e7c22d",
+              "size": 7950871,
+              "source_asset_id": 672854090,
+              "source_updated_at": "2026-10-24T17:21:07Z",
+              "status": "synced"
+            }
+          ],
+          "dest_release_id": 439092607,
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/texturecraft--v0.1.0",
+          "dest_tag": "texturecraft--v0.1.0",
+          "error": null,
+          "prerelease": false,
+          "published_at": "2026-10-24T17:22:30Z",
+          "source_tag": "v0.1.0",
+          "stale_assets": [],
+          "title": "[TextureCraft] TextureCraft v0.1.0",
+          "upstream_release_id": 422873542,
+          "upstream_release_url": "https://github.com/storytold/texturecraft/releases/tag/v0.1.0"
+        }
+      ],
+      "repository": "storytold/texturecraft",
+      "slug": "texturecraft",
+      "status": "success",
+      "tags": {
+        "invalid": [],
+        "processed": 7,
+        "sanitized": 7,
+        "stale": []
+      },
+      "upstream_default_branch": "main",
+      "upstream_head_sha": "85729f1faec97415e2d37a6cdceeed700dd84611"
+    },
     "vectorcraft": {
       "auto_sync": true,
       "destination_branch": "vectorcraft",
@@ -32255,6 +34793,6 @@
     }
   },
   "destination": "ZuanCrisp/Craft-Suite",
-  "generated_at": "2026-11-09T12:22:41Z",
+  "generated_at": "2026-11-09T12:25:53Z",
   "schema_version": 1
 }
