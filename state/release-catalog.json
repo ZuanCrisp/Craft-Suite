@@ -136,6 +136,23 @@
       "status": "partial",
       "upstream_default_branch": "main"
     },
+    "lightcraft": {
+      "destination_branch": "lightcraft",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/lightcraft--v0.20.0",
+        "destination_tag": "lightcraft--v0.20.0",
+        "published_at": "2026-11-09T11:57:03Z",
+        "source_tag": "v0.20.0",
+        "upstream_release_id": 439076707,
+        "upstream_release_url": "https://github.com/storytold/lightcraft/releases/tag/v0.20.0"
+      },
+      "name": "LightCraft",
+      "release_count": 22,
+      "repository": "storytold/lightcraft",
+      "status": "partial",
+      "upstream_default_branch": "main"
+    },
     "materialcraft": {
       "destination_branch": "materialcraft",
       "latest_prerelease": null,
@@ -256,6 +273,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T14:27:37Z",
+  "generated_at": "2026-11-09T14:43:27Z",
   "schema_version": 1
 }
