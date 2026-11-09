@@ -1,0 +1,86 @@
+# Craft Suite Sync - WordCraft (manual, one application only).
+# Generated from workflow/app-sync.yml on the control branch; do not edit this copy on the
+# default branch, it is re-rendered. Only workflow_dispatch: nothing runs automatically.
+# Safety: no push/pull_request/release/schedule triggers, no builds, upstream workflows are
+# archived (never executed) and nothing from upstream is ever run.
+name: Sync WordCraft
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Plan only: no pushes, no release/asset changes, no state commit"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: craft-suite-sync-wordcraft
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Check out control branch (read-only, no persisted credentials)
+        uses: actions/checkout@v4
+        with:
+          ref: craft-suite-control
+          persist-credentials: false
+      - name: Sync WordCraft
+        env:
+          SLUG: wordcraft
+          DRY_RUN: ${{ inputs.dry_run }}
+          GH_SYNC_TOKEN: ${{ secrets.GH_SYNC_TOKEN }}
+          UPSTREAM_API_TOKEN: ${{ secrets.UPSTREAM_API_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 engine/craft_sync.py sync-app --slug "$SLUG" --out "$RUNNER_TEMP/result-$SLUG.json"
+      - name: Upload result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: result-wordcraft
+          path: ${{ runner.temp }}/result-wordcraft.json
+          if-no-files-found: warn
+          retention-days: 7
+
+  finalize:
+    needs: sync
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out control branch
+        uses: actions/checkout@v4
+        with:
+          ref: craft-suite-control
+      - name: Download result
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          pattern: result-*
+          path: results
+          merge-multiple: true
+      - name: Merge state/catalog/index and commit (skipped on dry run; no commit if nothing changed)
+        env:
+          PLANNED_MATRIX: '[{"slug":"wordcraft"}]'
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          mkdir -p results
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            python3 engine/craft_sync.py finalize --results results
+            if [ "$DRY_RUN" = "true" ]; then echo "Dry run: state not committed."; exit 0; fi
+            git add state CRAFT-SUITE-INDEX.md
+            if git diff --cached --quiet; then echo "No state changes."; exit 0; fi
+            git commit -q -m "Update Craft Suite sync state: wordcraft [skip ci]"
+            if git push origin "HEAD:refs/heads/craft-suite-control"; then exit 0; fi
+            # another app finished at the same time: take the latest state and merge again
+            git fetch origin "craft-suite-control" && git reset -q --hard FETCH_HEAD
+          done
+          echo "::error::could not push state"; exit 1
