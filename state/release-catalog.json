@@ -17,6 +17,23 @@
       "status": "success",
       "upstream_default_branch": "main"
     },
+    "filmcraft": {
+      "destination_branch": "filmcraft",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/filmcraft--v0.18.0",
+        "destination_tag": "filmcraft--v0.18.0",
+        "published_at": "2026-11-06T20:21:40Z",
+        "source_tag": "v0.18.0",
+        "upstream_release_id": 436945049,
+        "upstream_release_url": "https://github.com/storytold/filmcraft/releases/tag/v0.18.0"
+      },
+      "name": "FilmCraft",
+      "release_count": 20,
+      "repository": "storytold/filmcraft",
+      "status": "success",
+      "upstream_default_branch": "main"
+    },
     "photocraft": {
       "destination_branch": "photocraft",
       "latest_prerelease": null,
@@ -52,6 +69,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T11:00:42Z",
+  "generated_at": "2026-11-09T11:31:21Z",
   "schema_version": 1
 }
