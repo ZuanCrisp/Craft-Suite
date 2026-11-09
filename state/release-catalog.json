@@ -1,5 +1,22 @@
 {
   "apps": {
+    "cadcraft": {
+      "destination_branch": "cadcraft",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/cadcraft--v0.19.0",
+        "destination_tag": "cadcraft--v0.19.0",
+        "published_at": "2026-11-09T11:58:58Z",
+        "source_tag": "v0.19.0",
+        "upstream_release_id": 439078164,
+        "upstream_release_url": "https://github.com/storytold/cadcraft/releases/tag/v0.19.0"
+      },
+      "name": "CADCraft",
+      "release_count": 18,
+      "repository": "storytold/cadcraft",
+      "status": "partial",
+      "upstream_default_branch": "main"
+    },
     "craft": {
       "destination_branch": "craft",
       "latest_prerelease": null,
@@ -188,6 +205,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T14:19:14Z",
+  "generated_at": "2026-11-09T14:19:27Z",
   "schema_version": 1
 }
