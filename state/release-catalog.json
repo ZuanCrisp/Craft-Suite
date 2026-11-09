@@ -68,6 +68,23 @@
       "status": "success",
       "upstream_default_branch": "main"
     },
+    "figcraft": {
+      "destination_branch": "figcraft",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/figcraft--v0.16.0",
+        "destination_tag": "figcraft--v0.16.0",
+        "published_at": "2026-11-06T20:21:35Z",
+        "source_tag": "v0.16.0",
+        "upstream_release_id": 436944086,
+        "upstream_release_url": "https://github.com/storytold/figcraft/releases/tag/v0.16.0"
+      },
+      "name": "FigCraft",
+      "release_count": 17,
+      "repository": "storytold/figcraft",
+      "status": "partial",
+      "upstream_default_branch": "main"
+    },
     "filmcraft": {
       "destination_branch": "filmcraft",
       "latest_prerelease": null,
@@ -222,6 +239,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T14:22:19Z",
+  "generated_at": "2026-11-09T14:24:25Z",
   "schema_version": 1
 }
