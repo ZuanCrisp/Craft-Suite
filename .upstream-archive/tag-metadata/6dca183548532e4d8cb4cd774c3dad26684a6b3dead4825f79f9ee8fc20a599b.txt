@@ -1,0 +1,7 @@
+Original tag name: v0.3.0
+Destination tag name: materialcraft--v0.3.0
+Original tag object: ac6dc551169046828eeb4b6ef03f4f1dce09efba
+Original target commit: ac6dc551169046828eeb4b6ef03f4f1dce09efba
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
