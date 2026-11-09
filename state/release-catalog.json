@@ -119,6 +119,23 @@
       "status": "success",
       "upstream_default_branch": "main"
     },
+    "pdfcraft": {
+      "destination_branch": "pdfcraft",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/pdfcraft--v0.20.0",
+        "destination_tag": "pdfcraft--v0.20.0",
+        "published_at": "2026-11-09T12:10:51Z",
+        "source_tag": "v0.20.0",
+        "upstream_release_id": 439089389,
+        "upstream_release_url": "https://github.com/storytold/pdfcraft/releases/tag/v0.20.0"
+      },
+      "name": "PdfCraft",
+      "release_count": 23,
+      "repository": "storytold/pdfcraft",
+      "status": "partial",
+      "upstream_default_branch": "main"
+    },
     "photocraft": {
       "destination_branch": "photocraft",
       "latest_prerelease": null,
@@ -205,6 +222,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T14:19:27Z",
+  "generated_at": "2026-11-09T14:22:19Z",
   "schema_version": 1
 }
