@@ -1,7 +1,7 @@
 # Validation results
 
 Environment: Linux sandbox, Python 3.12.3, git 2.43.0, no network, no PowerShell, no git-lfs.
-Command: `python3 -m unittest discover -s tests -v` -> **Ran 37 tests, OK** (about 11 s).
+Command: `python3 -m unittest discover -s tests -v` -> **Ran 38 tests, OK** (about 11 s).
 
 ## Passed (actually executed)
 - Git engine, 10 tests: default branch `trunk` detected (not assumed); only the default branch is pushed and renamed;
@@ -14,9 +14,9 @@ Command: `python3 -m unittest discover -s tests -v` -> **Ran 37 tests, OK** (abo
   asset without upstream digest handled via recorded identity (and conservatively re-transferred without state);
   missing tag blocks one release only; digest mismatch never publishes; foreign release untouched; dry run = zero writes;
   upload failure leaves a draft and the next run completes it; upstream deletion never deletes destination.
-- Manifest/plan/catalog/workflow, 11 tests: 17 valid apps; invalid input rejected; schedule/global switch/manual dispatch/
+- Manifest/plan/catalog/workflow, 12 tests: 17 valid apps; invalid input rejected; schedule/global switch/manual dispatch/
   explicit slug logic; no-op run yields byte-identical state; failed phase keeps last known catalog; stale flagged not removed;
-  each of the 17 rendered per-app workflows has only the `workflow_dispatch` trigger, its own concurrency group, no schedule, no persisted credentials, no build commands; the Craft overlay carries all 17 workflow files.
+  each of the 17 rendered per-app workflows has only the `workflow_dispatch` trigger, its own concurrency group, no schedule, no persisted credentials, no build commands; the Craft overlay carries the 17 per-app workflows plus `sync-all.yml` (manual only, max 2 parallel, per-app concurrency groups).
 - End-to-end through the real CLI, 4 tests: full cycle + idempotent rerun with byte-identical state/catalog/index; wrong
   destination refused; failing app does not block another and aggregate status is honest (`NO_RESULT` reported); dry run writes
   nothing; neither token appears in output.

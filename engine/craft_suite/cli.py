@@ -47,6 +47,9 @@ def overlay_files(manifest: Dict[str, Any]) -> Dict[str, bytes]:
         md = render_pointer(fh.read(), manifest)
     files = {f".github/workflows/sync-{a['slug']}.yml": render_workflow(tpl, manifest, a).encode("utf-8")
              for a in manifest["apps"] if a["enabled"]}
+    with open(os.path.join(ROOT, "workflow", "sync-all.yml"), "r", encoding="utf-8") as fh:
+        files[".github/workflows/sync-all.yml"] = (
+            fh.read().replace("__CONTROL_BRANCH__", manifest["destination"]["control_branch"]).encode("utf-8"))
     files["CRAFT-SUITE.md"] = md.encode("utf-8")
     return files
 

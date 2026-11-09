@@ -6,7 +6,7 @@ before production (cannot be proven offline).
 | # | Area | Check | Type |
 |---|---|---|---|
 | 1 | Manifest | 17 apps, unique slugs/branches, HTTPS URLs match `repository`, bad input rejected | AUTO |
-| 2 | Toggles | `enabled` honoured; 17 per-app workflows rendered, manual trigger only, no schedule | AUTO |
+| 2 | Toggles | `enabled` honoured; 17 per-app workflows + sync-all rendered, manual trigger only, no schedule | AUTO |
 | 3 | Default branch | non-main default (`trunk`) detected, symref parsed, API disagreement fails | AUTO (disagreement: code review only) |
 | 4 | Branch | only default branch pushed, renamed, other upstream branches ignored | AUTO |
 | 5 | Sanitisation | workflows/dependabot archived, original commit is parent, clean trees pushed untouched, deterministic SHA | AUTO |

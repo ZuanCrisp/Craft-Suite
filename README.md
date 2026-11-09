@@ -7,7 +7,7 @@ renamed), namespaced tags, releases with assets, per-app latest catalog. No buil
 Install-CraftSuite.ps1   one-time installer (Windows)
 config/apps.json         manifest: 17 apps + toggles + policies
 engine/                  Python (stdlib only): git engine, release engine, catalog, CLI
-workflow/                app-sync.yml: template rendered into one manual workflow per app
+workflow/                app-sync.yml (one manual workflow per app) + sync-all.yml (manual, all apps)
 templates/               pointer README for the default branch
 docs/                    SETUP.md, OPERATIONS.md, TEST-PLAN.md
 tests/                   offline unit/e2e tests + mock GitHub API

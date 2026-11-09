@@ -104,8 +104,10 @@ class WorkflowSafety(unittest.TestCase):
         from craft_suite import cli
         files = cli.overlay_files(M)
         wf = sorted(k for k in files if k.startswith(".github/workflows/"))
-        self.assertEqual(len(wf), 17)
+        self.assertEqual(len(wf), 18)                       # 17 per-app + sync-all
         self.assertIn(".github/workflows/sync-photocraft.yml", wf)
+        self.assertIn(".github/workflows/sync-all.yml", wf)
+        self.assertNotIn("__CONTROL_BRANCH__", files[".github/workflows/sync-all.yml"].decode())
         self.assertIn("CRAFT-SUITE.md", files)
 
     def test_triggers_are_manual_only(self):
@@ -120,6 +122,23 @@ class WorkflowSafety(unittest.TestCase):
             self.assertEqual(doc["permissions"], {"contents": "write"})
             self.assertEqual(doc["concurrency"]["group"], f"craft-suite-sync-{slug}")
             self.assertFalse(doc["concurrency"]["cancel-in-progress"])
+
+    def test_sync_all_is_manual_only_and_isolated(self):
+        with open(os.path.join(ROOT, "workflow", "sync-all.yml"), encoding="utf-8") as fh:
+            text = fh.read().replace("__CONTROL_BRANCH__", "craft-suite-control")
+        low = text.lower()
+        for bad in ("schedule:", "pull_request_target", "cargo ", "npm ", "persist-credentials: true"):
+            self.assertNotIn(bad, low)
+        try:
+            import yaml
+        except ImportError:
+            return
+        doc = yaml.safe_load(text)
+        self.assertEqual(sorted(doc.get(True) or doc.get("on")), ["workflow_dispatch"])
+        sync = doc["jobs"]["sync"]
+        self.assertFalse(sync["strategy"]["fail-fast"])
+        self.assertEqual(sync["strategy"]["max-parallel"], 2)
+        self.assertEqual(sync["concurrency"]["group"], "craft-suite-sync-${{ matrix.slug }}")
 
     def test_no_upstream_execution_or_secret_echo(self):
         for slug, text in self.rendered.items():

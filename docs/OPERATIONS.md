@@ -40,9 +40,10 @@ is only green when every planned app succeeded.
 1. One workflow file per app (`.github/workflows/sync-<slug>.yml` on `craft`), `workflow_dispatch` only, rendered from the single
    template `workflow/app-sync.yml`. This was requested explicitly; it deviates from the original handoff ("no workflow per app").
    Runs of different apps may overlap; state commits retry and re-merge on conflict.
-2. Controller lives on a separate branch (`craft-suite-control`), because `craft` is force-reset to follow upstream each run.
-3. Release API calls use the workflow's `GITHUB_TOKEN` (events from it do not start workflows); the PAT is used for `git push` only.
-4. Upstream @mentions in release notes are neutralised with a zero-width space (`neutralize_mentions`).
+2. A manual-only `sync-all.yml` is also installed (apps with enabled+auto_sync, 2 in parallel, same per-app concurrency groups).
+3. Controller lives on a separate branch (`craft-suite-control`), because `craft` is force-reset to follow upstream each run.
+4. Release API calls use the workflow's `GITHUB_TOKEN` (events from it do not start workflows); the PAT is used for `git push` only.
+5. Upstream @mentions in release notes are neutralised with a zero-width space (`neutralize_mentions`).
 
 ## Known limits / not covered
 - Git LFS: branch tip objects are mirrored when git-lfs is available; LFS objects reachable only from tags are not mirrored.

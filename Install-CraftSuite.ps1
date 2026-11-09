@@ -100,7 +100,7 @@ function New-Commit([string]$Message) {
 # ----------------------------------------------------------------- preflight ---
 Write-Step 'Preflight'
 if (-not (Get-Command git -ErrorAction SilentlyContinue)) { Stop-Install 'git is not installed or not on PATH.' }
-foreach ($p in @('config\apps.json', 'engine\craft_sync.py', 'workflow\app-sync.yml', 'templates\CRAFT-SUITE.md')) {
+foreach ($p in @('config\apps.json', 'engine\craft_sync.py', 'workflow\app-sync.yml', 'workflow\sync-all.yml', 'templates\CRAFT-SUITE.md')) {
     if (-not (Test-Path -LiteralPath (Join-Path $script:PackageRoot $p))) { Stop-Install "Package file missing: $p (run this script from the package folder)." }
 }
 $manifestPath = Join-Path $script:PackageRoot 'config\apps.json'
@@ -132,7 +132,7 @@ if ($script:WorkDirFull.TrimEnd('\') -eq $script:PackageRoot.TrimEnd('\')) { Sto
 Write-Info "Destination : $Destination"
 Write-Info "Work folder : $($script:WorkDirFull)"
 Write-Info "Branches    : $defaultBranch (default) + $controlBranch (control)"
-Write-Info "Workflows   : $($enabledApps.Count) (one per app, manual run only, no schedule)"
+Write-Info "Workflows   : $($enabledApps.Count) per-app + 1 'Sync ALL' (manual run only, no schedule)"
 
 # ------------------------------------------------------------ local folder ---
 Write-Step 'Local folder'
@@ -260,6 +260,8 @@ Clear-WorkTree
 foreach ($a in $enabledApps) {
     Write-FileLf (Join-Path $script:WorkDirFull ".github\workflows\sync-$($a.slug).yml") (Get-RenderedWorkflow $a)
 }
+$allTpl = [System.IO.File]::ReadAllText((Join-Path $script:PackageRoot 'workflow\sync-all.yml'), $script:Utf8NoBom)
+Write-FileLf (Join-Path $script:WorkDirFull '.github\workflows\sync-all.yml') ($allTpl.Replace('__CONTROL_BRANCH__', $controlBranch))
 Write-FileLf (Join-Path $script:WorkDirFull 'CRAFT-SUITE.md') (Get-RenderedPointer)
 New-Commit 'Seed Craft Suite default branch with the per-app sync workflows'
 Write-Info 'Pushing the workflow file needs a credential with the "workflow" scope (Git Credential Manager normally has it).'
