@@ -152,8 +152,25 @@
       "repository": "storytold/vectorcraft",
       "status": "success",
       "upstream_default_branch": "main"
+    },
+    "wordcraft": {
+      "destination_branch": "wordcraft",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/wordcraft--v0.17.0",
+        "destination_tag": "wordcraft--v0.17.0",
+        "published_at": "2026-11-09T12:07:17Z",
+        "source_tag": "v0.17.0",
+        "upstream_release_id": 439086011,
+        "upstream_release_url": "https://github.com/storytold/wordcraft/releases/tag/v0.17.0"
+      },
+      "name": "WordCraft",
+      "release_count": 18,
+      "repository": "storytold/wordcraft",
+      "status": "partial",
+      "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T14:17:25Z",
+  "generated_at": "2026-11-09T14:17:29Z",
   "schema_version": 1
 }
