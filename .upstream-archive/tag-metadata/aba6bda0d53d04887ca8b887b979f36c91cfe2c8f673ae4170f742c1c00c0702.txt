@@ -1,0 +1,7 @@
+Original tag name: v0.17.0
+Destination tag name: wordcraft--v0.17.0
+Original tag object: 5574b32600aa7d782c64f5a6c6bb24696152220d
+Original target commit: 5574b32600aa7d782c64f5a6c6bb24696152220d
+Original object type: commit
+
+Lightweight tag; the original target commit is recorded above.
