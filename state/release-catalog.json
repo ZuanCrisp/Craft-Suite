@@ -17,6 +17,23 @@
       "status": "success",
       "upstream_default_branch": "main"
     },
+    "effectcraft": {
+      "destination_branch": "effectcraft",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/effectcraft--v0.22.0",
+        "destination_tag": "effectcraft--v0.22.0",
+        "published_at": "2026-11-06T20:26:02Z",
+        "source_tag": "v0.22.0",
+        "upstream_release_id": 436972614,
+        "upstream_release_url": "https://github.com/storytold/effectcraft/releases/tag/v0.22.0"
+      },
+      "name": "EffectCraft",
+      "release_count": 23,
+      "repository": "storytold/effectcraft",
+      "status": "success",
+      "upstream_default_branch": "main"
+    },
     "filmcraft": {
       "destination_branch": "filmcraft",
       "latest_prerelease": null,
@@ -69,6 +86,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T11:31:21Z",
+  "generated_at": "2026-11-09T11:32:31Z",
   "schema_version": 1
 }
