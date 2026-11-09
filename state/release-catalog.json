@@ -16,8 +16,25 @@
       "repository": "storytold/craft-anything",
       "status": "success",
       "upstream_default_branch": "main"
+    },
+    "photocraft": {
+      "destination_branch": "photocraft",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/photocraft--v0.21.0",
+        "destination_tag": "photocraft--v0.21.0",
+        "published_at": "2026-11-06T20:22:03Z",
+        "source_tag": "v0.21.0",
+        "upstream_release_id": 436962270,
+        "upstream_release_url": "https://github.com/storytold/photocraft/releases/tag/v0.21.0"
+      },
+      "name": "PhotoCraft",
+      "release_count": 24,
+      "repository": "storytold/photocraft",
+      "status": "success",
+      "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T08:50:16Z",
+  "generated_at": "2026-11-09T09:44:19Z",
   "schema_version": 1
 }
