@@ -84,8 +84,25 @@
       "repository": "storytold/soundcraft",
       "status": "success",
       "upstream_default_branch": "main"
+    },
+    "vectorcraft": {
+      "destination_branch": "vectorcraft",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/vectorcraft--v0.22.0",
+        "destination_tag": "vectorcraft--v0.22.0",
+        "published_at": "2026-11-06T20:22:17Z",
+        "source_tag": "v0.22.0",
+        "upstream_release_id": 436963530,
+        "upstream_release_url": "https://github.com/storytold/vectorcraft/releases/tag/v0.22.0"
+      },
+      "name": "VectorCraft",
+      "release_count": 25,
+      "repository": "storytold/vectorcraft",
+      "status": "success",
+      "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T11:32:31Z",
+  "generated_at": "2026-11-09T11:35:44Z",
   "schema_version": 1
 }
