@@ -33,8 +33,25 @@
       "repository": "storytold/photocraft",
       "status": "success",
       "upstream_default_branch": "main"
+    },
+    "soundcraft": {
+      "destination_branch": "soundcraft",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/soundcraft--v0.18.0",
+        "destination_tag": "soundcraft--v0.18.0",
+        "published_at": "2026-11-06T20:22:08Z",
+        "source_tag": "v0.18.0",
+        "upstream_release_id": 436926475,
+        "upstream_release_url": "https://github.com/storytold/soundcraft/releases/tag/v0.18.0"
+      },
+      "name": "SoundCraft",
+      "release_count": 16,
+      "repository": "storytold/soundcraft",
+      "status": "success",
+      "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T09:44:19Z",
+  "generated_at": "2026-11-09T11:00:42Z",
   "schema_version": 1
 }
