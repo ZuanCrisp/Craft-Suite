@@ -204,6 +204,30 @@
       "status": "success",
       "upstream_default_branch": "main"
     },
+    "solidcraft": {
+      "destination_branch": "solidcraft",
+      "latest_prerelease": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/solidcraft--v0.40.0-rc.3",
+        "destination_tag": "solidcraft--v0.40.0-rc.3",
+        "published_at": "2026-11-07T22:46:21Z",
+        "source_tag": "v0.40.0-rc.3",
+        "upstream_release_id": 437888854,
+        "upstream_release_url": "https://github.com/tangency-labs/solidcraft/releases/tag/v0.40.0-rc.3"
+      },
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/solidcraft--v0.30.1",
+        "destination_tag": "solidcraft--v0.30.1",
+        "published_at": "2026-11-02T17:21:52Z",
+        "source_tag": "v0.30.1",
+        "upstream_release_id": 431747677,
+        "upstream_release_url": "https://github.com/tangency-labs/solidcraft/releases/tag/v0.30.1"
+      },
+      "name": "SolidCraft",
+      "release_count": 74,
+      "repository": "tangency-labs/solidcraft",
+      "status": "partial",
+      "upstream_default_branch": "main"
+    },
     "soundcraft": {
       "destination_branch": "soundcraft",
       "latest_prerelease": null,
@@ -273,6 +297,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T14:43:27Z",
+  "generated_at": "2026-11-09T17:01:45Z",
   "schema_version": 1
 }
