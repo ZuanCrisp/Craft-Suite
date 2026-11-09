@@ -51,6 +51,23 @@
       "status": "success",
       "upstream_default_branch": "main"
     },
+    "gridcraft": {
+      "destination_branch": "gridcraft",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/gridcraft--v0.18.0",
+        "destination_tag": "gridcraft--v0.18.0",
+        "published_at": "2026-11-09T11:51:15Z",
+        "source_tag": "v0.18.0",
+        "upstream_release_id": 439071308,
+        "upstream_release_url": "https://github.com/storytold/gridcraft/releases/tag/v0.18.0"
+      },
+      "name": "GridCraft",
+      "release_count": 18,
+      "repository": "storytold/gridcraft",
+      "status": "partial",
+      "upstream_default_branch": "main"
+    },
     "materialcraft": {
       "destination_branch": "materialcraft",
       "latest_prerelease": null,
@@ -137,6 +154,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T12:25:53Z",
+  "generated_at": "2026-11-09T13:25:33Z",
   "schema_version": 1
 }
