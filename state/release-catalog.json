@@ -51,6 +51,23 @@
       "status": "partial",
       "upstream_default_branch": "main"
     },
+    "designcraft": {
+      "destination_branch": "designcraft",
+      "latest_prerelease": null,
+      "latest_stable": {
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/designcraft--v0.19.0",
+        "destination_tag": "designcraft--v0.19.0",
+        "published_at": "2026-11-09T12:02:13Z",
+        "source_tag": "v0.19.0",
+        "upstream_release_id": 439081464,
+        "upstream_release_url": "https://github.com/storytold/designcraft/releases/tag/v0.19.0"
+      },
+      "name": "DesignCraft",
+      "release_count": 22,
+      "repository": "storytold/designcraft",
+      "status": "partial",
+      "upstream_default_branch": "main"
+    },
     "effectcraft": {
       "destination_branch": "effectcraft",
       "latest_prerelease": null,
@@ -239,6 +256,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T14:24:25Z",
+  "generated_at": "2026-11-09T14:27:37Z",
   "schema_version": 1
 }
