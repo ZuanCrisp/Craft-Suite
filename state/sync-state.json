@@ -12891,14 +12891,6 @@
         {
           "category": "ASSET_UPLOAD_FAILED",
           "message": "v0.15.0: gridcraft-0.15.0-linux-aarch64.pkg.tar.zst"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.15.0: gridcraft-0.15.0-linux-aarch64.rpm"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.15.0: gridcraft-0.15.0-linux-aarch64.tar.gz"
         }
       ],
       "last_success_at": null,
@@ -40085,6 +40077,6 @@
     }
   },
   "destination": "ZuanCrisp/Craft-Suite",
-  "generated_at": "2026-11-09T13:25:33Z",
+  "generated_at": "2026-11-09T14:17:25Z",
   "schema_version": 1
 }
