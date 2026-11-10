@@ -184,7 +184,7 @@
       "name": "PdfCraft",
       "release_count": 23,
       "repository": "storytold/pdfcraft",
-      "status": "partial",
+      "status": "success",
       "upstream_default_branch": "main"
     },
     "photocraft": {
@@ -297,6 +297,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-10T02:42:19Z",
+  "generated_at": "2026-11-10T02:42:23Z",
   "schema_version": 1
 }

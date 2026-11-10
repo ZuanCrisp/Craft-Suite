@@ -47722,55 +47722,10 @@
     "pdfcraft": {
       "auto_sync": true,
       "destination_branch": "pdfcraft",
-      "destination_head_sha": "d7bfb01824283bb00f739df507696f4ef7b23491",
+      "destination_head_sha": "9849b006d0c07efbe1295914d8be54844aa0939d",
       "enabled": true,
-      "errors": [
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.1: pdfcraft-0.10.1-linux-x86_64.tar.gz"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.1: pdfcraft-0.10.1-macos-universal.dmg"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.1: pdfcraft-0.10.1-windows-arm64-portable.zip"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.1: pdfcraft-0.10.1-windows-arm64.msi"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.1: pdfcraft-0.10.1-windows-x64-portable.zip"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.1: pdfcraft-0.10.1-windows-x64.msi"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.18.2: pdfcraft-0.18.2-linux-aarch64.deb"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.18.2: pdfcraft-0.18.2-linux-aarch64.deb.asc"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.18.2: pdfcraft-0.18.2-linux-aarch64.flatpak"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.18.2: pdfcraft-0.18.2-linux-aarch64.flatpak.asc"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.18.2: pdfcraft-0.18.2-linux-aarch64.oci-manifest.json"
-        }
-      ],
-      "last_success_at": null,
+      "errors": [],
+      "last_success_at": "2026-11-10T02:42:22Z",
       "latest_prerelease": null,
       "latest_stable": {
         "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/pdfcraft--v0.20.0",
@@ -48806,7 +48761,7 @@
           "upstream_release_url": "https://github.com/storytold/pdfcraft/releases/tag/v0.19.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727617401,
@@ -48863,54 +48818,49 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840340,
               "name": "pdfcraft-0.18.2-linux-aarch64.deb",
               "sha256": "22a863dfb2964f1902761afc4cf3608a624e38755a7eefb335582a2ef1148bc2",
               "size": 112049844,
               "source_asset_id": 711624880,
               "source_updated_at": "2026-11-05T01:34:55Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840527,
               "name": "pdfcraft-0.18.2-linux-aarch64.deb.asc",
               "sha256": "835680654872b1e16b12528b63194949228b945a8e4775659a3e382b59d557c0",
               "size": 228,
               "source_asset_id": 711624900,
               "source_updated_at": "2026-11-05T01:34:50Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840644,
               "name": "pdfcraft-0.18.2-linux-aarch64.flatpak",
               "sha256": "71c36af012ba8fcabb1bb5199d9ab023f346b246193c3006ec02efdccd4a045f",
               "size": 80898256,
               "source_asset_id": 711624919,
               "source_updated_at": "2026-11-05T01:34:54Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840807,
               "name": "pdfcraft-0.18.2-linux-aarch64.flatpak.asc",
               "sha256": "c0ad4a36b8c80d5ec3dfc2c13aa2ab08480a7a64e7a525371712c69642df0c8c",
               "size": 228,
               "source_asset_id": 711625018,
               "source_updated_at": "2026-11-05T01:34:54Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840860,
               "name": "pdfcraft-0.18.2-linux-aarch64.oci-manifest.json",
               "sha256": "704bbfb33f77de3593ae46df74ac186f511387aae604784d8f7d2e88ca4bdbd8",
               "size": 494,
               "source_asset_id": 711625025,
               "source_updated_at": "2026-11-05T01:34:54Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727729639,
@@ -49319,9 +49269,9 @@
             }
           ],
           "dest_release_id": 439176295,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-fa80e60796d03a33fe3b",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/pdfcraft--v0.18.2",
           "dest_tag": "pdfcraft--v0.18.2",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-11-05T01:47:43Z",
           "source_tag": "v0.18.2",
@@ -51959,7 +51909,7 @@
           "upstream_release_url": "https://github.com/storytold/pdfcraft/releases/tag/v0.11.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727405345,
@@ -52115,64 +52065,58 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729838514,
               "name": "pdfcraft-0.10.1-linux-x86_64.tar.gz",
               "sha256": "7464168d2a55dacd9959b38c4619e3486f443b459cefb881a28a260e7af9d9a9",
               "size": 85962823,
               "source_asset_id": 660462690,
               "source_updated_at": "2026-10-20T20:55:59Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729838810,
               "name": "pdfcraft-0.10.1-macos-universal.dmg",
               "sha256": "910434879121f5c74b846e0b149a5537958d29684edc810037443af8e40e6397",
               "size": 95363974,
               "source_asset_id": 660462731,
               "source_updated_at": "2026-10-20T20:56:02Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729839103,
               "name": "pdfcraft-0.10.1-windows-arm64-portable.zip",
               "sha256": "34afe775714817fb688d19ed7379ad0a46cb535cca8301dde060a5fb442774b6",
               "size": 82771053,
               "source_asset_id": 660462868,
               "source_updated_at": "2026-10-20T20:56:02Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729839402,
               "name": "pdfcraft-0.10.1-windows-arm64.msi",
               "sha256": "46930bd9ced7fadf27a98cc7c1e90a166b20814b0cad9e22162fdbc20d964909",
               "size": 67923968,
               "source_asset_id": 660462894,
               "source_updated_at": "2026-10-20T20:56:01Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729839674,
               "name": "pdfcraft-0.10.1-windows-x64-portable.zip",
               "sha256": "60f47ed115b8d819f1391837881e96fac1bbf8629da61e21013c21862f424e00",
               "size": 86441313,
               "source_asset_id": 660463012,
               "source_updated_at": "2026-10-20T20:56:04Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729839957,
               "name": "pdfcraft-0.10.1-windows-x64.msi",
               "sha256": "70c302468998f748daeead851df3fe4736b3ae3dfe8bd60d4a94322529e6af64",
               "size": 72130560,
               "source_asset_id": 660463029,
               "source_updated_at": "2026-10-20T20:56:05Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727554610,
@@ -52239,9 +52183,9 @@
             }
           ],
           "dest_release_id": 439105229,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-d590a847dcbf40ce7efe",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/pdfcraft--v0.10.1",
           "dest_tag": "pdfcraft--v0.10.1",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-10-21T07:46:31Z",
           "source_tag": "v0.10.1",
@@ -54429,7 +54373,7 @@
       ],
       "repository": "storytold/pdfcraft",
       "slug": "pdfcraft",
-      "status": "partial",
+      "status": "success",
       "tags": {
         "invalid": [],
         "processed": 23,
@@ -54437,7 +54381,7 @@
         "stale": []
       },
       "upstream_default_branch": "main",
-      "upstream_head_sha": "b6cbf9bb300424b8c14f4d2b62f5e7407e8b6805"
+      "upstream_head_sha": "5e114c716f51bf74b617e1796d9eea79581811b8"
     },
     "photocraft": {
       "auto_sync": true,
@@ -107954,6 +107898,6 @@
     }
   },
   "destination": "ZuanCrisp/Craft-Suite",
-  "generated_at": "2026-11-10T02:42:19Z",
+  "generated_at": "2026-11-10T02:42:23Z",
   "schema_version": 1
 }
