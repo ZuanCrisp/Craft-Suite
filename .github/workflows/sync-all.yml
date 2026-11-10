@@ -1,0 +1,115 @@
+# Craft Suite Sync - ALL apps in one run (manual only, optional convenience).
+# Generated from workflow/sync-all.yml on the control branch; do not edit this copy on the default
+# branch, it is re-rendered. Only workflow_dispatch: nothing runs automatically.
+# Runs every app with enabled=true AND auto_sync=true in config/apps.json (2 at a time).
+# For a first backfill, prefer the per-app workflows ("Sync <App>").
+name: Sync ALL apps (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Plan only: no pushes, no release/asset changes, no state commit"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: craft-suite-sync-all
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      count: ${{ steps.plan.outputs.count }}
+    steps:
+      - name: Check out control branch (read-only, no persisted credentials)
+        uses: actions/checkout@v4
+        with:
+          ref: craft-suite-control
+          persist-credentials: false
+      - name: Validate manifest and select apps
+        id: plan
+        env:
+          EVENT_NAME: workflow_dispatch
+          INPUT_APP: all
+        run: python3 engine/craft_sync.py plan
+
+  sync:
+    needs: plan
+    if: needs.plan.outputs.count != '0'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    # same group name as the per-app workflows: the same app never syncs twice at once
+    concurrency:
+      group: craft-suite-sync-${{ matrix.slug }}
+      cancel-in-progress: false
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        include: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - name: Check out control branch (read-only, no persisted credentials)
+        uses: actions/checkout@v4
+        with:
+          ref: craft-suite-control
+          persist-credentials: false
+      - name: Sync ${{ matrix.slug }}
+        env:
+          SLUG: ${{ matrix.slug }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          GH_SYNC_TOKEN: ${{ secrets.GH_SYNC_TOKEN }}
+          UPSTREAM_API_TOKEN: ${{ secrets.UPSTREAM_API_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 engine/craft_sync.py sync-app --slug "$SLUG" --out "$RUNNER_TEMP/result-$SLUG.json"
+      - name: Upload result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: result-${{ matrix.slug }}
+          path: ${{ runner.temp }}/result-${{ matrix.slug }}.json
+          if-no-files-found: warn
+          retention-days: 7
+
+  finalize:
+    needs: [plan, sync]
+    if: always() && needs.plan.result == 'success' && needs.plan.outputs.count != '0'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out control branch
+        uses: actions/checkout@v4
+        with:
+          ref: craft-suite-control
+      - name: Download results
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          pattern: result-*
+          path: results
+          merge-multiple: true
+      - name: Merge state/catalog/index and commit (skipped on dry run; no commit if nothing changed)
+        env:
+          PLANNED_MATRIX: ${{ needs.plan.outputs.matrix }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          mkdir -p results
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            python3 engine/craft_sync.py finalize --results results
+            if [ "$DRY_RUN" = "true" ]; then echo "Dry run: state not committed."; exit 0; fi
+            git add state CRAFT-SUITE-INDEX.md
+            if git diff --cached --quiet; then echo "No state changes."; exit 0; fi
+            git commit -q -m "Update Craft Suite sync state [skip ci]"
+            if git push origin "HEAD:refs/heads/craft-suite-control"; then exit 0; fi
+            git fetch origin "craft-suite-control" && git reset -q --hard FETCH_HEAD
+          done
+          echo "::error::could not push state"; exit 1
