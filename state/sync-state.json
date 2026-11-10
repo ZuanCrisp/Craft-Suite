@@ -5,53 +5,8 @@
       "destination_branch": "cadcraft",
       "destination_head_sha": "5acd84814855e4b251ebf2fd9043fd3ada27b125",
       "enabled": true,
-      "errors": [
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.0: cadcraft-0.10.0-linux-x86_64.flatpak"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.0: cadcraft-0.10.0-linux-x86_64.pkg.tar.zst"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.0: cadcraft-0.10.0-linux-x86_64.rpm"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.0: cadcraft-0.10.0-linux-x86_64.tar.gz"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.0: cadcraft-0.10.0-macos-universal.dmg"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.0: cadcraft-0.10.0-windows-arm64-portable.zip"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.18.0: cadcraft-0.18.0-linux-aarch64.pkg.tar.zst.sig"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.18.0: cadcraft-0.18.0-linux-aarch64.rpm"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.18.0: cadcraft-0.18.0-linux-aarch64.rpm.asc"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.18.0: cadcraft-0.18.0-linux-aarch64.tar.gz"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.18.0: cadcraft-0.18.0-linux-aarch64.tar.gz.asc"
-        }
-      ],
-      "last_success_at": null,
+      "errors": [],
+      "last_success_at": "2026-11-10T02:38:50Z",
       "latest_prerelease": null,
       "latest_stable": {
         "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/cadcraft--v0.19.0",
@@ -531,7 +486,7 @@
           "upstream_release_url": "https://github.com/storytold/cadcraft/releases/tag/v0.19.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727616288,
@@ -651,54 +606,49 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729832847,
               "name": "cadcraft-0.18.0-linux-aarch64.pkg.tar.zst.sig",
               "sha256": "71b35c7ebda1165f14197a6e103ca68ce01437d6f1380f14c5b8608aad2b17bf",
               "size": 119,
               "source_asset_id": 718381663,
               "source_updated_at": "2026-11-06T19:59:26Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729832931,
               "name": "cadcraft-0.18.0-linux-aarch64.rpm",
               "sha256": "a7a21e0ab61bda5bbebab5e8d7a91c0243cc5c2bc3abce00412dc9b219bd5a90",
               "size": 73229060,
               "source_asset_id": 718381662,
               "source_updated_at": "2026-11-06T19:59:30Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729833092,
               "name": "cadcraft-0.18.0-linux-aarch64.rpm.asc",
               "sha256": "8529015a6f8b4dc87683a1d3f966bfcd731f6b01d5aa15eb3ff8eea1b7729417",
               "size": 228,
               "source_asset_id": 718381660,
               "source_updated_at": "2026-11-06T19:59:26Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729833206,
               "name": "cadcraft-0.18.0-linux-aarch64.tar.gz",
               "sha256": "4218f2c8c663af4f16d87cbeff741bd97936ec17cb11507a407e8b63b4d6cec7",
               "size": 71873219,
               "source_asset_id": 718381687,
               "source_updated_at": "2026-11-06T19:59:30Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729833393,
               "name": "cadcraft-0.18.0-linux-aarch64.tar.gz.asc",
               "sha256": "5c5f0cdf538a4d079134a7b4d22d9ec713997190f43fce68ec5c986159ef3521",
               "size": 228,
               "source_asset_id": 718381688,
               "source_updated_at": "2026-11-06T19:59:27Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727730591,
@@ -1008,9 +958,9 @@
             }
           ],
           "dest_release_id": 439175875,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-fd7b13eee1e1d498af01",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/cadcraft--v0.18.0",
           "dest_tag": "cadcraft--v0.18.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-11-06T20:21:13Z",
           "source_tag": "v0.18.0",
@@ -3407,7 +3357,7 @@
           "upstream_release_url": "https://github.com/storytold/cadcraft/releases/tag/v0.11.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727405054,
@@ -3536,64 +3486,58 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729831465,
               "name": "cadcraft-0.10.0-linux-x86_64.flatpak",
               "sha256": "2c243538a9f832155567b34863a414229a2bc20050d074f61dc6a927e949b4c5",
               "size": 44214472,
               "source_asset_id": 659989212,
               "source_updated_at": "2026-10-20T17:26:48Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729831623,
               "name": "cadcraft-0.10.0-linux-x86_64.pkg.tar.zst",
               "sha256": "692e66b03f95f24498edb772ca60710f667a4cb09f74bb27dd9e4ed9f62771b3",
               "size": 46973239,
               "source_asset_id": 659989223,
               "source_updated_at": "2026-10-20T17:26:48Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729831790,
               "name": "cadcraft-0.10.0-linux-x86_64.rpm",
               "sha256": "fba317b64cf4291abc96cedff6b189d6cbe10b6b382b9880eb0f3e914f7f0f97",
               "size": 61611446,
               "source_asset_id": 659989249,
               "source_updated_at": "2026-10-20T17:26:50Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729832100,
               "name": "cadcraft-0.10.0-linux-x86_64.tar.gz",
               "sha256": "2bf13abe4645655c971d452304c06f98081849ace86a3289fc991bec55392d18",
               "size": 61147216,
               "source_asset_id": 659989255,
               "source_updated_at": "2026-10-20T17:26:50Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729832316,
               "name": "cadcraft-0.10.0-macos-universal.dmg",
               "sha256": "6417b10c317418e50b4f5bf7c90eb7066aca18e29d32763bc7b3a5cce5bec394",
               "size": 67628069,
               "source_asset_id": 659989301,
               "source_updated_at": "2026-10-20T17:26:52Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729832635,
               "name": "cadcraft-0.10.0-windows-arm64-portable.zip",
               "sha256": "1d13782d24d6fe487bb0c5b7e6fa43ecc8d525b376d589bf6937182f36e7cf33",
               "size": 58181945,
               "source_asset_id": 659989319,
               "source_updated_at": "2026-10-20T17:26:51Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727543760,
@@ -3669,9 +3613,9 @@
             }
           ],
           "dest_release_id": 439105072,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-0c567ce2622a636c97c2",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/cadcraft--v0.10.0",
           "dest_tag": "cadcraft--v0.10.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-10-21T07:46:12Z",
           "source_tag": "v0.10.0",
@@ -5298,7 +5242,7 @@
       ],
       "repository": "storytold/cadcraft",
       "slug": "cadcraft",
-      "status": "partial",
+      "status": "success",
       "tags": {
         "invalid": [],
         "processed": 18,
@@ -108224,6 +108168,6 @@
     }
   },
   "destination": "ZuanCrisp/Craft-Suite",
-  "generated_at": "2026-11-10T02:37:34Z",
+  "generated_at": "2026-11-10T02:38:50Z",
   "schema_version": 1
 }

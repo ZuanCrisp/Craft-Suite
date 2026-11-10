@@ -14,7 +14,7 @@
       "name": "CADCraft",
       "release_count": 18,
       "repository": "storytold/cadcraft",
-      "status": "partial",
+      "status": "success",
       "upstream_default_branch": "main"
     },
     "craft": {
@@ -297,6 +297,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-10T02:37:34Z",
+  "generated_at": "2026-11-10T02:38:50Z",
   "schema_version": 1
 }
