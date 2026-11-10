@@ -26,7 +26,7 @@
       "upstream_url": "https://github.com/storytold/craft-anything.git",
       "destination_branch": "craft",
       "enabled": true,
-      "auto_sync": true,
+      "auto_sync": false,
       "sync_source_default_branch": true,
       "sync_tags": true,
       "sync_releases": true,
