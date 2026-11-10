@@ -60780,59 +60780,10 @@
     "solidcraft": {
       "auto_sync": true,
       "destination_branch": "solidcraft",
-      "destination_head_sha": "0bdbfacec524452d26bed2bfbf3159c1e3188c8e",
+      "destination_head_sha": "583484addd0ed288d41d3ceed78ab61c40f8ded9",
       "enabled": true,
-      "errors": [
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.5.0: solidcraft-0.5.0-linux-aarch64.tar.gz"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.5.0: solidcraft-0.5.0-linux-x86_64.AppImage"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.5.0: solidcraft-0.5.0-linux-x86_64.AppImage.zsync"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.5.0: solidcraft-0.5.0-linux-x86_64.deb"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.5.0: solidcraft-0.5.0-linux-x86_64.flatpak"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.5.0: solidcraft-0.5.0-linux-x86_64.rpm"
-        },
-        {
-          "category": "ASSET_DOWNLOAD_FAILED",
-          "message": "v0.11.0: solidcraft-linux-x86_64.rpm"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.11.1: solidcraft-linux-x86_64.AppImage"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.11.1: solidcraft-linux-x86_64.deb"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.11.1: solidcraft-linux-x86_64.flatpak"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.11.1: solidcraft-linux-x86_64.rpm"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.11.1: solidcraft-linux-x86_64.snap"
-        }
-      ],
-      "last_success_at": null,
+      "errors": [],
+      "last_success_at": "2026-11-10T02:42:19Z",
       "latest_prerelease": {
         "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/solidcraft--v0.40.0-rc.3",
         "destination_tag": "solidcraft--v0.40.0-rc.3",
@@ -81806,7 +81757,7 @@
           "upstream_release_url": "https://github.com/tangency-labs/solidcraft/releases/tag/v0.11.0-nightly.20261015.42.1"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727614267,
@@ -82079,54 +82030,49 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840444,
               "name": "solidcraft-linux-x86_64.AppImage",
               "sha256": "567d4e1cf048c4c639e25dd3bf2e736acbd6a8f35ed373654965ec65a62cb769",
               "size": 33118712,
               "source_asset_id": 641738820,
               "source_updated_at": "2026-10-14T21:34:51Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840529,
               "name": "solidcraft-linux-x86_64.deb",
               "sha256": "13437f3ac2cae11cb40d88189df13309db51ae0202926577cbaadf64e9e20e74",
               "size": 36282128,
               "source_asset_id": 641738881,
               "source_updated_at": "2026-10-14T21:34:52Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840613,
               "name": "solidcraft-linux-x86_64.flatpak",
               "sha256": "df64744b88758a6f004781514d0626b4669d4d2b3d606e7a489e25555b48b42b",
               "size": 23235456,
               "source_asset_id": 641738892,
               "source_updated_at": "2026-10-14T21:34:52Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840675,
               "name": "solidcraft-linux-x86_64.rpm",
               "sha256": "20c953079a3746ac0fd2ae398af3ee8e549de2c56910c33b61013b2ae87b2ef0",
               "size": 35992955,
               "source_asset_id": 641738904,
               "source_updated_at": "2026-10-14T21:34:52Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840778,
               "name": "solidcraft-linux-x86_64.snap",
               "sha256": "3dbd7dd05276154671f64158963ae913722c7fbc2f564db9f69c671b63e02068",
               "size": 38236160,
               "source_asset_id": 641738919,
               "source_updated_at": "2026-10-14T21:34:52Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727729742,
@@ -82220,9 +82166,9 @@
             }
           ],
           "dest_release_id": 439175153,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-ca0c51dd24efe902366e",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/solidcraft--v0.11.1",
           "dest_tag": "solidcraft--v0.11.1",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-10-14T21:38:58Z",
           "source_tag": "v0.11.1",
@@ -82232,7 +82178,7 @@
           "upstream_release_url": "https://github.com/tangency-labs/solidcraft/releases/tag/v0.11.1"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727606510,
@@ -82532,14 +82478,13 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_DOWNLOAD_FAILED",
+              "dest_asset_id": 729840306,
               "name": "solidcraft-linux-x86_64.rpm",
               "sha256": "4c2c219f9f0081047366ae4c431831757de42441d0bf939b3a2b1a0c754acb03",
               "size": 35978914,
               "source_asset_id": 641582765,
               "source_updated_at": "2026-10-14T20:33:07Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727611857,
@@ -82642,9 +82587,9 @@
             }
           ],
           "dest_release_id": 439172367,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-f2d92ede05396435223b",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/solidcraft--v0.11.0",
           "dest_tag": "solidcraft--v0.11.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-10-14T20:35:08Z",
           "source_tag": "v0.11.0",
@@ -86022,7 +85967,7 @@
           "upstream_release_url": "https://github.com/tangency-labs/solidcraft/releases/tag/v0.6.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727407496,
@@ -86088,64 +86033,58 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729839713,
               "name": "solidcraft-0.5.0-linux-aarch64.tar.gz",
               "sha256": "dc19d2d43d74d6e7b1ac85900e0f860c9dbf1d15aacaee31e544f6152b1d74c7",
               "size": 25786141,
               "source_asset_id": 634896946,
               "source_updated_at": "2026-10-12T20:24:33Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729839794,
               "name": "solidcraft-0.5.0-linux-x86_64.AppImage",
               "sha256": "a3470a9fb67d9b16e50cd09e385ee539848fb88a386e557f2d838c869d3dfe4d",
               "size": 26606072,
               "source_asset_id": 634896952,
               "source_updated_at": "2026-10-12T20:24:34Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729839854,
               "name": "solidcraft-0.5.0-linux-x86_64.AppImage.zsync",
               "sha256": "7fae6dc5b99714b00ce69214a4ea20468e7184d1cbd9f526672cb7f44a0ecdfa",
               "size": 91191,
               "source_asset_id": 634896963,
               "source_updated_at": "2026-10-12T20:24:33Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729839956,
               "name": "solidcraft-0.5.0-linux-x86_64.deb",
               "sha256": "b3a4ced26d2b5c220e57f5b18b8f7877157cd4794dc3139141336141df84b6cf",
               "size": 28875666,
               "source_asset_id": 634896961,
               "source_updated_at": "2026-10-12T20:24:34Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840051,
               "name": "solidcraft-0.5.0-linux-x86_64.flatpak",
               "sha256": "eb2a659b0fc992445d9db8e8707c53d10afc91eb70942a3ee5b5fc41eea3c3c4",
               "size": 18522800,
               "source_asset_id": 634896990,
               "source_updated_at": "2026-10-12T20:24:34Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840172,
               "name": "solidcraft-0.5.0-linux-x86_64.rpm",
               "sha256": "7816a32038ab2ae4a2def90e2132faf5e85d53195994e04c231656541d241ec7",
               "size": 28660096,
               "source_asset_id": 634897002,
               "source_updated_at": "2026-10-12T20:24:35Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727554413,
@@ -86266,9 +86205,9 @@
             }
           ],
           "dest_release_id": 439106075,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-1dc348406ac7562b23c4",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/solidcraft--v0.5.0",
           "dest_tag": "solidcraft--v0.5.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-10-12T20:26:03Z",
           "source_tag": "v0.5.0",
@@ -89312,7 +89251,7 @@
       ],
       "repository": "tangency-labs/solidcraft",
       "slug": "solidcraft",
-      "status": "partial",
+      "status": "success",
       "tags": {
         "invalid": [],
         "processed": 77,
@@ -89320,7 +89259,7 @@
         "stale": []
       },
       "upstream_default_branch": "main",
-      "upstream_head_sha": "8babea5c63bb431c45098aa78a8e7c02f86bfc81"
+      "upstream_head_sha": "c0f6725b6e1aae7f3937e93d73d35c032f8e2002"
     },
     "soundcraft": {
       "auto_sync": true,
@@ -108015,6 +107954,6 @@
     }
   },
   "destination": "ZuanCrisp/Craft-Suite",
-  "generated_at": "2026-11-10T02:40:54Z",
+  "generated_at": "2026-11-10T02:42:19Z",
   "schema_version": 1
 }

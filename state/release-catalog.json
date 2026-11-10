@@ -225,7 +225,7 @@
       "name": "SolidCraft",
       "release_count": 74,
       "repository": "tangency-labs/solidcraft",
-      "status": "partial",
+      "status": "success",
       "upstream_default_branch": "main"
     },
     "soundcraft": {
@@ -297,6 +297,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-10T02:40:54Z",
+  "generated_at": "2026-11-10T02:42:19Z",
   "schema_version": 1
 }
