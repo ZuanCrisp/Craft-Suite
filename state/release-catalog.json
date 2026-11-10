@@ -133,7 +133,7 @@
       "name": "GridCraft",
       "release_count": 18,
       "repository": "storytold/gridcraft",
-      "status": "partial",
+      "status": "success",
       "upstream_default_branch": "main"
     },
     "lightcraft": {
@@ -297,6 +297,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-09T17:01:45Z",
+  "generated_at": "2026-11-10T02:37:34Z",
   "schema_version": 1
 }

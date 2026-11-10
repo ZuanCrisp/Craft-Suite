@@ -34455,27 +34455,10 @@
     "gridcraft": {
       "auto_sync": true,
       "destination_branch": "gridcraft",
-      "destination_head_sha": "a5cc2a88990f9d67e53fc4306cc776ce7dbd13c1",
+      "destination_head_sha": "89c896a8c423c6341ac504bd535dabc6a7ab5f87",
       "enabled": true,
-      "errors": [
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.15.0: gridcraft-0.15.0-linux-aarch64.AppImage.zsync"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.15.0: gridcraft-0.15.0-linux-aarch64.deb"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.15.0: gridcraft-0.15.0-linux-aarch64.flatpak"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.15.0: gridcraft-0.15.0-linux-aarch64.pkg.tar.zst"
-        }
-      ],
-      "last_success_at": null,
+      "errors": [],
+      "last_success_at": "2026-11-10T02:37:34Z",
       "latest_prerelease": null,
       "latest_stable": {
         "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/gridcraft--v0.18.0",
@@ -36200,7 +36183,7 @@
           "upstream_release_url": "https://github.com/storytold/gridcraft/releases/tag/v0.16.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727407741,
@@ -36230,64 +36213,58 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729830255,
               "name": "gridcraft-0.15.0-linux-aarch64.AppImage.zsync",
               "sha256": "736a8e2595d078b35c59c26b553be0c5a6497fd04e21ce65cdfb5c5b5a3c45cb",
               "size": 155047,
               "source_asset_id": 699266560,
               "source_updated_at": "2026-11-01T19:14:33Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729830302,
               "name": "gridcraft-0.15.0-linux-aarch64.deb",
               "sha256": "7ba72ab02856f3c5f95e97449f53b1b82705cd9337558700c8d9a0064c70d859",
               "size": 48651434,
               "source_asset_id": 699266581,
               "source_updated_at": "2026-11-01T19:14:37Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729830486,
               "name": "gridcraft-0.15.0-linux-aarch64.flatpak",
               "sha256": "b8385a77d04fd15e71391ef27019c576070416ce71c8a1d627ca8b647628edc6",
               "size": 34060128,
               "source_asset_id": 699266585,
               "source_updated_at": "2026-11-01T19:14:36Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729830632,
               "name": "gridcraft-0.15.0-linux-aarch64.pkg.tar.zst",
               "sha256": "bec5798e26fd98d4c5559dfb5a98236be68cbd034f66b4a581c7f3e2145c107b",
               "size": 35957898,
               "source_asset_id": 699266721,
               "source_updated_at": "2026-11-01T19:14:38Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 727740735,
               "name": "gridcraft-0.15.0-linux-aarch64.rpm",
               "sha256": "01df60dcfdb1491a24aab23740786229cbdcf7d326102a62f5293f194d238924",
               "size": 48313054,
               "source_asset_id": 699266739,
               "source_updated_at": "2026-11-01T19:14:40Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 727740937,
               "name": "gridcraft-0.15.0-linux-aarch64.tar.gz",
               "sha256": "90b2b21613546309bbed30365914ba9c20dd6f7d175ac7ded7e27bc68e65539a",
               "size": 47584174,
               "source_asset_id": 699266766,
               "source_updated_at": "2026-11-01T19:14:41Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727554520,
@@ -36471,9 +36448,9 @@
             }
           ],
           "dest_release_id": 439106191,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-7dab4b0d66936c9f8721",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/gridcraft--v0.15.0",
           "dest_tag": "gridcraft--v0.15.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-11-01T19:18:01Z",
           "source_tag": "v0.15.0",
@@ -39726,7 +39703,7 @@
       ],
       "repository": "storytold/gridcraft",
       "slug": "gridcraft",
-      "status": "partial",
+      "status": "success",
       "tags": {
         "invalid": [],
         "processed": 18,
@@ -39734,7 +39711,7 @@
         "stale": []
       },
       "upstream_default_branch": "main",
-      "upstream_head_sha": "7102429a9a2fd9f6fba8e06238a1cce5807fb1b0"
+      "upstream_head_sha": "e9addf52fe68847e6c1310fcfa5d42b7aa8b9650"
     },
     "lightcraft": {
       "auto_sync": true,
@@ -108247,6 +108224,6 @@
     }
   },
   "destination": "ZuanCrisp/Craft-Suite",
-  "generated_at": "2026-11-09T17:01:45Z",
+  "generated_at": "2026-11-10T02:37:34Z",
   "schema_version": 1
 }
