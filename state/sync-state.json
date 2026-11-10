@@ -23888,63 +23888,529 @@
     "figcraft": {
       "auto_sync": true,
       "destination_branch": "figcraft",
-      "destination_head_sha": "5939bebe82dba8ba7f4b86226b74fb4d74096cc9",
+      "destination_head_sha": "0f6c4751c737bd84b3023b90b55d14fe02ee49b1",
       "enabled": true,
       "errors": [
         {
           "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.6.0: figcraft-0.6.0-windows-arm64-portable.zip"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.6.0: figcraft-0.6.0-windows-arm64.msi"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.6.0: figcraft-0.6.0-windows-x64-portable.zip"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.6.0: figcraft-0.6.0-windows-x64.msi"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.6.0: figcraft-0.6.0-windows-x86-portable.zip"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.6.0: figcraft-0.6.0-windows-x86.msi"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.14.0: figcraft-0.14.0-windows-x64-portable.zip"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.14.0: figcraft-0.14.0-windows-x64.msi"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.14.0: figcraft-0.14.0-windows-x86-portable.zip"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.14.0: figcraft-0.14.0-windows-x86.msi"
+          "message": "v0.13.1: PATCH https://api.github.com/repos/ZuanCrisp/Craft-Suite/releases/439883616 returned HTTP 422: {\"message\":\"Validation Failed\",\"errors\":[{\"resource\":\"Release\",\"code\":\"already_exists\",\"field\":\"tag_name\"}],\"documentation_url\":\"https://docs.github.com/rest/releases/releases#update-a-release\",\"status\":\"422\"}"
         }
       ],
       "last_success_at": null,
       "latest_prerelease": null,
       "latest_stable": {
-        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/figcraft--v0.16.0",
-        "destination_tag": "figcraft--v0.16.0",
-        "published_at": "2026-11-06T20:21:35Z",
-        "source_tag": "v0.16.0",
-        "upstream_release_id": 436944086,
-        "upstream_release_url": "https://github.com/storytold/figcraft/releases/tag/v0.16.0"
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/figcraft--v0.17.0",
+        "destination_tag": "figcraft--v0.17.0",
+        "published_at": "2026-11-09T12:21:12Z",
+        "source_tag": "v0.17.0",
+        "upstream_release_id": 439099054,
+        "upstream_release_url": "https://github.com/storytold/figcraft/releases/tag/v0.17.0"
       },
       "lfs": "not_used",
       "name": "FigCraft",
       "releases": [
+        {
+          "action": "synced",
+          "assets": [
+            {
+              "dest_asset_id": 729845380,
+              "name": "figcraft-0.17.0-freebsd-aarch64.tar.gz",
+              "sha256": "47763d7d3cefefb6edb1a0e5f429c118f39424add4fa5c6e9148ce4ab0737bb3",
+              "size": 97118162,
+              "source_asset_id": 727385977,
+              "source_updated_at": "2026-11-09T12:20:27Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729845759,
+              "name": "figcraft-0.17.0-freebsd-x86_64.tar.gz",
+              "sha256": "5996cb45f2012eb2a30657b3c2931ca97c09985f5e933f2dc15a038d29a6660f",
+              "size": 101888132,
+              "source_asset_id": 727385991,
+              "source_updated_at": "2026-11-09T12:20:29Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729846025,
+              "name": "figcraft-0.17.0-linux-aarch64.AppImage",
+              "sha256": "0f4dbc66c76ac2aaaad8e92ef4586fc79485e540fdf663a4baa067888e7872f7",
+              "size": 92617224,
+              "source_asset_id": 727385984,
+              "source_updated_at": "2026-11-09T12:20:27Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729846280,
+              "name": "figcraft-0.17.0-linux-aarch64.AppImage.asc",
+              "sha256": "d52acafc237314deca3d3ea16cb00d2f738c060a18eaa963facaad7f953bf14b",
+              "size": 228,
+              "source_asset_id": 727386016,
+              "source_updated_at": "2026-11-09T12:20:25Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729846314,
+              "name": "figcraft-0.17.0-linux-aarch64.AppImage.zsync",
+              "sha256": "30dcc4964304f7a5bbb0eff6470a67147551d6906d1cef89b8aca74c26abcca0",
+              "size": 316815,
+              "source_asset_id": 727386017,
+              "source_updated_at": "2026-11-09T12:20:25Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729846378,
+              "name": "figcraft-0.17.0-linux-aarch64.AppImage.zsync.asc",
+              "sha256": "d856f84f47130b8f867b53eb1183a298759b67717bcff514a82de4829bc53087",
+              "size": 228,
+              "source_asset_id": 727386045,
+              "source_updated_at": "2026-11-09T12:20:25Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729846515,
+              "name": "figcraft-0.17.0-linux-aarch64.deb",
+              "sha256": "d78568f212545788048ebafc6982ed88c8fe752404051efe626c3042c079028e",
+              "size": 101172508,
+              "source_asset_id": 727386052,
+              "source_updated_at": "2026-11-09T12:20:29Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729846782,
+              "name": "figcraft-0.17.0-linux-aarch64.deb.asc",
+              "sha256": "05a1c9ef5653235c9cd882972a49ab8966e0bc13d455417473865223d3484b47",
+              "size": 228,
+              "source_asset_id": 727386076,
+              "source_updated_at": "2026-11-09T12:20:26Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729846915,
+              "name": "figcraft-0.17.0-linux-aarch64.flatpak",
+              "sha256": "32dacbfc5898cb9e057d8faa84e0f4eb5356cc8661fe56175206349b1d552d98",
+              "size": 67713192,
+              "source_asset_id": 727386098,
+              "source_updated_at": "2026-11-09T12:20:29Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729847119,
+              "name": "figcraft-0.17.0-linux-aarch64.flatpak.asc",
+              "sha256": "a97c443d32538ce8d658aa0a579bf7c0970a33cdc78f284de71d406b7380d39a",
+              "size": 228,
+              "source_asset_id": 727386145,
+              "source_updated_at": "2026-11-09T12:20:27Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729847173,
+              "name": "figcraft-0.17.0-linux-aarch64.oci-manifest.json",
+              "sha256": "01fbf489a248c7293750d252fd975d075d617860a48a2a4a174f5ce23b985cc2",
+              "size": 493,
+              "source_asset_id": 727386173,
+              "source_updated_at": "2026-11-09T12:20:28Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729847273,
+              "name": "figcraft-0.17.0-linux-aarch64.oci.sig",
+              "sha256": "f14764b08e97ff6db13089aba980eb6dfb38b60756c8d1090f2a57064e18f36a",
+              "size": 385,
+              "source_asset_id": 727386176,
+              "source_updated_at": "2026-11-09T12:20:28Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729847458,
+              "name": "figcraft-0.17.0-linux-aarch64.pkg.tar.zst",
+              "sha256": "594e0cb120a574e4b6bdc63feb4c3c7e7e55ec6a60a64d480fe277f98ea961b5",
+              "size": 74575928,
+              "source_asset_id": 727386201,
+              "source_updated_at": "2026-11-09T12:20:31Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729847695,
+              "name": "figcraft-0.17.0-linux-aarch64.pkg.tar.zst.sig",
+              "sha256": "e6df82b602b26742048b849f94a83f2eaa887877c2efbf8d26822b2d02ddbc04",
+              "size": 119,
+              "source_asset_id": 727386214,
+              "source_updated_at": "2026-11-09T12:20:29Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729847871,
+              "name": "figcraft-0.17.0-linux-aarch64.rpm",
+              "sha256": "d6c3382c0538be331aa312d74272372159ceefc7d70cb8587d63b2b1fa28822e",
+              "size": 100492698,
+              "source_asset_id": 727386237,
+              "source_updated_at": "2026-11-09T12:20:32Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729848119,
+              "name": "figcraft-0.17.0-linux-aarch64.rpm.asc",
+              "sha256": "6d5d9c098aa9d505b773ee0e65a190c97327231627aa01c4814a0a48e7090f6e",
+              "size": 228,
+              "source_asset_id": 727386238,
+              "source_updated_at": "2026-11-09T12:20:29Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729848337,
+              "name": "figcraft-0.17.0-linux-aarch64.tar.gz",
+              "sha256": "e7255368c8f89f8e32da6383500161a0bd3ebd79fc528b64dd59fd415a945a75",
+              "size": 98722779,
+              "source_asset_id": 727386239,
+              "source_updated_at": "2026-11-09T12:20:32Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729848636,
+              "name": "figcraft-0.17.0-linux-aarch64.tar.gz.asc",
+              "sha256": "2a4d38b4a96100e57ba848f9be345959fe2093f92a52906c164e979a7f4f7d3b",
+              "size": 228,
+              "source_asset_id": 727386246,
+              "source_updated_at": "2026-11-09T12:20:29Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729848849,
+              "name": "figcraft-0.17.0-linux-riscv64.deb",
+              "sha256": "4072aa24c92ebeddd209c51b6b5b91751359863f38d97016aa4297ad4ad57f56",
+              "size": 101641468,
+              "source_asset_id": 727386257,
+              "source_updated_at": "2026-11-09T12:20:32Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729849208,
+              "name": "figcraft-0.17.0-linux-riscv64.deb.asc",
+              "sha256": "e58077cf0e023405e5f0199a20e212bb2787312c8a1501d45c62919acb599631",
+              "size": 228,
+              "source_asset_id": 727386268,
+              "source_updated_at": "2026-11-09T12:20:30Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729849401,
+              "name": "figcraft-0.17.0-linux-riscv64.rpm",
+              "sha256": "827b803695e43818e94305b1fd396faf59b3050b642e0032efba4ab91967202a",
+              "size": 101336481,
+              "source_asset_id": 727386291,
+              "source_updated_at": "2026-11-09T12:20:34Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729849677,
+              "name": "figcraft-0.17.0-linux-riscv64.rpm.asc",
+              "sha256": "5782f9d4b93fd6c06b31721cfdc5a8001245b514d1eafc77d492c0af977a235a",
+              "size": 228,
+              "source_asset_id": 727386349,
+              "source_updated_at": "2026-11-09T12:20:32Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729849863,
+              "name": "figcraft-0.17.0-linux-riscv64.tar.gz",
+              "sha256": "295e467b2fe51f337bbcd41e31df141bcbcf100cb6e65e35b0e81537881b02f5",
+              "size": 100312540,
+              "source_asset_id": 727386372,
+              "source_updated_at": "2026-11-09T12:20:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729850028,
+              "name": "figcraft-0.17.0-linux-riscv64.tar.gz.asc",
+              "sha256": "794dec9f920cc12bf8eb4e70c96ba995e56e9bbd8a5588db825e59e6427d424f",
+              "size": 228,
+              "source_asset_id": 727386385,
+              "source_updated_at": "2026-11-09T12:20:32Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729850119,
+              "name": "figcraft-0.17.0-linux-x86_64.AppImage",
+              "sha256": "a749d9f8074cbd2dc7d04a16d47262001a2528391fa153bd6c5c4e4f84c8e414",
+              "size": 95894008,
+              "source_asset_id": 727386407,
+              "source_updated_at": "2026-11-09T12:20:36Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729850281,
+              "name": "figcraft-0.17.0-linux-x86_64.AppImage.asc",
+              "sha256": "a9e47210c1369ee387f130e8d6dde7bc3cfe3a93230011290b120f0d1b66e377",
+              "size": 228,
+              "source_asset_id": 727386422,
+              "source_updated_at": "2026-11-09T12:20:33Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729850340,
+              "name": "figcraft-0.17.0-linux-x86_64.AppImage.zsync",
+              "sha256": "07768adcc365bc451bd7d0194ac7c7bbccb75e46cd2b4712e00c722c2c923ab0",
+              "size": 328013,
+              "source_asset_id": 727386423,
+              "source_updated_at": "2026-11-09T12:20:33Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729850376,
+              "name": "figcraft-0.17.0-linux-x86_64.AppImage.zsync.asc",
+              "sha256": "c0ad2dc1c4f4150f280746eec78006249c3222213effd7f311590e543593f7a6",
+              "size": 228,
+              "source_asset_id": 727386462,
+              "source_updated_at": "2026-11-09T12:20:33Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729850489,
+              "name": "figcraft-0.17.0-linux-x86_64.deb",
+              "sha256": "fa02e957f1bd8f92064c648acbfa96daee6dc874249bdc34e9acff8fb6b8f187",
+              "size": 103700000,
+              "source_asset_id": 727386469,
+              "source_updated_at": "2026-11-09T12:20:37Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729850750,
+              "name": "figcraft-0.17.0-linux-x86_64.deb.asc",
+              "sha256": "7617c510a01d9b857400b1a15fffd43338c62e596b5390847cb024f216231bb7",
+              "size": 228,
+              "source_asset_id": 727386494,
+              "source_updated_at": "2026-11-09T12:20:34Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729850850,
+              "name": "figcraft-0.17.0-linux-x86_64.flatpak",
+              "sha256": "fe1b391ec62bf085c60c09113b8c0f9455cd5a0e4dbbc8abd81bc44a85d34b14",
+              "size": 71864640,
+              "source_asset_id": 727386498,
+              "source_updated_at": "2026-11-09T12:20:36Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729851026,
+              "name": "figcraft-0.17.0-linux-x86_64.flatpak.asc",
+              "sha256": "d057dd5ff9454007cc20e0ab7aa48168ac93aebde5ffc2dbda02d2c6995306a0",
+              "size": 228,
+              "source_asset_id": 727386515,
+              "source_updated_at": "2026-11-09T12:20:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729851074,
+              "name": "figcraft-0.17.0-linux-x86_64.oci-manifest.json",
+              "sha256": "76a43f0a353fd957341b705b8bfb70f4fb3d436298db0ca27a6a4236ccda1c03",
+              "size": 494,
+              "source_asset_id": 727386556,
+              "source_updated_at": "2026-11-09T12:20:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729851115,
+              "name": "figcraft-0.17.0-linux-x86_64.oci.sig",
+              "sha256": "188b775d77a6e38142f02abb27369f691cccd2af2e63a73117fcbacba078d567",
+              "size": 382,
+              "source_asset_id": 727386559,
+              "source_updated_at": "2026-11-09T12:20:35Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729851183,
+              "name": "figcraft-0.17.0-linux-x86_64.pkg.tar.zst",
+              "sha256": "5dcb424ee3f1e00db2d8a910fd484e3eb40435d068e4c3912de09f8751fdafa9",
+              "size": 77050860,
+              "source_asset_id": 727386578,
+              "source_updated_at": "2026-11-09T12:20:38Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729851414,
+              "name": "figcraft-0.17.0-linux-x86_64.pkg.tar.zst.sig",
+              "sha256": "8e9e34321c82bff4214114c0fc1069116e9323c5b23eb8f92f629904f3148ad3",
+              "size": 119,
+              "source_asset_id": 727386584,
+              "source_updated_at": "2026-11-09T12:20:36Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729851525,
+              "name": "figcraft-0.17.0-linux-x86_64.rpm",
+              "sha256": "08622f9495b3da563a9f84e328cb59029238a568e7e0f16ca0a8364bf92e276a",
+              "size": 103174364,
+              "source_asset_id": 727386597,
+              "source_updated_at": "2026-11-09T12:20:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729851839,
+              "name": "figcraft-0.17.0-linux-x86_64.rpm.asc",
+              "sha256": "8b331ce0a3cc094dd0d9e10324b707fe521f0fd52e03019e4b946fca611cb2ac",
+              "size": 228,
+              "source_asset_id": 727386611,
+              "source_updated_at": "2026-11-09T12:20:36Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729851969,
+              "name": "figcraft-0.17.0-linux-x86_64.tar.gz",
+              "sha256": "ebc8bfa4da026860cff821d2024d6f51704ac69478969f5b29611dbb96a6e464",
+              "size": 102196836,
+              "source_asset_id": 727386617,
+              "source_updated_at": "2026-11-09T12:20:39Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729852186,
+              "name": "figcraft-0.17.0-linux-x86_64.tar.gz.asc",
+              "sha256": "551bfff893097663502887b7151a10108a197310d323aff471999b80ede70585",
+              "size": 228,
+              "source_asset_id": 727386652,
+              "source_updated_at": "2026-11-09T12:20:37Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729852286,
+              "name": "figcraft-0.17.0-macos-universal.dmg",
+              "sha256": "59bd526225f16bb6afd34c2ac3bb88079169122f6a4506181d606910263c798b",
+              "size": 111506288,
+              "source_asset_id": 727386684,
+              "source_updated_at": "2026-11-09T12:20:41Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729852591,
+              "name": "figcraft-0.17.0-windows-arm64-portable.zip",
+              "sha256": "4c4c6b62a6fe580c32ff934ac050f7aa54935834df05e2f8f7e9739d3a0c0bb0",
+              "size": 98353071,
+              "source_asset_id": 727386703,
+              "source_updated_at": "2026-11-09T12:20:40Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729852945,
+              "name": "figcraft-0.17.0-windows-arm64.msi",
+              "sha256": "779313ee89aa98ac1d4d52985341ba5fdcb702800b2cd0a9b4512bf307856ad7",
+              "size": 77492224,
+              "source_asset_id": 727386737,
+              "source_updated_at": "2026-11-09T12:20:43Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729853398,
+              "name": "figcraft-0.17.0-windows-x64-portable.zip",
+              "sha256": "40912deff59d5739ca31bf9dc67c4d0f1248b7e1e139b5fe1bb85998dc322b0a",
+              "size": 101882579,
+              "source_asset_id": 727386810,
+              "source_updated_at": "2026-11-09T12:20:43Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729853665,
+              "name": "figcraft-0.17.0-windows-x64.msi",
+              "sha256": "145fa6008eeea58366f80d26126a7ccbddf2b822bab6bb122272ea10916fa1b3",
+              "size": 81276928,
+              "source_asset_id": 727386822,
+              "source_updated_at": "2026-11-09T12:20:42Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729853898,
+              "name": "figcraft-cli-0.17.0-macos-universal.zip",
+              "sha256": "42ca7e870c7e9c2dd574de176f1e0640e016123f83d3244b501e60f905f3a50a",
+              "size": 90629967,
+              "source_asset_id": 727386882,
+              "source_updated_at": "2026-11-09T12:20:43Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729854116,
+              "name": "figcraft-server-0.17.0-linux-aarch64.tar.gz",
+              "sha256": "04b3e933060f9fe42dead654ff4eec0c676cbbd7518f9bd6596f623f02a2277a",
+              "size": 4178790,
+              "source_asset_id": 727386899,
+              "source_updated_at": "2026-11-09T12:20:42Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729854214,
+              "name": "figcraft-server-0.17.0-linux-aarch64.tar.gz.asc",
+              "sha256": "cdc454ee4a76ac6ab6c39dbc7a70c029a2950547124d7efa5f91017650ae2d28",
+              "size": 228,
+              "source_asset_id": 727386927,
+              "source_updated_at": "2026-11-09T12:20:42Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729854283,
+              "name": "figcraft-server-0.17.0-linux-x86_64.tar.gz",
+              "sha256": "3c9650311e4d040fd32fa8b904fae1ad32253c483e9dfebdc81b25a7c1befbd8",
+              "size": 4559888,
+              "source_asset_id": 727386957,
+              "source_updated_at": "2026-11-09T12:20:43Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729854399,
+              "name": "figcraft-server-0.17.0-linux-x86_64.tar.gz.asc",
+              "sha256": "e02f746b4aa74fd55293ddc396bddac1bf58f540844be4776d57b444c8d4ec0c",
+              "size": 228,
+              "source_asset_id": 727386960,
+              "source_updated_at": "2026-11-09T12:20:43Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729854454,
+              "name": "figcraft-web-0.17.0.zip",
+              "sha256": "3d6410b7b12ae000b2f062855dc0e80fcc7c09f41d5d03a938636cf9dcce0145",
+              "size": 10505876,
+              "source_asset_id": 727386989,
+              "source_updated_at": "2026-11-09T12:20:44Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729854556,
+              "name": "release-signing-key.asc",
+              "sha256": "8e6925a173d6a7134118da099948de4d9eeec7c1c0770998aec33c9d3f484740",
+              "size": 803,
+              "source_asset_id": 727386995,
+              "source_updated_at": "2026-11-09T12:20:44Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729854587,
+              "name": "SHA256SUMS.txt",
+              "sha256": "fb6181f71b04475d9b443bfc7c2baadf22086f7a6146f523651c4d8e0d207839",
+              "size": 5475,
+              "source_asset_id": 727385979,
+              "source_updated_at": "2026-11-09T12:20:24Z",
+              "status": "synced"
+            },
+            {
+              "dest_asset_id": 729854658,
+              "name": "SHA256SUMS.txt.asc",
+              "sha256": "ac76aa0506d08781a304a603a27405cf8c955f6ac389328e6fea4ea8a8473a62",
+              "size": 228,
+              "source_asset_id": 727385990,
+              "source_updated_at": "2026-11-09T12:20:24Z",
+              "status": "synced"
+            }
+          ],
+          "dest_release_id": 439886107,
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/figcraft--v0.17.0",
+          "dest_tag": "figcraft--v0.17.0",
+          "error": null,
+          "prerelease": false,
+          "published_at": "2026-11-09T12:21:12Z",
+          "source_tag": "v0.17.0",
+          "stale_assets": [],
+          "title": "[FigCraft] FigCraft v0.17.0",
+          "upstream_release_id": 439099054,
+          "upstream_release_url": "https://github.com/storytold/figcraft/releases/tag/v0.17.0"
+        },
         {
           "action": "synced",
           "assets": [
@@ -25281,7 +25747,7 @@
           "upstream_release_url": "https://github.com/storytold/figcraft/releases/tag/v0.15.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727611040,
@@ -25482,44 +25948,40 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729843903,
               "name": "figcraft-0.14.0-windows-x64-portable.zip",
               "sha256": "f0d1d539af75c212f6e896d8ebfb4f1fe0355186f2689207994f794ede8a1400",
               "size": 101228548,
               "source_asset_id": 699289652,
               "source_updated_at": "2026-11-01T19:24:06Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729844322,
               "name": "figcraft-0.14.0-windows-x64.msi",
               "sha256": "7e7467698038a64f4c1349630917bfcd24b6720ceb9fd1e0f363b5b985d03b11",
               "size": 80715776,
               "source_asset_id": 699289684,
               "source_updated_at": "2026-11-01T19:24:06Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729844661,
               "name": "figcraft-0.14.0-windows-x86-portable.zip",
               "sha256": "b805e950bfe65506c1590f5c4610e94a09367f32738434cb58b4a74d5cc37e80",
               "size": 97272781,
               "source_asset_id": 699289907,
               "source_updated_at": "2026-11-01T19:24:12Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729845060,
               "name": "figcraft-0.14.0-windows-x86.msi",
               "sha256": "b7a7ce8db19b8d09634aa55f8a3888c083bd15649cea663d9b7f5d51b9bd2847",
               "size": 79069184,
               "source_asset_id": 699289908,
               "source_updated_at": "2026-11-01T19:24:12Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727728279,
@@ -25568,9 +26030,9 @@
             }
           ],
           "dest_release_id": 439174021,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-a8217150a80ed4ac1b8d",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/figcraft--v0.14.0",
           "dest_tag": "figcraft--v0.14.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-11-01T19:26:38Z",
           "source_tag": "v0.14.0",
@@ -25580,7 +26042,7 @@
           "upstream_release_url": "https://github.com/storytold/figcraft/releases/tag/v0.14.0"
         },
         {
-          "action": "synced",
+          "action": "failed",
           "assets": [
             {
               "dest_asset_id": 727601468,
@@ -25865,7 +26327,7 @@
           "dest_release_id": 439170572,
           "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/figcraft--v0.13.1",
           "dest_tag": "figcraft--v0.13.1",
-          "error": null,
+          "error": "ASSET_UPLOAD_FAILED",
           "prerelease": false,
           "published_at": "2026-10-31T04:05:57Z",
           "source_tag": "v0.13.1",
@@ -27582,7 +28044,7 @@
           "upstream_release_url": "https://github.com/storytold/figcraft/releases/tag/v0.7.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727404338,
@@ -27720,64 +28182,58 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729834967,
               "name": "figcraft-0.6.0-windows-arm64-portable.zip",
               "sha256": "ea8185e621184e67071713faed830fa54e3bdc9104418984ccc6d98cae01f4be",
               "size": 83836890,
               "source_asset_id": 640620968,
               "source_updated_at": "2026-10-14T14:24:50Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729835156,
               "name": "figcraft-0.6.0-windows-arm64.msi",
               "sha256": "d75015c023f9d33aafed95e9788fb1ad50fecdba01ba52e7f05d352ac7186a56",
               "size": 66125824,
               "source_asset_id": 640620992,
               "source_updated_at": "2026-10-14T14:24:50Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729835352,
               "name": "figcraft-0.6.0-windows-x64-portable.zip",
               "sha256": "87cc2191f2b00c7701fed7db88222d227488e6f50963b24f61e46fed42a565ce",
               "size": 86773290,
               "source_asset_id": 640621092,
               "source_updated_at": "2026-10-14T14:24:53Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729835490,
               "name": "figcraft-0.6.0-windows-x64.msi",
               "sha256": "e3fd2fb6e7a283fcd08ba99752cf983d7e93597d069f173d0b226e4017c5c161",
               "size": 69382144,
               "source_asset_id": 640621096,
               "source_updated_at": "2026-10-14T14:24:53Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729835788,
               "name": "figcraft-0.6.0-windows-x86-portable.zip",
               "sha256": "6e0da418cd9fc1a48b4024ab6817578515622d4da1e418369ea95baaa1c6cf55",
               "size": 83894318,
               "source_asset_id": 640621137,
               "source_updated_at": "2026-10-14T14:24:55Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729836011,
               "name": "figcraft-0.6.0-windows-x86.msi",
               "sha256": "9a128c00d4d628d2872ffe9928e8d385236df8c80d5a3776442c2bf2faa77359",
               "size": 67903488,
               "source_asset_id": 640621153,
               "source_updated_at": "2026-10-14T14:24:54Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727544103,
@@ -27826,9 +28282,9 @@
             }
           ],
           "dest_release_id": 439104805,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-fd887aa8f491291461ef",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/figcraft--v0.6.0",
           "dest_tag": "figcraft--v0.6.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-10-14T14:26:24Z",
           "source_tag": "v0.6.0",
@@ -29048,12 +29504,12 @@
       "status": "partial",
       "tags": {
         "invalid": [],
-        "processed": 17,
-        "sanitized": 17,
+        "processed": 18,
+        "sanitized": 18,
         "stale": []
       },
       "upstream_default_branch": "main",
-      "upstream_head_sha": "79c363466a46b96f989b73c7cf20240bc168b7a2"
+      "upstream_head_sha": "a2e87433d8bda2b0c909587da08cb27c51e3b17e"
     },
     "filmcraft": {
       "auto_sync": true,
@@ -107842,6 +108298,6 @@
     }
   },
   "destination": "ZuanCrisp/Craft-Suite",
-  "generated_at": "2026-11-10T02:42:39Z",
+  "generated_at": "2026-11-10T02:47:59Z",
   "schema_version": 1
 }

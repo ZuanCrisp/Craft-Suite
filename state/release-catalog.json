@@ -89,15 +89,15 @@
       "destination_branch": "figcraft",
       "latest_prerelease": null,
       "latest_stable": {
-        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/figcraft--v0.16.0",
-        "destination_tag": "figcraft--v0.16.0",
-        "published_at": "2026-11-06T20:21:35Z",
-        "source_tag": "v0.16.0",
-        "upstream_release_id": 436944086,
-        "upstream_release_url": "https://github.com/storytold/figcraft/releases/tag/v0.16.0"
+        "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/figcraft--v0.17.0",
+        "destination_tag": "figcraft--v0.17.0",
+        "published_at": "2026-11-09T12:21:12Z",
+        "source_tag": "v0.17.0",
+        "upstream_release_id": 439099054,
+        "upstream_release_url": "https://github.com/storytold/figcraft/releases/tag/v0.17.0"
       },
       "name": "FigCraft",
-      "release_count": 17,
+      "release_count": 18,
       "repository": "storytold/figcraft",
       "status": "partial",
       "upstream_default_branch": "main"
@@ -297,6 +297,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-10T02:42:39Z",
+  "generated_at": "2026-11-10T02:47:59Z",
   "schema_version": 1
 }
