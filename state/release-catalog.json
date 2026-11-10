@@ -293,10 +293,10 @@
       "name": "WordCraft",
       "release_count": 18,
       "repository": "storytold/wordcraft",
-      "status": "partial",
+      "status": "success",
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-10T02:42:23Z",
+  "generated_at": "2026-11-10T02:42:39Z",
   "schema_version": 1
 }

@@ -102564,55 +102564,10 @@
     "wordcraft": {
       "auto_sync": true,
       "destination_branch": "wordcraft",
-      "destination_head_sha": "4fcf32656ae56d3ed14d0631b8a2801d7a723686",
+      "destination_head_sha": "ae4219e1407f5be46ea34d8754fca9aa1ec58c2a",
       "enabled": true,
-      "errors": [
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.0: wordcraft-0.10.0-linux-aarch64.flatpak"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.0: wordcraft-0.10.0-linux-aarch64.pkg.tar.zst"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.0: wordcraft-0.10.0-linux-aarch64.rpm"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.0: wordcraft-0.10.0-linux-aarch64.tar.gz"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.0: wordcraft-0.10.0-linux-riscv64.deb"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.10.0: wordcraft-0.10.0-linux-riscv64.rpm"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.16.0: wordcraft-0.16.0-linux-x86_64.oci-manifest.json"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.16.0: wordcraft-0.16.0-linux-x86_64.oci.sig"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.16.0: wordcraft-0.16.0-linux-x86_64.pkg.tar.zst"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.16.0: wordcraft-0.16.0-linux-x86_64.pkg.tar.zst.sig"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.16.0: wordcraft-0.16.0-linux-x86_64.rpm"
-        }
-      ],
-      "last_success_at": null,
+      "errors": [],
+      "last_success_at": "2026-11-10T02:42:39Z",
       "latest_prerelease": null,
       "latest_stable": {
         "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/wordcraft--v0.17.0",
@@ -103092,7 +103047,7 @@
           "upstream_release_url": "https://github.com/storytold/wordcraft/releases/tag/v0.17.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727613572,
@@ -103410,54 +103365,49 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840676,
               "name": "wordcraft-0.16.0-linux-x86_64.oci-manifest.json",
               "sha256": "a6c3330de012e5b2acd912434f5076bcc7115ec14f4d2466d702ec9fc448bcd6",
               "size": 494,
               "source_asset_id": 718391203,
               "source_updated_at": "2026-11-06T20:02:36Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840733,
               "name": "wordcraft-0.16.0-linux-x86_64.oci.sig",
               "sha256": "731f2f418ee1c53fb5a79a652b1f3f5a876239eb9c2ece6726d4296a2c7dbdbe",
               "size": 388,
               "source_asset_id": 718391239,
               "source_updated_at": "2026-11-06T20:02:36Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840848,
               "name": "wordcraft-0.16.0-linux-x86_64.pkg.tar.zst",
               "sha256": "c2db5045ba4111f3215a0d97f58ad79960b7cf1041e4561b4d960c054fe807ae",
               "size": 89978648,
               "source_asset_id": 718391254,
               "source_updated_at": "2026-11-06T20:02:40Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729841065,
               "name": "wordcraft-0.16.0-linux-x86_64.pkg.tar.zst.sig",
               "sha256": "8e4584d9d0aab6cb5a68e4f6a20a2b4dedb30e19b264a99b51f4c519f5e366f4",
               "size": 119,
               "source_asset_id": 718391303,
               "source_updated_at": "2026-11-06T20:02:37Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729841259,
               "name": "wordcraft-0.16.0-linux-x86_64.rpm",
               "sha256": "2d866267ed75da30e07367c37fdf546e3ffd766d0f565cda0295de44d2890bae",
               "size": 119272019,
               "source_asset_id": 718391342,
               "source_updated_at": "2026-11-06T20:02:42Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727729627,
@@ -103569,9 +103519,9 @@
             }
           ],
           "dest_release_id": 439174893,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-6af8a9297f38d6109eda",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/wordcraft--v0.16.0",
           "dest_tag": "wordcraft--v0.16.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-11-06T20:22:22Z",
           "source_tag": "v0.16.0",
@@ -105727,7 +105677,7 @@
           "upstream_release_url": "https://github.com/storytold/wordcraft/releases/tag/v0.11.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727407286,
@@ -105775,64 +105725,58 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729838925,
               "name": "wordcraft-0.10.0-linux-aarch64.flatpak",
               "sha256": "ed938e6441628c0f00663a43fe5d12c8bbedcf09bb044de53c6268ee814dac94",
               "size": 70184424,
               "source_asset_id": 667007544,
               "source_updated_at": "2026-10-22T20:31:10Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729839253,
               "name": "wordcraft-0.10.0-linux-aarch64.pkg.tar.zst",
               "sha256": "be494277076c009c03b952c91669bda9047fa1aaf42db1a859022c4418e139a4",
               "size": 77209257,
               "source_asset_id": 667007543,
               "source_updated_at": "2026-10-22T20:31:11Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729839519,
               "name": "wordcraft-0.10.0-linux-aarch64.rpm",
               "sha256": "e03ab2b3cd066a2272a7f3e75db54ef944fa1b30b70d0c91e4eb47f93a202ba3",
               "size": 100639454,
               "source_asset_id": 667007676,
               "source_updated_at": "2026-10-22T20:31:17Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729839774,
               "name": "wordcraft-0.10.0-linux-aarch64.tar.gz",
               "sha256": "77e838120d9da38752ab355066a0987253d9bc95dfddad1c47bac1f180975bbb",
               "size": 99191485,
               "source_asset_id": 667007721,
               "source_updated_at": "2026-10-22T20:31:18Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840166,
               "name": "wordcraft-0.10.0-linux-riscv64.deb",
               "sha256": "f25565401f4cb8c78c6c96d269ab4807f5faa079f9a9b6df1ce3e150056937aa",
               "size": 102136326,
               "source_asset_id": 667007766,
               "source_updated_at": "2026-10-22T20:31:23Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729840426,
               "name": "wordcraft-0.10.0-linux-riscv64.rpm",
               "sha256": "6da78a5dee44c7416ea51b9df71bd0e821347c474d72f3958dd3276fcbe89aa9",
               "size": 101753380,
               "source_asset_id": 667007765,
               "source_updated_at": "2026-10-22T20:31:22Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727555040,
@@ -105989,9 +105933,9 @@
             }
           ],
           "dest_release_id": 439105999,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-f9e9c9df85783467a692",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/wordcraft--v0.10.0",
           "dest_tag": "wordcraft--v0.10.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-10-22T20:44:31Z",
           "source_tag": "v0.10.0",
@@ -107886,7 +107830,7 @@
       ],
       "repository": "storytold/wordcraft",
       "slug": "wordcraft",
-      "status": "partial",
+      "status": "success",
       "tags": {
         "invalid": [],
         "processed": 18,
@@ -107894,10 +107838,10 @@
         "stale": []
       },
       "upstream_default_branch": "main",
-      "upstream_head_sha": "8dc3f0cd5fe2e0dd113f188c9b2ce09f64820724"
+      "upstream_head_sha": "2922fe566b575794f896077467cf92825ccba7c9"
     }
   },
   "destination": "ZuanCrisp/Craft-Suite",
-  "generated_at": "2026-11-10T02:42:23Z",
+  "generated_at": "2026-11-10T02:42:39Z",
   "schema_version": 1
 }
