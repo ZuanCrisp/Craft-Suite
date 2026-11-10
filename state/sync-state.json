@@ -12016,47 +12016,10 @@
     "designcraft": {
       "auto_sync": true,
       "destination_branch": "designcraft",
-      "destination_head_sha": "7d1c087640115dc0862c7bab8e287acc7b5d741a",
+      "destination_head_sha": "45222ed57575ca79f0550f0ebf14f1de2e628bb6",
       "enabled": true,
-      "errors": [
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.8.0: designcraft-0.8.0-windows-x86-portable.zip"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.8.0: designcraft-0.8.0-windows-x86.msi"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.8.0: designcraft-cli-0.8.0-macos-universal.zip"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.8.0: designcraft-web-0.8.0.zip"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.8.0: SHA256SUMS.txt"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.17.0: designcraft-0.17.0-macos-universal.dmg"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.17.0: designcraft-0.17.0-windows-arm64-portable.zip"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.17.0: designcraft-0.17.0-windows-arm64.msi"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.17.0: designcraft-0.17.0-windows-x64-portable.zip"
-        }
-      ],
-      "last_success_at": null,
+      "errors": [],
+      "last_success_at": "2026-11-10T02:40:03Z",
       "latest_prerelease": null,
       "latest_stable": {
         "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/designcraft--v0.19.0",
@@ -13799,7 +13762,7 @@
           "upstream_release_url": "https://github.com/storytold/designcraft/releases/tag/v0.17.1"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727612468,
@@ -13973,44 +13936,40 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729834852,
               "name": "designcraft-0.17.0-macos-universal.dmg",
               "sha256": "d89d1bb101b477cb521fd13551f7bac2a90662ed83e5ccf45571e967834e4327",
               "size": 137411698,
               "source_asset_id": 703754900,
               "source_updated_at": "2026-11-03T00:57:40Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729835150,
               "name": "designcraft-0.17.0-windows-arm64-portable.zip",
               "sha256": "a86538828f06b88813c747da31a3afbc9355442336373c18b24ce6b8a749029b",
               "size": 119713574,
               "source_asset_id": 703754913,
               "source_updated_at": "2026-11-03T00:57:39Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729835385,
               "name": "designcraft-0.17.0-windows-arm64.msi",
               "sha256": "d46abb22f2ec29b7a313bae7fb8afc57d0ca0d80c30c5824de931bedde62d22e",
               "size": 94199808,
               "source_asset_id": 703754935,
               "source_updated_at": "2026-11-03T00:57:39Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729835603,
               "name": "designcraft-0.17.0-windows-x64-portable.zip",
               "sha256": "37dd157b7af22864e4d2693e60411c5e5cce492d69042bf03af8728f8b7f8134",
               "size": 124340370,
               "source_asset_id": 703754981,
               "source_updated_at": "2026-11-03T00:57:42Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727728073,
@@ -14068,9 +14027,9 @@
             }
           ],
           "dest_release_id": 439174451,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-9304ef2eb726f591373c",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/designcraft--v0.17.0",
           "dest_tag": "designcraft--v0.17.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-11-03T00:59:11Z",
           "source_tag": "v0.17.0",
@@ -16251,7 +16210,7 @@
           "upstream_release_url": "https://github.com/storytold/designcraft/releases/tag/v0.9.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727403689,
@@ -16443,60 +16402,55 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729833847,
               "name": "designcraft-0.8.0-windows-x86-portable.zip",
               "sha256": "179ddad6fc29399c8480e14f9741811dfaf34fa996c3e6918605f9036c0bcbe5",
               "size": 68437388,
               "source_asset_id": 640592541,
               "source_updated_at": "2026-10-14T14:13:36Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729834032,
               "name": "designcraft-0.8.0-windows-x86.msi",
               "sha256": "7aabd324b5ae74d3469eb20c842776a5dad2be745a72066ecb2994619447cc3f",
               "size": 55189504,
               "source_asset_id": 640592550,
               "source_updated_at": "2026-10-14T14:13:35Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729834237,
               "name": "designcraft-cli-0.8.0-macos-universal.zip",
               "sha256": "e663f967d9e1c439e0eb7759147be29121da198cdd71cedd4afb3ae0e0336243",
               "size": 62040890,
               "source_asset_id": 640592598,
               "source_updated_at": "2026-10-14T14:13:36Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729834390,
               "name": "designcraft-web-0.8.0.zip",
               "sha256": "f1ebe741d89949ba1d5069a50401f14b297b9a66d9d6cd2d8a88cd83e4c77888",
               "size": 15306498,
               "source_asset_id": 640592767,
               "source_updated_at": "2026-10-14T14:13:36Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729834483,
               "name": "SHA256SUMS.txt",
               "sha256": "370fbb8511f2f380ed563a9db36cbb9908a80ca162be307e57f7c7abcadb980a",
               "size": 2614,
               "source_asset_id": 640591772,
               "source_updated_at": "2026-10-14T14:13:12Z",
-              "status": "failed"
+              "status": "synced"
             }
           ],
           "dest_release_id": 439104537,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-319986b7dde029c1ed76",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/designcraft--v0.8.0",
           "dest_tag": "designcraft--v0.8.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-10-14T14:15:00Z",
           "source_tag": "v0.8.0",
@@ -18076,7 +18030,7 @@
       ],
       "repository": "storytold/designcraft",
       "slug": "designcraft",
-      "status": "partial",
+      "status": "success",
       "tags": {
         "invalid": [],
         "processed": 22,
@@ -18084,7 +18038,7 @@
         "stale": []
       },
       "upstream_default_branch": "main",
-      "upstream_head_sha": "bb54c44ad937f00baba42e5ad12224314eeea074"
+      "upstream_head_sha": "0078f832a7ab8fee64f091b01fed151a512a5901"
     },
     "effectcraft": {
       "auto_sync": true,
@@ -108112,6 +108066,6 @@
     }
   },
   "destination": "ZuanCrisp/Craft-Suite",
-  "generated_at": "2026-11-10T02:39:40Z",
+  "generated_at": "2026-11-10T02:40:03Z",
   "schema_version": 1
 }
