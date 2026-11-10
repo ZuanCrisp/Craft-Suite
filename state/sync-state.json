@@ -7043,53 +7043,8 @@
       "destination_branch": "deckcraft",
       "destination_head_sha": "98ffbbfc4b153265b1c84e3674c04f3f4bc76483",
       "enabled": true,
-      "errors": [
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.8.0: deckcraft-0.8.0-linux-x86_64.deb"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.8.0: deckcraft-0.8.0-linux-x86_64.flatpak"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.8.0: deckcraft-0.8.0-linux-x86_64.rpm"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.8.0: deckcraft-0.8.0-linux-x86_64.tar.gz"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.8.0: deckcraft-0.8.0-macos-universal.dmg"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.8.0: deckcraft-0.8.0-windows-arm64-portable.zip"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.16.0: deckcraft-0.16.0-linux-aarch64.rpm"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.16.0: deckcraft-0.16.0-linux-aarch64.rpm.asc"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.16.0: deckcraft-0.16.0-linux-aarch64.tar.gz"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.16.0: deckcraft-0.16.0-linux-aarch64.tar.gz.asc"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.16.0: deckcraft-0.16.0-linux-riscv64.deb"
-        }
-      ],
-      "last_success_at": null,
+      "errors": [],
+      "last_success_at": "2026-11-10T02:39:39Z",
       "latest_prerelease": null,
       "latest_stable": {
         "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/deckcraft--v0.17.0",
@@ -7569,7 +7524,7 @@
           "upstream_release_url": "https://github.com/storytold/deckcraft/releases/tag/v0.17.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727616105,
@@ -7698,54 +7653,49 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729834277,
               "name": "deckcraft-0.16.0-linux-aarch64.rpm",
               "sha256": "dfe3848140f5fc05714df3d1fd7f50660245f07a10d7adc5f87817ae9bf0befd",
               "size": 103351273,
               "source_asset_id": 718369672,
               "source_updated_at": "2026-11-06T19:54:56Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729834549,
               "name": "deckcraft-0.16.0-linux-aarch64.rpm.asc",
               "sha256": "7eab9c8fdaab3a36a4e766296166b34acf13d02164ec92065b89fed0c12d622c",
               "size": 228,
               "source_asset_id": 718369674,
               "source_updated_at": "2026-11-06T19:54:52Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729834726,
               "name": "deckcraft-0.16.0-linux-aarch64.tar.gz",
               "sha256": "8258fca0d7e5647d22cce79a1be6cacb9c21426fb06812b90a893752feda1647",
               "size": 102015705,
               "source_asset_id": 718369699,
               "source_updated_at": "2026-11-06T19:54:57Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729834912,
               "name": "deckcraft-0.16.0-linux-aarch64.tar.gz.asc",
               "sha256": "69a9ad2e5c67b21505c22ffea577b2352338f880e23aa3754f9d5e057d184398",
               "size": 228,
               "source_asset_id": 718369700,
               "source_updated_at": "2026-11-06T19:54:53Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729835012,
               "name": "deckcraft-0.16.0-linux-riscv64.deb",
               "sha256": "6476effee41c2ecfdb467f65fddcf63da1e2b0c6872e7f0e5b836268b8cc0130",
               "size": 104776016,
               "source_asset_id": 718369717,
               "source_updated_at": "2026-11-06T19:54:57Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727730547,
@@ -8046,9 +7996,9 @@
             }
           ],
           "dest_release_id": 439175811,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-beb0bc35330d43e00cfe",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/deckcraft--v0.16.0",
           "dest_tag": "deckcraft--v0.16.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-11-06T20:21:27Z",
           "source_tag": "v0.16.0",
@@ -10445,7 +10395,7 @@
           "upstream_release_url": "https://github.com/storytold/deckcraft/releases/tag/v0.9.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727405580,
@@ -10556,64 +10506,58 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729832792,
               "name": "deckcraft-0.8.0-linux-x86_64.deb",
               "sha256": "3dbe89445cbb997fa1e0fa4257e78c15ce0e118637e293bb3d11ebc205a80f9c",
               "size": 82364918,
               "source_asset_id": 652391376,
               "source_updated_at": "2026-10-18T03:49:09Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729832974,
               "name": "deckcraft-0.8.0-linux-x86_64.flatpak",
               "sha256": "d99bbbbe914e90fa112e1020a1e53e4a265a456b82a8438103dea701e6388760",
               "size": 56477568,
               "source_asset_id": 652391377,
               "source_updated_at": "2026-10-18T03:49:08Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729833239,
               "name": "deckcraft-0.8.0-linux-x86_64.rpm",
               "sha256": "7c5b37cecc74e426d521a8c992b983db1c2fd41a5707b4b5c2c2723f32a6e72e",
               "size": 81986923,
               "source_asset_id": 652391432,
               "source_updated_at": "2026-10-18T03:49:13Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729833459,
               "name": "deckcraft-0.8.0-linux-x86_64.tar.gz",
               "sha256": "227b8c9cdd2c06b7866807f995fe5d2d0675523a61208f9bc26cf2760fddcb8f",
               "size": 81181896,
               "source_asset_id": 652391437,
               "source_updated_at": "2026-10-18T03:49:14Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729833706,
               "name": "deckcraft-0.8.0-macos-universal.dmg",
               "sha256": "81ee3158cbb550951faf89888bf7f0ea296fc233593aecfc3f41c7d9dce88542",
               "size": 86851896,
               "source_asset_id": 652391444,
               "source_updated_at": "2026-10-18T03:49:14Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729833954,
               "name": "deckcraft-0.8.0-windows-arm64-portable.zip",
               "sha256": "0a0f7922204ec14b7dd63f423205a631cd8137269bf9492db322a42612055423",
               "size": 78022358,
               "source_asset_id": 652391452,
               "source_updated_at": "2026-10-18T03:49:13Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727543431,
@@ -10689,9 +10633,9 @@
             }
           ],
           "dest_release_id": 439105311,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-4b2fffda42256248e347",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/deckcraft--v0.8.0",
           "dest_tag": "deckcraft--v0.8.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-10-18T03:51:17Z",
           "source_tag": "v0.8.0",
@@ -12059,7 +12003,7 @@
       ],
       "repository": "storytold/deckcraft",
       "slug": "deckcraft",
-      "status": "partial",
+      "status": "success",
       "tags": {
         "invalid": [],
         "processed": 17,
@@ -108168,6 +108112,6 @@
     }
   },
   "destination": "ZuanCrisp/Craft-Suite",
-  "generated_at": "2026-11-10T02:38:50Z",
+  "generated_at": "2026-11-10T02:39:40Z",
   "schema_version": 1
 }

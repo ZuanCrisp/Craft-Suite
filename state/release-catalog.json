@@ -48,7 +48,7 @@
       "name": "DeckCraft",
       "release_count": 17,
       "repository": "storytold/deckcraft",
-      "status": "partial",
+      "status": "success",
       "upstream_default_branch": "main"
     },
     "designcraft": {
@@ -297,6 +297,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-10T02:38:50Z",
+  "generated_at": "2026-11-10T02:39:40Z",
   "schema_version": 1
 }
