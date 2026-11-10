@@ -99,7 +99,7 @@
       "name": "FigCraft",
       "release_count": 18,
       "repository": "storytold/figcraft",
-      "status": "partial",
+      "status": "success",
       "upstream_default_branch": "main"
     },
     "filmcraft": {
@@ -297,6 +297,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-10T02:47:59Z",
+  "generated_at": "2026-11-10T02:55:18Z",
   "schema_version": 1
 }

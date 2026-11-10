@@ -5253,7 +5253,7 @@
       "upstream_head_sha": "a3d9348f63c2ad35391cc93980dc7ee7366f2ad6"
     },
     "craft": {
-      "auto_sync": true,
+      "auto_sync": false,
       "destination_branch": "craft",
       "destination_head_sha": "b100868330130185397471b8fe973ffaa3ad4c94",
       "enabled": true,
@@ -23890,13 +23890,8 @@
       "destination_branch": "figcraft",
       "destination_head_sha": "0f6c4751c737bd84b3023b90b55d14fe02ee49b1",
       "enabled": true,
-      "errors": [
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.13.1: PATCH https://api.github.com/repos/ZuanCrisp/Craft-Suite/releases/439883616 returned HTTP 422: {\"message\":\"Validation Failed\",\"errors\":[{\"resource\":\"Release\",\"code\":\"already_exists\",\"field\":\"tag_name\"}],\"documentation_url\":\"https://docs.github.com/rest/releases/releases#update-a-release\",\"status\":\"422\"}"
-        }
-      ],
-      "last_success_at": null,
+      "errors": [],
+      "last_success_at": "2026-11-10T02:55:18Z",
       "latest_prerelease": null,
       "latest_stable": {
         "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/figcraft--v0.17.0",
@@ -26042,7 +26037,7 @@
           "upstream_release_url": "https://github.com/storytold/figcraft/releases/tag/v0.14.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727601468,
@@ -26327,7 +26322,7 @@
           "dest_release_id": 439170572,
           "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/figcraft--v0.13.1",
           "dest_tag": "figcraft--v0.13.1",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-10-31T04:05:57Z",
           "source_tag": "v0.13.1",
@@ -29501,7 +29496,7 @@
       ],
       "repository": "storytold/figcraft",
       "slug": "figcraft",
-      "status": "partial",
+      "status": "success",
       "tags": {
         "invalid": [],
         "processed": 18,
@@ -108298,6 +108293,6 @@
     }
   },
   "destination": "ZuanCrisp/Craft-Suite",
-  "generated_at": "2026-11-10T02:47:59Z",
+  "generated_at": "2026-11-10T02:55:18Z",
   "schema_version": 1
 }
