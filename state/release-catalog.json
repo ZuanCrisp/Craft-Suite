@@ -150,7 +150,7 @@
       "name": "LightCraft",
       "release_count": 22,
       "repository": "storytold/lightcraft",
-      "status": "partial",
+      "status": "success",
       "upstream_default_branch": "main"
     },
     "materialcraft": {
@@ -297,6 +297,6 @@
       "upstream_default_branch": "main"
     }
   },
-  "generated_at": "2026-11-10T02:40:03Z",
+  "generated_at": "2026-11-10T02:40:54Z",
   "schema_version": 1
 }

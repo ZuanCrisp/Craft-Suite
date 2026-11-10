@@ -39558,51 +39558,10 @@
     "lightcraft": {
       "auto_sync": true,
       "destination_branch": "lightcraft",
-      "destination_head_sha": "5ab49b22498acb4f46cf2c7bfd91bf7d47015c7a",
+      "destination_head_sha": "23ace38f6a10433b4c9966a5a2bc10ebb0475b64",
       "enabled": true,
-      "errors": [
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.7.1: lightcraft-0.7.1-linux-x86_64.flatpak"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.7.1: lightcraft-0.7.1-linux-x86_64.rpm"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.7.1: lightcraft-0.7.1-linux-x86_64.tar.gz"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.7.1: lightcraft-0.7.1-macos-universal.dmg"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.7.1: lightcraft-0.7.1-windows-arm64-portable.zip"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.7.1: lightcraft-0.7.1-windows-arm64.msi"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.14.0: lightcraft-0.14.0-linux-x86_64.flatpak"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.14.0: lightcraft-0.14.0-linux-x86_64.pkg.tar.zst"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.14.0: lightcraft-0.14.0-linux-x86_64.rpm"
-        },
-        {
-          "category": "ASSET_UPLOAD_FAILED",
-          "message": "v0.14.0: lightcraft-0.14.0-linux-x86_64.tar.gz"
-        }
-      ],
-      "last_success_at": null,
+      "errors": [],
+      "last_success_at": "2026-11-10T02:40:54Z",
       "latest_prerelease": null,
       "latest_stable": {
         "destination_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/lightcraft--v0.20.0",
@@ -42149,7 +42108,7 @@
           "upstream_release_url": "https://github.com/storytold/lightcraft/releases/tag/v0.15.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727613188,
@@ -42278,44 +42237,40 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729837137,
               "name": "lightcraft-0.14.0-linux-x86_64.flatpak",
               "sha256": "95145eef52336d3688135c2f45ce0d4a496d03e22c13c26be40f7c2d47135944",
               "size": 80220472,
               "source_asset_id": 675166651,
               "source_updated_at": "2026-10-25T13:49:37Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729837335,
               "name": "lightcraft-0.14.0-linux-x86_64.pkg.tar.zst",
               "sha256": "910b206b4643b29729da00a74d3ac1ce6ad650e400be455a86da370e8d776a4f",
               "size": 86534627,
               "source_asset_id": 675166664,
               "source_updated_at": "2026-10-25T13:49:38Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729837522,
               "name": "lightcraft-0.14.0-linux-x86_64.rpm",
               "sha256": "6925e971e44dd924afdc50d686c44b762e73cf6db303ef981b748f8f8ca5c928",
               "size": 111586324,
               "source_asset_id": 675166669,
               "source_updated_at": "2026-10-25T13:49:39Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729837682,
               "name": "lightcraft-0.14.0-linux-x86_64.tar.gz",
               "sha256": "b8233b9373d6e99b1180c1c39fdcb13d49c441f80092770831fab195c4c4fda2",
               "size": 110659593,
               "source_asset_id": 675166722,
               "source_updated_at": "2026-10-25T13:49:41Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727728781,
@@ -42409,9 +42364,9 @@
             }
           ],
           "dest_release_id": 439174677,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-c90500b9242eda8b45d9",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/lightcraft--v0.14.0",
           "dest_tag": "lightcraft--v0.14.0",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-10-25T13:52:07Z",
           "source_tag": "v0.14.0",
@@ -43975,7 +43930,7 @@
           "upstream_release_url": "https://github.com/storytold/lightcraft/releases/tag/v0.8.0"
         },
         {
-          "action": "failed",
+          "action": "synced",
           "assets": [
             {
               "dest_asset_id": 727404946,
@@ -44077,64 +44032,58 @@
               "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729835854,
               "name": "lightcraft-0.7.1-linux-x86_64.flatpak",
               "sha256": "c1ce75a772e29ed7b16864053bde6683a076fbaf54560fb343d77220eaadd284",
               "size": 76361760,
               "source_asset_id": 634632024,
               "source_updated_at": "2026-10-12T18:34:23Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729836012,
               "name": "lightcraft-0.7.1-linux-x86_64.rpm",
               "sha256": "dced13fbe81bb9b016413879ad5cccf2295352d2b2149487053ebfac6925b099",
               "size": 104687810,
               "source_asset_id": 634632029,
               "source_updated_at": "2026-10-12T18:34:24Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729836254,
               "name": "lightcraft-0.7.1-linux-x86_64.tar.gz",
               "sha256": "842881f5ad16502df11eeef4c28e5dcf2c5d66b7d4d838af7179a3fd2e0cb6c0",
               "size": 103819908,
               "source_asset_id": 634632061,
               "source_updated_at": "2026-10-12T18:34:26Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729836512,
               "name": "lightcraft-0.7.1-macos-universal.dmg",
               "sha256": "9c7aaf1ab532ee81819fded3ec451af5a2bad3b7c1b5c9d48e36b82239331457",
               "size": 107601789,
               "source_asset_id": 634632113,
               "source_updated_at": "2026-10-12T18:34:26Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729836702,
               "name": "lightcraft-0.7.1-windows-arm64-portable.zip",
               "sha256": "636e911dc4278cfd984495e6dd2f186d815169674ae55e1feaf310d662c42117",
               "size": 99932378,
               "source_asset_id": 634632144,
               "source_updated_at": "2026-10-12T18:34:25Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
-              "dest_asset_id": null,
-              "error": "ASSET_UPLOAD_FAILED",
+              "dest_asset_id": 729836890,
               "name": "lightcraft-0.7.1-windows-arm64.msi",
               "sha256": "968d715e08e956148e38ce3ee9cf010a7d5e069936a6153a6637063cc893c4eb",
               "size": 82755584,
               "source_asset_id": 634632168,
               "source_updated_at": "2026-10-12T18:34:25Z",
-              "status": "failed"
+              "status": "synced"
             },
             {
               "dest_asset_id": 727544715,
@@ -44201,9 +44150,9 @@
             }
           ],
           "dest_release_id": 439105022,
-          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/untagged-0803a3bb295464ba817a",
+          "dest_release_url": "https://github.com/ZuanCrisp/Craft-Suite/releases/tag/lightcraft--v0.7.1",
           "dest_tag": "lightcraft--v0.7.1",
-          "error": "ASSET_UPLOAD_FAILED",
+          "error": null,
           "prerelease": false,
           "published_at": "2026-10-12T21:22:50Z",
           "source_tag": "v0.7.1",
@@ -45533,7 +45482,7 @@
       ],
       "repository": "storytold/lightcraft",
       "slug": "lightcraft",
-      "status": "partial",
+      "status": "success",
       "tags": {
         "invalid": [],
         "processed": 22,
@@ -45541,7 +45490,7 @@
         "stale": []
       },
       "upstream_default_branch": "main",
-      "upstream_head_sha": "f6b57b0b59f45f3cfae1fb8d26a834e336be5a11"
+      "upstream_head_sha": "e9c29e2c5c5dd1f86cc98677b5dc389f6612fcac"
     },
     "materialcraft": {
       "auto_sync": true,
@@ -108066,6 +108015,6 @@
     }
   },
   "destination": "ZuanCrisp/Craft-Suite",
-  "generated_at": "2026-11-10T02:40:03Z",
+  "generated_at": "2026-11-10T02:40:54Z",
   "schema_version": 1
 }
